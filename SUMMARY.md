@@ -5,4 +5,5 @@
 * Exercises
 * Personal Page
 * Homework
+* Command Line Cheat Sheet
 
