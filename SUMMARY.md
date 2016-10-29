@@ -1,7 +1,7 @@
 # Summary
 
 * [Command Line Basics](README.md)
-* [Exercises](exercises.md)
+* [Practice](exercises.md)
 * Personal Page
 * Homework
 * Command Line Cheat Sheet
