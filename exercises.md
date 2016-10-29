@@ -1,6 +1,4 @@
-# Exercises
-
-**Exercises**
+# Command Line Practice
 
 Let’s have some practice working with the filesystem so you can feel more confident coding on your own!
 
