@@ -1,7 +1,5 @@
 # Command Line Basics {#command-line-basics}
 
-**Coding &amp; Cocktails Session 6 Worksheet**![codingcocktailsbadge-200.png](export/assets/codingcocktailsbadge-200.png)
-
 **Overview**
 
 During the session we’ll cover Command Line basics. We’ll put those to use here getting comfortable with interacting with the filesystem in a text based way!
