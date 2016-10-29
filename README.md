@@ -11,12 +11,6 @@ During the session we’ll cover Command Line basics. We’ll put those to use h
     2.  Windows: Install Git ([https://git-scm.com/downloads](https://git-scm.com/downloads)) to utilize Git Bash
 2.  Sign up for our slack chat group at [kcwit.slack.com](http://kcwit.slack.com) (make sure to join the #codingandcocktails channel to keep in touch with all of your KCWiT girlfriends - if you didn’t receive an invitation let us know!
 
-**Homework**
-
-Work through the Command Line course on codecademy.
-
-1.  [https://www.codecademy.com/learn/learn-the-command-line](https://www.codecademy.com/learn/learn-the-command-line)
-
 **Command Line Cheat Sheet**
 
 Shortcuts
