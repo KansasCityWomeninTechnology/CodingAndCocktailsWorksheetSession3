@@ -1,4 +1,4 @@
-# Command Cheat Sheet
+# Command Line Cheat Sheet
 
 
 ## Shortcuts
