@@ -1,5 +1,5 @@
 # Command Line Basics {#command-line-basics}
-![Coding & Cocktails Badge](assets/codingcocktailsbadge-200.png)
+**![Coding & Cocktails Badge](assets/codingcocktailsbadge-200.png)**
 
 **Overview**
 
