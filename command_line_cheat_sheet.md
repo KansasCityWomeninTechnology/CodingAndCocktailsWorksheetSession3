@@ -5,52 +5,52 @@
 
 **Current Directory:** `.`
 
-**Parent Directory:** ..
+**Parent Directory:** `..`
 
-**Home Directory:** ~
+**Home Directory:** `~`
 
-**Root Directory:** /
+**Root Directory:** `/`
 
-**History:** history
+**History:** `history`
 
-**Previous Command:** !!
+**Previous Command:** `!!`
 
-**Previous Command:** ↑
+**Previous Command:** `↑`
 
 **Don’t forget about tab completion!**
 
-**Stdin:** &lt;
+**Stdin:** `&lt;`
 
-**Stdout (redirect):** &gt;
+**Stdout (redirect):** `&gt;`
 
-**Stdout (append):** &gt;&gt;
+**Stdout (append):**` &gt;&gt;`
 
 **Stderr**
 
-**Pipe:** |
+**Pipe:** `|`
 
 
 ## Command Reference
 
-**Change Directory:** cd directoryname
+**Change Directory:** `cd directoryname`
 
-**Print Working Directory:** pwd
+**Print Working Directory:** `pwd`
 
-**List Directory Contents:** ls
+**List Directory Contents:** `ls`
 
-**Make Directory:** mkdir directoryname
+**Make Directory:** `mkdir directoryname`
 
-**Create Empty File:** touch filename
+**Create Empty File:** `touch filename`
 
-**Write content to file:** echo “content” &gt; filename
+**Write content to file:** `echo “content” &gt; filename`
 
-**Copy File:** cp sourcefile destfile
+**Copy File:** `cp sourcefile destfile`
 
-**Move/Rename File:** mv sourcefile destfile
+**Move/Rename File:** `mv sourcefile destfile`
 
-**Remove File:** rm filename
+**Remove File:** `rm filename`
 
-**Grep (aka search):** grep searchterm filename
+**Grep (aka search):** `grep searchterm filename`
 
 **Get out of “stuck” command:**  ctrl-c
 
