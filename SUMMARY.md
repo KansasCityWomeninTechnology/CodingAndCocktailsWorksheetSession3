@@ -1,6 +1,6 @@
 # Summary
 
-* [Intro](README.md)
+* [Overview](README.md)
 * [Practice](exercises.md)
 * [Personal Page](personal_page.md)
 * [Homework](homework.md)
