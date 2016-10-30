@@ -3,7 +3,7 @@
 
 ## Shortcuts
 
-**Current Directory:** .
+**Current Directory:** `.`
 
 **Parent Directory:** ..
 
