@@ -21,11 +21,11 @@
 
 **Stdin:** `&lt;`
 
-**Stdout (redirect):** `&gt;`
+**Stdout (redirect):** `<`
 
-**Stdout (append):**` &gt;&gt;`
+**Stdout (append):** `>`
 
-**Stderr**
+**Stderr** `>>`
 
 **Pipe:** `|`
 
