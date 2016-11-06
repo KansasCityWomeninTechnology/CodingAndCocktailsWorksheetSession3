@@ -2,7 +2,7 @@
 
 * [Overview](README.md)
 * [Prep Work](prep_work.md)
-* Practice
+* Exercises
   * [Command Line Practice](exercises.md)
   * [Personal Page](personal_page.md)
 * [Homework](homework.md)
