@@ -12,5 +12,5 @@ Let’s have some practice working with the filesystem so you can feel more conf
 8.  Check the wordcount of the file
 9.  Search the file for a particular word or part of a word.
 10.  Create another file without any content
-11.  Rename that file using the mv command
+11.  Rename that file using the ``mv`` command
 12.  Remove that file from the directory
