@@ -6,7 +6,7 @@ Once you feel like you’ve had enough practice in the command line feel free to
 2.  Open the folder in Sublime Text then create and save a new file as **index.html**
 3.  Set up your basic HTML page syntax and set your page title (hint: use the emmet plugin here and all you have to type is html:5 then hit the tab key)
 4.  Some ideas to include in your page:
-    1.  Put your name at the top in an h1 tag
+    1.  Put your name at the top in an ``h1`` tag
     2.  Add a paragraph telling a little bit about yourself
     3.  Add a brief paragraph about where you want to go next as a professional
     4.  Add a list of your favorite links
