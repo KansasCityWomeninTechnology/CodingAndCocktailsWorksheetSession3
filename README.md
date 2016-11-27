@@ -1,4 +1,5 @@
-# Command Line Basics {#command-line-basics}
+# Coding & Cocktails Session 2
+### Command Line Basics {#command-line-basics}
 **Overview**
 **![Coding & Cocktails Badge](assets/codingcocktailsbadge-200.png)**
 
