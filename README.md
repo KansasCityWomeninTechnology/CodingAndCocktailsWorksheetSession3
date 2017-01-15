@@ -1,4 +1,4 @@
-# Coding & Cocktails Session 2:
+# Coding & Cocktails Session 3:
 ## Command Line Basics {#command-line-basics}
 <hr>
 **![Coding & Cocktails Badge](assets/codingcocktailsbadge-200.png)**
