@@ -4,5 +4,5 @@
 
 #### Let's have some fun!
 
-
+star wars, telnet towel.blinkenlights.nl, brew install cmatrix
 

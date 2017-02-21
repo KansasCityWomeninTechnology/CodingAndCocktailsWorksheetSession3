@@ -1,6 +1,5 @@
 # Command Line Cheat Sheet
 
-
 ## Shortcuts
 
 **Current Directory:** `.`
@@ -21,14 +20,13 @@
 
 **Stdin:** `&lt;`
 
-**Stdout (redirect):** `<`
+**Stdout \(redirect\):** `<`
 
-**Stdout (append):** `>`
+**Stdout \(append\):** `>`
 
 **Stderr** `>>`
 
 **Pipe:** `|`
-
 
 ## Command Reference
 
@@ -42,7 +40,7 @@
 
 **Create Empty File:** `touch filename`
 
-**Write content to file:** `echo “content” &gt; filename`
+**Write content to file:** `echo “content” > filename`
 
 **Copy File:** `cp sourcefile destfile`
 
@@ -50,7 +48,7 @@
 
 **Remove File:** `rm filename`
 
-**Grep (aka search):** `grep searchterm filename`
+**Grep \(aka search\):** `grep searchterm filename`
 
 **Get out of “stuck” command:**  ctrl-c
 
