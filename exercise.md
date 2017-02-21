@@ -21,5 +21,3 @@ Now try navigating around on your own! See the animation below for some help.
 
 ![](/assets/CLI01.gif)
 
-
-
