@@ -2,7 +2,7 @@
 
 * [Overview](README.md)
 * [Prep Work](prep_work.md)
-* [Part 1: Navigating & User Management](exercise.md)
+* [Part 1: Navigating & Basics](exercise.md)
 * [Part 2: Manipulating Files](part-2-manipulating-files.md)
 * [Part 3: Variables & Aliases](part-3-variables-and-aliases.md)
 * [Part 4: Pipes & Redirects](part-4-pipes-and-redirects.md)
