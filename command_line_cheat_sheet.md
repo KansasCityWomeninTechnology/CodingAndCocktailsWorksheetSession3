@@ -18,7 +18,7 @@
 
 **Don’t forget about tab completion!**
 
-**Stdin:** `&lt;`
+**Stdin:** `<`
 
 **Stdout \(redirect\):** `<`
 
@@ -41,6 +41,8 @@
 **Create Empty File:** `touch filename`
 
 **Write content to file:** `echo “content” > filename`
+
+**Append content to a file:** `echo "content" >> filename`
 
 **Copy File:** `cp sourcefile destfile`
 
