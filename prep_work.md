@@ -14,10 +14,10 @@
     * In iTerm2: **xcode-select --install**
       \(or download from [developer.apple.com/downloads](https://developer.apple.com/downloads) or [Xcode](https://itunes.apple.com/us/app/xcode/id497799835)\)
   * Install [Brew](http://brew.sh/):
-    * In iTerm2: **/usr/bin/ruby -e "$\(curl -fsSL **[https://raw.githubusercontent.com/Homebrew/install/master/install\](https://raw.githubusercontent.com/Homebrew/install/master/install\)**\)"**
+    * In iTerm2: **/usr/bin/ruby -e "$\(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install\\)"**
 * **Windows**:
   * Install [Chocolatey](https://chocolatey.org/): 
-    * In Git Bash: **@powershell -NoProfile -ExecutionPolicy Bypass -Command"iex \(\(New-Object System.Net.WebClient\).DownloadString\('**[https://chocolatey.org/install.ps1'\\\)\\\)"&&SET"PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin\\)"&&SET"PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin\](https://chocolatey.org/install.ps1'\\)\\)"&&SET"PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin\)"&&SET"PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin\)**\)"**
+    * In Git Bash: **@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex \(\(New-Object System.Net.WebClient\).DownloadString\('https://chocolatey.org/install.ps1'\)\)" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"**
 
 #### Slack:
 

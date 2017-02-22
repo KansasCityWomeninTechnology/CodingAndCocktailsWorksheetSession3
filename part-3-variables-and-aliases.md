@@ -6,5 +6,5 @@
 
 built in \(date\), create one, PATH, alias
 
-Earlier installed chocolatey.. try command, does not work, in path?, add to path, head, tail
+add to path, head, tail
 
