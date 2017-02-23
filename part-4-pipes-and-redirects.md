@@ -32,7 +32,11 @@ You can also chain redirects and pipes. Here are a couple of examples to try:
 
 1. Enter `sort < history.log > history_sorted.txt`, then type `cat history_sorted.txt | less` to scroll through your sorted list.
 
-2. Type `history \| sort &gt; history_pipesorted.txt`, then type cat `history_pipesorted.txt | less` again.
+2. Type `history | sort > history_pipesorted.txt`, then type `cat history_pipesorted.txt | less` again.
+
+3. Enter `history | grep cat | sort > history_grep.txt`, then `cat history_grep.txt`.
+
+   * The command `grep` searches for the ocurrence of a string, in this case 'cat', that matches a set of characters.
 
 
 
