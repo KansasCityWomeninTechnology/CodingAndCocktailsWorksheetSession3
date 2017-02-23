@@ -12,7 +12,9 @@ Let's get straight to using the command line to learn how to manipulate files an
 
 3. Let's create a file by typing `touch CLIFun`.
 
-4. Now, we'll want to add some content to your file. Open your file in vim by typing `vim CLIFun`.
+Now, we'll want to add some content to your file.
+
+1. Open your file in vim by typing `vim CLIFun`.
 
    * While **vim** is one option for a text editor, there are many others available.
 
@@ -41,15 +43,13 @@ But that messed up our lorem ipsum sample! What to do?!? No worries, let's just 
    * You might be prompted with '**E37: No write since last change \(add ! to override\)**'. If so, follow the instructions there. Hit `:q!` then **Enter**. 
 2. Type `cat CLIFun` again to confirm your changes weren't saved.
 
-
-
 Let's now work with `cp` and `rm`** **to make copies of our file and remove files.
 
 1. Type `cp CLIFun CLIFun2`.
 
    * If you do an `ls -al` you'll see there's now a **CLIFun2** file with the same size as the **CLIFun** file but a more current timestamp.
 
-2. Ok, let's undo that by entering in `rm CLIFun2`.
+2. Ok, let's undo that by entering `rm CLIFun2`.
 
 Let's try copying a directory as well.
 
@@ -63,13 +63,11 @@ Let's try copying a directory as well.
 
 3. To remove the directory, use the recursive option again by typing `rm -r CommandLineBasics2`.
 
-
-
 What if we need to move a file? Well, then use **mv**! The proper syntax for the command is `mv <source> <destination>`.
 
 1. Type `mv ~/CodingandCocktails/CommandLineBasics/CLIFun ~/CodingandCocktails/`.
 
-   * If you're in the CodingandCocktails directory, using the command `mv CommandLineBasics/CLIFun .` will also work. Remember, '**.**' is a shortcut for the current directory.
+   * If you're in the CodingandCocktails directory, the command `mv CommandLineBasics/CLIFun .` will also work. Remember, '**.**' is a shortcut for the current directory.
 
 Another command that's useful for files is `wc`. You can remember it as **word count**, and it'll be in the syntax `wc [options] filename`. Here are some available options you can try out:
 
