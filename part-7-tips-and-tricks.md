@@ -18,3 +18,5 @@ Ctrl + R: Allows you to search through the previous commands.'
 
 !!
 
+head/tail
+
