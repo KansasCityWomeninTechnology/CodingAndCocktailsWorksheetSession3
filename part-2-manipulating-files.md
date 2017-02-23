@@ -16,7 +16,7 @@ Now, we'll want to add some content to your file.
 
 1. Open your file in vim by typing `vim CLIFun`.
 
-   * While **vim** is one option for a text editor, there are many others available.
+   * While **vim** is one option for a text editor, there are many others available.You can use this [vim cheat sheet](https://vim.rtorr.com/) to take full advantage of** **its powerful features.
 
 What's with all the squigglies?!? Don't worry! By learning a few basic vim commands, you'll be saving contents in your files in no time. Let's start by copying the [**lorem ipsum**](https://en.wikipedia.org/wiki/Lorem_ipsum) text below.
 
@@ -27,7 +27,7 @@ What's with all the squigglies?!? Don't worry! By learning a few basic vim comma
    ```
 2. Go back to iTerm2/Git Bash and hit `i`. That'll put you into **INSERT** mode.
 
-3. Now hit **⌘V** on your Mac or **CTRL + V** on your Windows laptop to paste the text you copied.
+3. Now hit **⌘V** on your Mac or **CTRL + V** on your Windows laptop a few times to paste the text you copied.
 
 4. Next, type in `:wq` and then hit **Enter**. Awesome, now we've got some content to play with!
 
