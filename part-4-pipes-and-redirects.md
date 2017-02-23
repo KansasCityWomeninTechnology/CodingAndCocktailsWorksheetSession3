@@ -32,7 +32,7 @@ You can also chain redirects and pipes. Here are a couple of examples to try:
 
 1. Enter `sort < history.log > history_sorted.txt`, then type `cat history_sorted.txt | less` to scroll through your sorted list.
 
-2. Type history \| sort &gt; history_pipesorted.txt, then type cat history_`orted.txt | less` again.
+2. Type `history \| sort &gt; history_pipesorted.txt`, then type cat `history_pipesorted.txt | less` again.
 
 
 
