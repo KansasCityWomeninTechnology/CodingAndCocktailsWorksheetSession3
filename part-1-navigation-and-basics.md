@@ -12,9 +12,10 @@ Let's try out some more commands!
 
 1. Type `ls`** **to see the contents of your current directory. Typing `ls -al`** **will give you more information and show you hidden files.
 2. Next, use `cd` to change directory into one that was listed with `ls`.
-3. ![](/assets/CLI_tip_01.png)
-4. Once you've moved into a new directory, type `ls -al`** **again to see what's listed there.
-5. Let's move back up one directory. To do this, use the `cd ..`** **command. The '**..**' is a shortcut for the parent directory, much like the **~** is a shortcut for your home directory. No matter where you are, `cd ..`** **or `cd ~` are always valid commands.
+   * Both Git Bash and oh-my-zsh use formatting to distinguish between what's a directory and what's a file. You won't be able to `cd` into a file.
+3. Once you've moved into a new directory, type `ls -al`** **again to see what's listed there.
+4. Let's move back up one directory. To do this, type `cd ..`. 
+   * The '**..**' is a shortcut for the parent directory, much like the **~** is a shortcut for your home directory. No matter where you are, `cd ..`** **or `cd ~` are always valid commands.
 
 You'll also want to utilize **tab completion** with your **tab** key and your **up/down** arrow keys. Tab completion will allow you to enter in part of a filename or directory name and then it'll be completed it for you. Your up/down arrow keys will allow you to scroll through previous commands.
 
