@@ -35,7 +35,7 @@ Let's get straight to using the command line to learn how to manipulate files an
 
 14. What if we need to move a file? Well, then use **mv**! The proper syntax for the command is `mv <source> <destination>`. For the file we created earlier, you can use `mv ~/CodingandCocktails/CommandLineBasics/CLIFun ~/CodingandCocktails/`. If you're in the CodingandCocktails directory, using the command `mv CommandLineBasics/CLIFun .` will also work. Remember, '**.**' is a shortcut for the current directory.
 
-15. Another command that's useful for files is `wc`. You can remember it as **word count**, and it'll be in the syntax `wc [options] filename`. Here are some available options you can try out:![](/assets/Screen Shot 2017-02-22 at 4.07.03 PM.png)
+15. Another command that's useful for files is `wc`. You can remember it as **word count**, and it'll be in the syntax `wc [options] filename`. Here are some available options you can try out:![](/wc_options.png)
 
 16. Give it a shot on your own now! If you need a visual aid, follow the animation below.
 
