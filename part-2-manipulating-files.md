@@ -23,9 +23,9 @@ What's with all the squigglies?!? Don't worry! By learning a few basic vim comma
    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
    aliquip ex ea commodo consequat.
    ```
-2. Go back to iTerm2/Git Bash and hit `i`. That'll put you into **INSERT** mode. 
+2. Go back to iTerm2/Git Bash and hit `i`. That'll put you into **INSERT** mode.
 
-3. Now hit **⌘V** on your Mac or **CTRL + V** on your Windows laptop to paste the text you copied. 
+3. Now hit **⌘V** on your Mac or **CTRL + V** on your Windows laptop to paste the text you copied.
 
 4. Next, type in `:wq` and then hit **Enter**. Awesome, now we've got some content to play with!
 
@@ -35,7 +35,7 @@ What's with all the squigglies?!? Don't worry! By learning a few basic vim comma
 
 6. Type `vim CLIFun` to enter the editor again. Let's do that and add some more content. Hit `i` again like we did before and start entering in some text.
 
-But that messed up our lorem ipsum sample! What to do?!? No worries, let's just close out of the text editor without saving our changes. We did a 'write' and then 'quit' earlier, let's instead skip the 'write' part. 
+But that messed up our lorem ipsum sample! What to do?!? No worries, let's just close out of the text editor without saving our changes. We did a 'write' and then 'quit' earlier, let's instead skip the 'write' part.
 
 1. Hit `:q` then **Enter**. 
    * You might be prompted with '**E37: No write since last change \(add ! to override\)**'. If so, follow the instructions there. Hit `:q!` then **Enter**. 
@@ -43,7 +43,7 @@ But that messed up our lorem ipsum sample! What to do?!? No worries, let's just 
 
 
 
-Let's now work with `cp` and `rm`** **to make copies of our file and remove files. 
+Let's now work with `cp` and `rm`** **to make copies of our file and remove files.
 
 1. Type `cp CLIFun CLIFun2`.
 
@@ -51,13 +51,13 @@ Let's now work with `cp` and `rm`** **to make copies of our file and remove file
 
 2. Ok, let's undo that by entering in `rm CLIFun2`.
 
-Let's try copying a directory as well. 
+Let's try copying a directory as well.
 
 1. Type `cp CommandLineBasics CommandLineBasics2` after changing into the CodingandCocktails parent directory.
 
    * Oh no, we got an error again: '**cp: CommandLineBasics is a directory \(not copied\)**'! It looks like `cp` doesn't work with directories, but actually, we can copy a directory by adding an option to `cp`. We'll add a **-r** for **recursive**. 
 
-2. Let's try that again. Type `cp -r CommandLineBasics CommandLineBasics2`. 
+2. Let's try that again. Type `cp -r CommandLineBasics CommandLineBasics2`.
 
    * Don't forget your tab completion! This time, you'll see a **CommandLineBasics2** directory that's the same as the directory we copied it from, except that it has a more current timestamp. 
 
@@ -65,13 +65,11 @@ Let's try copying a directory as well.
 
 
 
-What if we need to move a file? Well, then use **mv**! The proper syntax for the command is `mv <source> <destination>`. 
+What if we need to move a file? Well, then use **mv**! The proper syntax for the command is `mv <source> <destination>`.
 
 1. Type `mv ~/CodingandCocktails/CommandLineBasics/CLIFun ~/CodingandCocktails/`.
 
    * If you're in the CodingandCocktails directory, using the command `mv CommandLineBasics/CLIFun .` will also work. Remember, '**.**' is a shortcut for the current directory.
-
-
 
 Another command that's useful for files is `wc`. You can remember it as **word count**, and it'll be in the syntax `wc [options] filename`. Here are some available options you can try out:
 
@@ -80,6 +78,4 @@ Another command that's useful for files is `wc`. You can remember it as **word c
 Give it a shot on your own now! If you need a visual aid, follow the animation below.
 
 ![](/assets/CLI01.gif)
-
-
 
