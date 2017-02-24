@@ -23,7 +23,7 @@ Hmm, what happened there? Oh, we'll actually need to use the redirect to **appen
 
 The commands `more` and `less` are also useful. You'll need to pipe them to the `cat` command. A pipe is a chain of processes so that output of one process \(stdout\) is fed to the input \(stdin\) to another. We'll use the `history` command in the examples below. This command is very useful if you're needing to search through your previous commands.
 
-1. In your command line, type` history > history.log`.
+1. In your command line, type`history > history.log`.
 2. Now enter `cat history.log | less`.
 3. * You'll see '**:**' at the bottom of the terminal. Hit Enter to continue scrolling or hit 'q' to quit.
 
