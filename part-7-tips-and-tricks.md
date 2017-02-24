@@ -4,9 +4,18 @@
 
 #### Better, Faster, Stronger!
 
-man, clear, CTRL C, exit, echo $HOME, history
+Here's a list of useful stuff and shortcuts:
 
-date, hostname,
+**Commands**:
+
+* `date`
+* `hostname`
+* `!!`
+
+**Get help**:
+
+* `man`
+* `/?`, `--help`, or `-h`
 
 Ctrl + U: Clears the line from the cursor point back to the beginning.
 

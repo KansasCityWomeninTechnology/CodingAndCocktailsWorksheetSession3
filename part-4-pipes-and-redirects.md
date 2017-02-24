@@ -21,7 +21,7 @@ Hmm, what happened there? Oh, we'll actually need to use the redirect to **appen
 1. Enter `echo "My favorite cocktail is a" $MYFAV > fav_cocktail.txt`, then `cat fav_cocktail.txt`.
 2. To add your second favorite cocktail, type `echo "My favorite cocktail is a Moscow Mule" >> fav_cocktail.txt` then `cat fav_cocktail.txt`.
 
-The commands `more` and `less` are also useful. You'll need to pipe them to the `cat` command. A pipe is a chain of processes so that output of one process \(stdout\) is fed to the input \(stdin\) to another. We'll use the `history` command in the examples below. This command is very useful if you're needing to search through your previous commands.
+The commands `more` and `less` are also useful. You'll need to pipe them to the `cat` command. A pipe is a chain of processes so that output of one process \(stdout\) is fed to the input \(stdin\) to another. We'll use the `history` command in the examples below. This command is very useful if you need to search through your previous commands.
 
 1. In your command line, type`history > history.log`.
 2. Now enter `cat history.log | less`.

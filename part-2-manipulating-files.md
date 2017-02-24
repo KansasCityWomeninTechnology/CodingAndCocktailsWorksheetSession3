@@ -63,6 +63,8 @@ Let's try copying a directory as well.
 
 3. To remove the directory, use the recursive option again by typing `rm -r CommandLineBasics2`.
 
+   * Be VERY careful when running rm commands. If you do it from  the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or Mac OSx\) or other really important data!
+
 What if we need to move a file? Well, then use **mv**! The proper syntax for the command is `mv <source> <destination>`.
 
 1. Type `mv ~/CodingandCocktails/CommandLineBasics/CLIFun ~/CodingandCocktails/`.
