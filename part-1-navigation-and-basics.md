@@ -6,7 +6,7 @@
 
 The command line is just another way to navigate your computer's directory structure and issue commands. Typically, you have a **GUI**, or **G**raphical **U**ser **I**nterface, available to you. So why use a **CLI **\(**C**ommand **L**ine **I**nterface\)? Well, believe it or not, it's faster, uses less resources, and is much more powerful than a GUI! Let's take a look at how to orient yourself at the command line.
 
-When you first open iTerm2 in a Mac or Git Bash in Windows, you'll likely be in your home directory at what's called a **prompt**. The prompt is what's waiting on you to provide input in the form of a command. You probably will see a **~** in your CLI as well, which is a shortcut for your home directory. Let's find out what the full path to the ~ directory looks like with the `pwd` command, which stands for **p**resent **w**orking **d**irectory. When you type `pwd` and hit enter, you should see your current user's home directory listed.
+When you first open iTerm2 in a Mac or Git Bash in Windows, you'll likely be in your home directory at what's called a **prompt** in a **shell**. A shell is the program that provides the text-only user interface. The prompt is what's waiting on you to provide input to the shell in the form of a command. You probably will see a **~** in your CLI as well, which is a shortcut for your home directory. Let's find out what the full path to the ~ directory looks like with the `pwd` command, which stands for **p**resent **w**orking **d**irectory. When you type `pwd` and hit enter, you should see your current user's home directory listed.
 
 Let's try out some more commands!
 

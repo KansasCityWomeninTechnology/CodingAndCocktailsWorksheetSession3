@@ -16,7 +16,7 @@ Now, we'll want to add some content to your file.
 
 1. Open your file in vim by typing `vim CLIFun`.
 
-   * While **vim** is one option for a text editor, there are many others available.You can use this [vim cheat sheet](https://vim.rtorr.com/) to take full advantage of** **its powerful features.
+   * While **vim** is one option for a text editor, there are many others available.You can use this [**vim cheat sheet**](https://vim.rtorr.com/)** **to take full advantage of** **its powerful features.
 
 What's with all the squigglies?!? Don't worry! By learning a few basic vim commands, you'll be saving contents in your files in no time. Let's start by copying the [**lorem ipsum**](https://en.wikipedia.org/wiki/Lorem_ipsum) text below.
 

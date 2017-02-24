@@ -21,22 +21,21 @@ Hmm, what happened there? Oh, we'll actually need to use the redirect to **appen
 1. Enter `echo "My favorite cocktail is a" $MYFAV > fav_cocktail.txt`, then `cat fav_cocktail.txt`.
 2. To add your second favorite cocktail, type `echo "My favorite cocktail is a Moscow Mule" >> fav_cocktail.txt` then `cat fav_cocktail.txt`.
 
-The commands `more` and `less` are also useful. You'll need to pipe them to the `cat` command. A pipe is a chain of processes so that output of one process \(stdout\) is fed to the input \(stdin\) to another. Let's use the `history` command we aliased in [Part 3](/part-3-variables-and-aliases.html) again to redirect ouput to a file in order to try out these commands.
+The commands `more` and `less` are also useful. You'll need to pipe them to the `cat` command. A pipe is a chain of processes so that output of one process \(stdout\) is fed to the input \(stdin\) to another. We'll use the `history` command in the examples below. This command is very useful if you're needing to search through your previous commands.
 
-1. In your command line, type `history > history.log.`
-   * Change into your CodingandCocktails directory first!
+1. In your command line, type` history > history.log`.
 2. Now enter `cat history.log | less`.
 3. * You'll see '**:**' at the bottom of the terminal. Hit Enter to continue scrolling or hit 'q' to quit.
 
 You can also chain redirects and pipes. Here are a couple of examples to try:
 
-1. Enter `sort < history.log > history_sorted.txt`, then type `cat history_sorted.txt | less` to scroll through your sorted list.
+1. Enter `sort -r < history.log > history_sorted.txt`, then type `cat history_sorted.txt | less` to scroll through your sorted list.
 
-2. Type `history | sort > history_pipesorted.txt`, then type `cat history_pipesorted.txt | less` again.
+   * The `sort` command is just what it sounds like. The `-r` is there so we can reverse the order of the sort.
 
-3. Enter `history | grep cat | sort > history_grep.txt`, then `cat history_grep.txt`.
+2. Type `history | sort -r > history_pipesorted.txt`, then type `cat history_pipesorted.txt | less` again.
 
-   * The command `grep` searches for the ocurrence of a string, in this case 'cat', that matches a set of characters.
+3. Enter `history | grep cat | sort -r > history_grep.txt`, then `cat history_grep.txt`.
 
 
 
