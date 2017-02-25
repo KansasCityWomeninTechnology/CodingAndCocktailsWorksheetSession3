@@ -4,15 +4,26 @@
 
 #### Better, Faster, Stronger!
 
-Here's a list of useful stuff and shortcuts:
+Here's a list of more useful stuff and shortcuts:
 
 **Commands**:
 
-* `date`
-* `hostname`
-* `!!`
-* `head`
-* `tail`
+* `date` - will show you the current system date
+* `hostname` - shows the machine name you're currently logged into
+* `head` - prints out the first -n lines of a file \(defaults to 10\)
+* `tail` - similar to head, prints out the last -n lines of a file \(also defaults to 10\)
+  * tail -f
+* `clear `- will clear your terminal
+* `whoami` - tells you your username
+* `uptime` - displays how long your machine has been up
+* `ping` - checks to see if a reply is received from a remote location
+* `history `- lists out the history of your commands
+* `!!` - allows you to repeat the last command ran
+  * example
+* `sudo` - used when elevated permissions are required
+  * sudo !!
+
+**Looping**:
 
 **Get help**:
 

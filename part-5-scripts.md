@@ -4,7 +4,7 @@
 
 #### Shebangs!
 
-part 5: permissions - chmod, chown, sudo, values, list value
+Along with the command prompt, **scripts** can also be written as programs to be interpreted by the shell. For the most part, almost anything you can run at the command prompt, you can also include in a script, though there might sometimes be slight deviations in syntax. So let's try it!
 
-order favorite cocktail
+
 

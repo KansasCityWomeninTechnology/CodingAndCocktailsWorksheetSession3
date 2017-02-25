@@ -1,7 +1,6 @@
 # Summary
 
 * [Overview](README.md)
-* [Prep Work](prep_work.md)
 * [Part 1: Navigating & Basics](part-1-navigation-and-basics.md)
 * [Part 2: Manipulating Files](part-2-manipulating-files.md)
 * [Part 3: Variables & Aliases](part-3-variables-and-aliases.md)
