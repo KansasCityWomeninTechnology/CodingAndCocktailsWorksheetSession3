@@ -4,7 +4,7 @@
 
 #### Create and Edit Files and Directories
 
-Let's get straight to using the command line to learn how to manipulate files and directory structure!
+Let's get straight to learning how to manipulate files and directory structures!
 
 1. Change into your home folder by typing `cd ~`. Type `ls -al` to check if a **CodingandCocktails** folder already exists.
    * If it doesn't, create it using `mkdir CodingandCocktails`. Note that the command line is **CASE-SENSITIVE**, so watch your capitalization!
@@ -16,7 +16,7 @@ Now, we'll want to add some content to your file.
 
 1. Open your file in vim by typing `vim CLIFun`.
 
-   * While **vim** is one option for a text editor, there are many others available.You can use this [**vim cheat sheet**](https://vim.rtorr.com/)** **to take full advantage of** **its powerful features.
+   * While **vim** is one option for a text editor, there are many others available. You can use this [**vim cheat sheet**](https://vim.rtorr.com/)** **to take full advantage of** **its powerful features.
 
 What's with all the squigglies?!? Don't worry! By learning a few basic vim commands, you'll be saving contents in your files in no time. Let's start by copying the [**lorem ipsum**](https://en.wikipedia.org/wiki/Lorem_ipsum) text below.
 
@@ -27,7 +27,7 @@ What's with all the squigglies?!? Don't worry! By learning a few basic vim comma
    ```
 2. Go back to iTerm2/Git Bash and hit `i`. That'll put you into **INSERT** mode.
 
-3. Now hit **⌘V** on your Mac or **CTRL + V** on your Windows laptop a few times to paste the text you copied.
+3. Now hit **⌘V** on your Mac or **CTRL + V** on your Windows laptop to paste the text you copied.
 
 4. Next, type in `:wq` and then hit **Enter**. Awesome, now we've got some content to play with!
 
@@ -35,12 +35,12 @@ What's with all the squigglies?!? Don't worry! By learning a few basic vim comma
 
 5. Now type `cat CLIFun` to display the contents of the file. Cool!
 
-6. Type `vim CLIFun` to enter the editor again. Let's do that and add some more content. Hit `i` again like we did before and start entering in some text.
+6. To add more content, type `vim CLIFun` to enter the editor again. Hit `i` again like we did before and start entering in some text.
 
 But that messed up our lorem ipsum sample! What to do?!? No worries, let's just close out of the text editor without saving our changes. We did a 'write' and then 'quit' earlier, let's instead skip the 'write' part.
 
 1. Hit `:q` then **Enter**. 
-   * You might be prompted with '**E37: No write since last change \(add ! to override\)**'. If so, follow the instructions there. Hit `:q!` then **Enter**. 
+   * You'll be prompted with '**E37: No write since last change \(add ! to override\)**'. If so, follow the instructions there. Hit `:q!` then **Enter**. 
 2. Type `cat CLIFun` again to confirm your changes weren't saved.
 
 Let's now work with `cp` and `rm`** **to make copies of our file and remove files.
@@ -63,7 +63,7 @@ Let's try copying a directory as well.
 
 3. To remove the directory, use the recursive option again by typing `rm -r CommandLineBasics2`.
 
-   * Be VERY careful when running rm commands. If you do it from  the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or Mac OSx\) or other really important data!
+   * Be **VERY** careful when running rm commands. If you do it from  the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or Mac OSx\) or other really important data!!
 
 What if we need to move a file? Well, then use **mv**! The proper syntax for the command is `mv <source> <destination>`.
 
