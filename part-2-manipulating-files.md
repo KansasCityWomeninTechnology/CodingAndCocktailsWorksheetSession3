@@ -73,7 +73,7 @@ What if we need to move a file? Well, then use **mv**! The proper syntax for the
 
 Another command that's useful for files is `wc`. You can remember it as **word count**, and it'll be in the syntax `wc [options] filename`. Here are some available options you can try out:
 
-![](/wc_options.png)
+![](/images/wc_options.png)
 
 Give it a shot on your own now! If you need a visual aid, follow the animation below.
 
