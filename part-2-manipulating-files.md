@@ -75,7 +75,3 @@ Another command that's useful for files is `wc`. You can remember it as **word c
 
 ![](/images/wc_options.png)
 
-Give it a shot on your own now! If you need a visual aid, follow the animation below.
-
-![](/assets/CLI_01.gif)
-
