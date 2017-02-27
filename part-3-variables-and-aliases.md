@@ -8,7 +8,7 @@ Variables can be created with the `export` command. Several programs and utiliti
 
 1. Type `export MY_FAV=Greyhound`. Feel free to put in any value you'd like!
    * Be careful when including spaces - in that case, you'll want to enclose your value in quotation marks so it doesn't break up the command, i.e. `export MY_FAV="Moscow Mule"`.
-2. Enter `echo $MY_FAV` in your command line. 
+2. Enter `echo $MY_FAV` in your command line.
    * Note the `$` at the beginning of the variable.
 
 Now try displaying the values for the built-in OS variables of HOME, USERNAME, and HOST. Remember, you should use the syntax `echo $VAR`.
@@ -33,6 +33,4 @@ If you close out of your terminal and open a new one, you'll notice that the ali
    * Jump back to [**Part 1**](/part-1-navigation-and-basics.md) if you need some help with navigating in vim.
 3. Type`source ~/.bash_profile` in your command line.
    * This will reload your settings.
-
-You can watch the same steps from above in the following animation.
 
