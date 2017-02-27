@@ -24,7 +24,7 @@ You'll also want to utilize **tab completion** with your **tab** key and your **
 Now try navigating around on your own! See the animation below for some help.
 
 {% raw %}
-  <video id="CLI01_1" class="video-js" controls preload="auto" width="600" height="450"
+  <video id="CLI01_1" class="video-js" controls preload="auto" width="1900" height="800"
   poster="CLI01_1.jpg" data-setup="{}">
   <source src="videos/CLI01_1.mp4" type='video/mp4'>
   <p class="vjs-no-js">
