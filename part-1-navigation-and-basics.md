@@ -26,8 +26,8 @@ Now try navigating around on your own! See the animation below for some help.
 {% raw %}
   <video id="CLI01" class="video-js" controls preload="auto" width="640" height="264"
   poster="CLI01.jpg" data-setup="{}">
-  <source src="CLI01.mp4" type='video/mp4'>
-  <source src="CLI01.webm" type='video/webm'>
+  <source src="videos/CLI01.mp4" type='video/mp4'>
+  <source src="videos/CLI01.webm" type='video/webm'>
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a web browser that
     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
