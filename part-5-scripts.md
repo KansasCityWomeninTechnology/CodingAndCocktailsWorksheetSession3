@@ -31,5 +31,5 @@ Your shell uses **r**, **w**, and **x **along with corresponding numerical value
    * To get the numerical value for read, write, and execute, you add their individual values. So, 4+2+1=7. The first number denotes the permissions for the user while the second and third are for the group and other. "Other" refers to everyone else that's not an owner of a member of the owning group.
 2. Type in `./CnCScript.sh` and hit enter to run your script.
 
-You've just written your first script! Yay! If you need some visual help, check out the animation below.
+You've just written your first script! Yay!
 

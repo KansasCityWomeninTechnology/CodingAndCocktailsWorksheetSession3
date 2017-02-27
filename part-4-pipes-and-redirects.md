@@ -21,7 +21,7 @@ Hmm, what happened there? Oh, we'll actually need to use the redirect to **appen
 1. Enter `echo "My favorite cocktail is a" $MYFAV > fav_cocktail.txt`, then `cat fav_cocktail.txt`.
 2. To add your second favorite cocktail, type `echo "My favorite cocktail is a Moscow Mule" >> fav_cocktail.txt` then `cat fav_cocktail.txt`.
 
-A pipe is a chain of processes so that output of one process \(stdout\) is fed to the input \(stdin\) of another. 
+A pipe is a chain of processes so that output of one process \(stdout\) is fed to the input \(stdin\) of another.
 
 Another command,`less`, allows you to "scroll" through output. We'll use the `history` command and pipe `less` to it in the examples below. The `history` command is very useful if you need to search through your previous commands.
 
@@ -38,8 +38,6 @@ You can also chain redirects and pipes. Here are a couple of examples to try:
 2. Type `history | sort -r > history_pipesorted.txt`, then type `cat history_pipesorted.txt | less` again.
 
 3. Enter `history | grep cat | sort -r > history_grep.txt`, then `cat history_grep.txt`.
-
-Follow along with the animation if you need more help!
 
 
 
