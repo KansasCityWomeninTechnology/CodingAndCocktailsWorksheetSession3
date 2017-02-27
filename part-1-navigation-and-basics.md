@@ -21,7 +21,7 @@ Let's try out some more commands!
 
 You'll also want to utilize **tab completion** with your **tab** key and your **up/down** arrow keys. Tab completion will allow you to enter in part of a filename or directory name and then it'll be completed it for you. Your up/down arrow keys will allow you to scroll through previous commands.
 
-Now try navigating around on your own! See the video below for some help. You can watch it in fullscreen or download it.
+Now try navigating around on your own! See the video below for some help. You can watch it in fullscreen or download it as well.
 
 {% raw %}
   <video id="CLI01" class="video-js" controls preload="auto" width="700" height="450"
