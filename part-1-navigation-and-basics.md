@@ -16,12 +16,21 @@ Let's try out some more commands!
 2. Next, use `cd` to change directory into one that was listed in the output of `ls`.
    * Both Git Bash and oh-my-zsh use formatting to distinguish between what's a directory and what's a file. You won't be able to `cd` into a file.
 3. Once you've moved into a new directory, type `ls -al`** **again to see what's listed there.
-4. Let's move back up one directory. To do this, type `cd ..`. 
+4. Let's move back up one directory. To do this, type `cd ..`.
    * The '**..**' is a shortcut for the parent directory, much like the **~** is a shortcut for your home directory. No matter where you are, `cd ..`** **or `cd ~` are always valid commands.
 
 You'll also want to utilize **tab completion** with your **tab** key and your **up/down** arrow keys. Tab completion will allow you to enter in part of a filename or directory name and then it'll be completed it for you. Your up/down arrow keys will allow you to scroll through previous commands.
 
 Now try navigating around on your own! See the animation below for some help.
 
-![](/assets/CLI_01.gif)
+{% raw %}
+  <video id="CLI_01" class="video-js" controls preload="auto" width="640" height="264"
+  poster="CLI_01.jpg" data-setup="{}">
+  <source src="videos/CLI_01.mp4" type='video/mp4'>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that
+    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>
+  </video>
+{% endraw %}
 
