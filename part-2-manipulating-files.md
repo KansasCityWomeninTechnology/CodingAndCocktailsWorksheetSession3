@@ -22,7 +22,7 @@ What's with all the squigglies?!? Don't worry! By learning a few basic vim comma
 
 1. ```
    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-   et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+   et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
    aliquip ex ea commodo consequat.
    ```
 2. Go back to iTerm2/Git Bash and hit `i`. That'll put you into **INSERT** mode.
@@ -39,8 +39,8 @@ What's with all the squigglies?!? Don't worry! By learning a few basic vim comma
 
 But that messed up our lorem ipsum sample! What to do?!? No worries, let's just close out of the text editor without saving our changes. We did a 'write' and then 'quit' earlier, let's instead skip the 'write' part.
 
-1. Hit `:q` then **Enter**. 
-   * You'll be prompted with '**E37: No write since last change \(add ! to override\)**'. If so, follow the instructions there. Hit `:q!` then **Enter**. 
+1. Hit `:q` then **Enter**.
+   * You'll be prompted with '**E37: No write since last change \(add ! to override\)**'. If so, follow the instructions there. Hit `:q!` then **Enter**.
 2. Type `cat CLIFun` again to confirm your changes weren't saved.
 
 Let's now work with `cp` and `rm`** **to make copies of our file and remove files.
@@ -55,11 +55,11 @@ Let's try copying a directory as well.
 
 1. Type `cp CommandLineBasics CommandLineBasics2` after changing into the CodingandCocktails parent directory.
 
-   * Oh no, we got an error again: '**cp: CommandLineBasics is a directory \(not copied\)**'! It looks like `cp` doesn't work with directories, but actually, we can copy a directory by adding an option to `cp`. We'll add a **-r** for **recursive**. 
+   * Oh no, we got an error again: '**cp: CommandLineBasics is a directory \(not copied\)**'! It looks like `cp` doesn't work with directories, but actually, we can copy a directory by adding an option to `cp`. We'll add a **-r** for **recursive**.
 
 2. Let's try that again. Type `cp -r CommandLineBasics CommandLineBasics2`.
 
-   * Don't forget your tab completion! This time, you'll see a **CommandLineBasics2** directory that's the same as the directory we copied it from, except that it has a more current timestamp. 
+   * Don't forget your tab completion! This time, you'll see a **CommandLineBasics2** directory that's the same as the directory we copied it from, except that it has a more current timestamp.
 
 3. To remove the directory, use the recursive option again by typing `rm -r CommandLineBasics2`.
 
@@ -77,5 +77,5 @@ Another command that's useful for files is `wc`. You can remember it as **word c
 
 Give it a shot on your own now! If you need a visual aid, follow the animation below.
 
-![](/assets/CLI01.gif)
+![](/assets/CLI_01.gif)
 
