@@ -7,9 +7,6 @@
 Let's get straight to learning how to manipulate files and directory structures!
 
 1. Change into your home folder by typing `cd ~`. Type `ls -al` to check if a **CodingAndCocktails** folder already exists.
-   {% hint style='info' %}
-   * Again, if it doesn't, create it using `mkdir CodingAndCocktails`.
-   {% endhint %}
 
 2. In your CodingAndCocktails folder, create a **CommandLineBasics** folder by entering in `mkdir CommandLineBasics`.
 
