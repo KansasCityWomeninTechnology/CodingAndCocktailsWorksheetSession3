@@ -49,5 +49,7 @@ Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of cours
    * `telnet` is a protocol that allows you to log in to another remote machine, located in this case at towel.blinkenlights.nl.
    {% endhint %}
 
+You can also play a fun game to learn vim with https://vim-adventures.com/.
+
 
 
