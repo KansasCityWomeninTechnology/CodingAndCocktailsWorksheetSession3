@@ -14,10 +14,14 @@ Let's try out some more commands!
 
 1. Type `ls`** **to see the contents of your current directory. Typing `ls -al`** **will give you more information and show you **a**ll files, including hidden files.
 2. Next, use `cd` to change directory into one that was listed in the output of `ls`.
+   {% hint style='info' %}
    * Both Git Bash and oh-my-zsh use formatting to distinguish between what's a directory and what's a file. You won't be able to `cd` into a file.
+   {% endhint %}
 3. Once you've moved into a new directory, type `ls -al`** **again to see what's listed there.
 4. Let's move back up one directory. To do this, type `cd ..`.
+   {% hint style='info' %}
    * The '**..**' is a shortcut for the parent directory  much like the **~** is a shortcut for your home directory. A parent directory would be the directory that contains your current directory. No matter where you are, `cd ..`** **or `cd ~` are always valid commands.
+   {% endhint %}
 
 You'll also want to utilize **tab completion** with your **tab** key and your **up/down** arrow keys. Tab completion will allow you to enter in part of a filename or directory name and then it'll be completed it for you. Your up/down arrow keys will allow you to scroll through previous commands.
 
