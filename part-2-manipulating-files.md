@@ -68,7 +68,7 @@ Let's try copying a directory as well.
    {% endhint %}
 
 16. Let's try that again. Type `cp -r CommandLineBasics CommandLineBasics2`.
-   {% hint style='info' %}
+   {% hint style='tip' %}
    * Don't forget your tab completion! This time, you'll see a **CommandLineBasics2** directory that's the same as the directory we copied it from, except that it has a more current timestamp.
    {% endhint %}
 

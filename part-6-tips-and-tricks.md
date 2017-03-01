@@ -45,7 +45,9 @@ Below is a list of more useful stuff and shortcuts. Try them out!
 Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have! Let's find out:
 
 1. Type `telnet towel.blinkenlights.nl` and hit Enter.
+    {% hint style='info' %}
    * `telnet` is a protocol that allows you to log in to another remote machine, located in this case at towel.blinkenlights.nl.
+   {% endhint %}
 
 
 

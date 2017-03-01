@@ -7,9 +7,14 @@
 Variables can be created with the `export` command. Several programs and utilities use built in variables programmatically. Here's how to create and also how to display variable values:
 
 1. Type `export MY_FAV=Greyhound`. Feel free to put in any value you'd like!
+    {% hint style='info' %}
    * Be careful when including spaces - in that case, you'll want to enclose your value in quotation marks so it doesn't break up the command, i.e. `export MY_FAV="Moscow Mule"`.
+   {% endhint %}
+
 2. Enter `echo $MY_FAV` in your command line.
+    {% hint style='tip' %}
    * Note the `$` at the beginning of the variable.
+   {% endhint %}
 
 Now try displaying the values for the built-in OS variables of HOME, USERNAME, and HOST. Remember, you should use the syntax `echo $VAR`.
 
@@ -28,9 +33,17 @@ Now you can enter `ls` and get the output for `ls -al` instead. You can imagine 
 If you close out of your terminal and open a new one, you'll notice that the alias we just create didn't persist. That's because every time you open a new terminal, it's settings, namely what's called your **profile,** are reloaded. You can edit your profile by following these steps:
 
 5. Create the file by typing `touch ~/.bash_profile`.
+    {% hint style='info' %}
    * If the file already exists, its timestamp will be updated but no harm will be done.
+   {% endhint %}
+
 6. Type `vim ~/.bash_profile` and hit enter. Then add the alias command we used above using INSERT mode with `i`.
+    {% hint style='tip' %}
    * Jump back to [**Part 1**](/part-1-navigation-and-basics.md) if you need some help with navigating in vim.
+   {% endhint %}
+
 7. Type`source ~/.bash_profile` in your command line.
+    {% hint style='info' %}
    * This will reload your settings.
+   {% endhint %}
 
