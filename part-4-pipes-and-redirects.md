@@ -13,31 +13,31 @@ A stream is input/output of data travelling between processes which can be stand
 
 You can also redirect to a file. Let's a make a list of our favorite beverages. We'll use the $MY\_FAV variable from before.
 
-1. Enter `echo "My favorite cocktail is a" $MYFAV > fav_cocktail.txt`, then `cat fav_cocktail.txt` to see the results.
-2. Let's add our second favorite cocktail. Type `echo "My second favorite cocktail is a Moscow Mule" > fav_cocktail.txt`, then `cat fav_cocktail.txt`.
+2. Enter `echo "My favorite cocktail is a" $MYFAV > fav_cocktail.txt`, then `cat fav_cocktail.txt` to see the results.
+3. Let's add our second favorite cocktail. Type `echo "My second favorite cocktail is a Moscow Mule" > fav_cocktail.txt`, then `cat fav_cocktail.txt`.
 
 Hmm, what happened there? Oh, we'll actually need to use the redirect to **append** instead! Let's try that again.
 
-1. Enter `echo "My favorite cocktail is a" $MYFAV > fav_cocktail.txt`, then `cat fav_cocktail.txt`.
-2. To add your second favorite cocktail, type `echo "My favorite cocktail is a Moscow Mule" >> fav_cocktail.txt` then `cat fav_cocktail.txt`.
+4. Enter `echo "My favorite cocktail is a" $MYFAV > fav_cocktail.txt`, then `cat fav_cocktail.txt`.
+5. To add your second favorite cocktail, type `echo "My favorite cocktail is a Moscow Mule" >> fav_cocktail.txt` then `cat fav_cocktail.txt`.
 
 A pipe is a chain of processes so that output of one process \(stdout\) is fed to the input \(stdin\) of another.
 
 Another command,`less`, allows you to "scroll" through output. We'll use the `history` command and pipe `less` to it in the examples below. The `history` command is very useful if you need to search through your previous commands.
 
-1. In your command line, type`history > history.log`.
-2. Now enter `cat history.log | less`.
+6. In your command line, type`history > history.log`.
+7. Now enter `cat history.log | less`.
    * You'll see '**:**' at the bottom of the terminal. Hit Enter to continue scrolling or hit 'q' to quit.
 
 You can also chain redirects and pipes. Here are a couple of examples to try:
 
-1. Enter `sort -r < history.log > history_sorted.txt`, then type `cat history_sorted.txt | less` to scroll through your sorted list.
+8. Enter `sort -r < history.log > history_sorted.txt`, then type `cat history_sorted.txt | less` to scroll through your sorted list.
 
    * The `sort` command is just what it sounds like. The `-r` is there so we can reverse the order of the sort.
 
-2. Type `history | sort -r > history_pipesorted.txt`, then type `cat history_pipesorted.txt | less` again.
+9. Type `history | sort -r > history_pipesorted.txt`, then type `cat history_pipesorted.txt | less` again.
 
-3. Enter `history | grep cat | sort -r > history_grep.txt`, then `cat history_grep.txt`.
+10. Enter `history | grep cat | sort -r > history_grep.txt`, then `cat history_grep.txt`.
 
 
 

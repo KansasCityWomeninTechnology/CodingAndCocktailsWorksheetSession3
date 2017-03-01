@@ -15,22 +15,22 @@ Now try displaying the values for the built-in OS variables of HOME, USERNAME, a
 
 **PATH** is a unique variable. It includes the locations of all executables. When you run a command, your shell looks in the directories specified there for an executable with a matching name. You can add a custom directories depending on where a program gets installed. Let's check out what's included in our path:
 
-1. `echo $PATH`
+3. `echo $PATH`
 
 To add directories to the PATH, you would use the syntax `export PATH=/some/directory:$PATH`. Notice that you can reference the PATH variable in creating the new PATH. Many installers do this step automagically for you!
 
 So what's an alias? Basically, it's a shortcut you create to a command. For example, remember the `ls -al` command we used earlier? It gives us more information and makes the output easier to read. Let's bind it to `ls` to save us some keystrokes:
 
-1. `alias ls="ls -al"`
+4. `alias ls="ls -al"`
 
 Now you can enter `ls` and get the output for `ls -al` instead. You can imagine how much time this customization can save!
 
 If you close out of your terminal and open a new one, you'll notice that the alias we just create didn't persist. That's because every time you open a new terminal, it's settings, namely what's called your **profile,** are reloaded. You can edit your profile by following these steps:
 
-1. Create the file by typing `touch ~/.bash_profile`.
+5. Create the file by typing `touch ~/.bash_profile`.
    * If the file already exists, its timestamp will be updated but no harm will be done.
-2. Type `vim ~/.bash_profile` and hit enter. Then add the alias command we used above using INSERT mode with `i`.
+6. Type `vim ~/.bash_profile` and hit enter. Then add the alias command we used above using INSERT mode with `i`.
    * Jump back to [**Part 1**](/part-1-navigation-and-basics.md) if you need some help with navigating in vim.
-3. Type`source ~/.bash_profile` in your command line.
+7. Type`source ~/.bash_profile` in your command line.
    * This will reload your settings.
 
