@@ -15,9 +15,7 @@ Let's get straight to learning how to manipulate files and directory structures!
    * If you go to that same location through your GUI like you might be used to, you'll see the file created there as a visual representation.
    {% endhint %}
 
-Now, we'll want to add some content to your file.
-
-4. Open your file in vim by typing `vim CLIFun.txt`.
+4. Now, we'll want to add some content to your file. Open your file in vim by typing `vim CLIFun.txt`.
    {% hint style='info' %}
    * While **vim** is one option for a text editor, there are many others available. You can use this [**vim cheat sheet**](https://vim.rtorr.com/)** **to take full advantage of** **its powerful features.
    {% endhint %}
@@ -28,12 +26,12 @@ What's with all the squigglies?!?
 
 Don't worry! By learning a few basic vim commands, you'll be saving contents in your files in no time. Let's start by copying the [**lorem ipsum**](https://en.wikipedia.org/wiki/Lorem_ipsum) text below.
 
-5. ```
+ ```
    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
    aliquip ex ea commodo consequat.
    ```
-6. Go back to iTerm2/Git Bash and hit `i`. That'll put you into **INSERT** mode.
+1. Go back to iTerm2/Git Bash and hit `i`. That'll put you into **INSERT** mode.
 
 7. Now hit **⌘V** on your Mac or **CTRL + V** on your Windows laptop to paste the text you copied.
 

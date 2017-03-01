@@ -15,8 +15,6 @@ Let's find out what the full path to the ~ directory looks like with the `pwd` c
   * When you type `pwd` and hit enter, you should see your current user's home directory listed.
    {% endhint %}
 
-Let's try out some more commands!
-
 2. Type `ls`** **to see the contents of your current directory.
 3. Type `ls -al` and compare it to your previous output.  You should see more information and all files, including hidden files.
 4. Next, use `cd` to change directory into one that was listed in the output of `ls`. You'll need to use the syntax `cd directory`.
@@ -29,7 +27,7 @@ Let's try out some more commands!
    {% hint style='info' %}
    * The '**..**' is a shortcut for the parent directory  much like the **~** is a shortcut for your home directory. A parent directory would be the directory that contains your current directory. No matter where you are, `cd ..`** **or `cd ~` are always valid commands.
    {% endhint %}
-
+   
 You'll also want to utilize **tab completion** with your **tab** key and your **up/down** arrow keys. Tab completion will allow you to enter in part of a filename or directory name and then it'll be completed it for you. Your up/down arrow keys will allow you to scroll through previous commands.
 
 7. Let's switch back to the home directory by typing `cd ~`.
