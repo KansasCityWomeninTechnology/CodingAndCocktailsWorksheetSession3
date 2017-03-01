@@ -90,6 +90,7 @@ What if we need to move a file? Well, then use `mv`! The proper syntax for the c
    * If you're in the CodingAndCocktails directory, the command `mv CommandLineBasics/CLIFun.txt .` will also work. Remember, '**.**' is a shortcut for the current directory.
    {% endhint %}
 
+
 Another command that's useful for files is `wc`. You can remember it as **word count**, and it'll be in the syntax `wc [options] filename`. Here are some available options you can try out:
 
 ![](/images/wc_options.png)

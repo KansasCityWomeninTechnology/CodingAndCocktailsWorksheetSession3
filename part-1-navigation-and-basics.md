@@ -27,7 +27,7 @@ Let's find out what the full path to the ~ directory looks like with the `pwd` c
    {% hint style='info' %}
    * The '**..**' is a shortcut for the parent directory  much like the **~** is a shortcut for your home directory. A parent directory would be the directory that contains your current directory. No matter where you are, `cd ..`** **or `cd ~` are always valid commands.
    {% endhint %}
-   
+
 You'll also want to utilize **tab completion** with your **tab** key and your **up/down** arrow keys. Tab completion will allow you to enter in part of a filename or directory name and then it'll be completed it for you. Your up/down arrow keys will allow you to scroll through previous commands.
 
 7. Let's switch back to the home directory by typing `cd ~`.
