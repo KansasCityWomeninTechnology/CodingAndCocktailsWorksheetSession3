@@ -32,7 +32,7 @@ So let's try it!
 
 4. Enter `chmod u+rwx CnCScript.sh` or `chmod 700 CnCScript.sh` into your command line prompt.
     {% hint style='info' %}
-   * To get the numerical value for read, write, and execute, you add their individual values. So, 4+2+1=7. The first number denotes the permissions for the user while the second and third are for the group and other. "Other" refers to everyone else that's not an owner of a member of the owning group.
+   * To get the numerical value for read, write, and execute, you add their individual values. So, 4+2+1=7. The first number denotes the permissions for the user while the second and third are for the group and other. "Other" refers to everyone else that's not a member of the owning group.
    {% endhint %}
 
 5. Type in `./CnCScript.sh` and hit enter to run your script.
