@@ -97,3 +97,16 @@ Another command that's useful for files is `wc`. You can remember it as **word c
 
 ![](/images/wc_options.png)
 
+If you need further help with the `vim` command, check out the video below.
+
+{% raw %}
+  <video id="CLI_Part2" class="video-js" controls preload="auto" width="900" height="600"
+  poster="CLI_Part2.jpg" data-setup="{}">
+  <source src="videos/CLI_Part2.mp4" type='video/mp4'>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that
+    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>
+  </video>
+{% endraw %}
+

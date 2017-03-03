@@ -36,7 +36,7 @@ You'll also want to utilize **tab completion** with your **tab** key and your **
    * If the CodingAndCocktails folder doesn't exist, create it using `mkdir CodingAndCocktails`.
    {% endhint %}
 
-Now try navigating around on your own! See the video below for some help. You can watch it in fullscreen or download it as well.
+Now try navigating around on your own! See the video below for some help. You can watch it in fullscreen as well. To download the video, right-click and click "Save video as...".
 
 {% raw %}
   <video id="CLI_Part1" class="video-js" controls preload="auto" width="900" height="600"
