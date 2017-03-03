@@ -24,15 +24,15 @@ Let's get straight to learning how to manipulate files and directory structures!
 
    What's with all the squigglies?!?
 
-![](/images/vim_squigglies.png)
+   ![](/images/vim_squigglies.png)
 
    Don't worry! By learning a few basic vim commands, you'll be saving contents in your files in no time. Let's start by copying the [**lorem ipsum**](https://en.wikipedia.org/wiki/Lorem_ipsum) text below.
 
- ```
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-   et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-   aliquip ex ea commodo consequat.
-   ```
+    ```
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+      et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat.
+      ```
 6. Go back to iTerm2/Git Bash and hit `i`. That'll put you into **INSERT** mode.
 
 7. Now hit **⌘V** on your Mac or **CTRL + V** on your Windows laptop to paste the text you copied.
