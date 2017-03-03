@@ -44,16 +44,12 @@ Below is a list of more useful stuff and shortcuts. Try them out!
 
 Here's a couple of fun things you can do in the command line:
 
-    Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have! Let's find out:
-
-1. Type `telnet towel.blinkenlights.nl` and hit Enter.
+1. Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have! Type `telnet towel.blinkenlights.nl` and hit Enter.
     {% hint style='info' %}
-    The `telnet` command uses a **protocol** that allows you to log in to another remote machine, located in this case at towel.blinkenlights.nl. A protocol is a set of procedures and rules for data transmission.
+The `telnet` command uses a **protocol** that allows you to log in to another remote machine, located in this case at towel.blinkenlights.nl. A protocol is a set of procedures and rules for data transmission.
     {% endhint %}
 
-    You can also play a fun game to sharpen your vim skills:
-
-2. Visit https://vim-adventures.com/.
+2. You can also play a fun game to sharpen your vim skills. Visit https://vim-adventures.com/.
 
 
 

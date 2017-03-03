@@ -8,12 +8,12 @@ Variables can be created with the `export` command. Several programs and utiliti
 
 1. Type `export MY_FAV=Greyhound`. Feel free to put in any value you'd like!
     {% hint style='info' %}
-    Be careful when including spaces - in that case, you'll want to enclose your value in quotation marks so it doesn't break up the command, i.e. `export MY_FAV="Moscow Mule"`.
+Be careful when including spaces - in that case, you'll want to enclose your value in quotation marks so it doesn't break up the command, i.e. `export MY_FAV="Moscow Mule"`.
     {% endhint %}
 
 2. Enter `echo $MY_FAV` in your command line.
     {% hint style='tip' %}
-    Note the `$` at the beginning of the variable.
+Note the `$` at the beginning of the variable.
     {% endhint %}
 
   Now try displaying the values for the built-in OS variables of HOME, USERNAME, and HOST. Remember, you should use the syntax `echo $VAR`.
@@ -34,16 +34,16 @@ Variables can be created with the `export` command. Several programs and utiliti
 
 5. Create the file by typing `touch ~/.bash_profile`.
     {% hint style='info' %}
-    If the file already exists, its timestamp will be updated but no harm will be done.
+If the file already exists, its timestamp will be updated but no harm will be done.
     {% endhint %}
 
 6. Type `vim ~/.bash_profile` and hit enter. Then add the alias command we used above using INSERT mode with `i`.
     {% hint style='tip' %}
-    Jump back to [**Part 1**](/part-1-navigation-and-basics.md) if you need some help with navigating in vim.
+Jump back to [**Part 1**](/part-1-navigation-and-basics.md) if you need some help with navigating in vim.
     {% endhint %}
 
 7. Type`source ~/.bash_profile` in your command line.
     {% hint style='info' %}
-    This will load or reload your profile settings.
+This will load or reload your profile settings.
     {% endhint %}
 

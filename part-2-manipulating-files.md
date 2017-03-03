@@ -14,12 +14,12 @@ Let's get straight to learning how to manipulate files and directory structures!
 
 4. Let's create a file by typing `touch CLIFun.txt`.
     {% hint style='info' %}
-    If you go to that same location through your GUI like you might be used to, you'll see the file created there as a visual representation.
+If you go to that same location through your GUI like you might be used to, you'll see the file created there as a visual representation.
     {% endhint %}
 
 5. Now, we'll want to add some content to your file. Open your file in vim by typing `vim CLIFun.txt`.
     {% hint style='info' %}
-    While **vim** is one option for a text editor, there are many others available. You can use this [**vim cheat sheet**](https://vim.rtorr.com/)** **to take full advantage of** **its powerful features.
+While **vim** is one option for a text editor, there are many others available. You can use this [**vim cheat sheet**](https://vim.rtorr.com/)** **to take full advantage of** **its powerful features.
     {% endhint %}
 
    What's with all the squigglies?!?
@@ -41,7 +41,7 @@ Let's get straight to learning how to manipulate files and directory structures!
 
 9. Next, type in `:wq` and then hit **Enter**. Awesome, now we've got some content to play with!
     {% hint style='info' %}
-    The 'w' stands for **write** and the 'q' stands for **quit**.
+The 'w' stands for **write** and the 'q' stands for **quit**.
     {% endhint %}
 
 10. Now type `cat CLIFun.txt` to display the contents of the file. Cool!
@@ -54,7 +54,7 @@ Let's get straight to learning how to manipulate files and directory structures!
 
 13. Hit `:q` then **Enter**.
       {% hint style='info' %}
-      You'll be prompted with '**E37: No write since last change \(add ! to override\)**'. Follow the instructions there. Hit `:q!` then **Enter**.
+You'll be prompted with '**E37: No write since last change \(add ! to override\)**'. Follow the instructions there. Hit `:q!` then **Enter**.
       {% endhint %}
 
 14. Type `cat CLIFun.txt` again to confirm your changes weren't saved.
@@ -63,7 +63,7 @@ Let's get straight to learning how to manipulate files and directory structures!
 
 15. Type `cp CLIFun.txt CLIFun2.txt`.
       {% hint style='info' %}
-      If you do an `ls -al` you'll see there's now a **CLIFun2.txt** file with the same size as the **CLIFun.txt** file but a more current timestamp.
+If you do an `ls -al` you'll see there's now a **CLIFun2.txt** file with the same size as the **CLIFun.txt** file but a more current timestamp.
       {% endhint %}
 
 16. Ok, let's undo that by entering `rm CLIFun2.txt`.
@@ -72,24 +72,24 @@ Let's get straight to learning how to manipulate files and directory structures!
 
 17. Type `cp CommandLineBasics CommandLineBasics2` after changing into the CodingAndCocktails parent directory.
       {% hint style='info' %}
-      Oh no, we got an error again: '**cp: CommandLineBasics is a directory \(not copied\)**'! It looks like `cp` doesn't work with directories, but actually, we can copy a directory by adding an option to `cp`. We'll add a **-r** for **recursive**.
+Oh no, we got an error again: '**cp: CommandLineBasics is a directory \(not copied\)**'! It looks like `cp` doesn't work with directories, but actually, we can copy a directory by adding an option to `cp`. We'll add a **-r** for **recursive**.
       {% endhint %}
 
 18. Let's try that again. Type `cp -r CommandLineBasics CommandLineBasics2`.
       {% hint style='tip' %}
-      Don't forget your tab completion! This time, you'll see a **CommandLineBasics2** directory that's the same as the directory we copied it from, except that it has a more current timestamp.
+Don't forget your tab completion! This time, you'll see a **CommandLineBasics2** directory that's the same as the directory we copied it from, except that it has a more current timestamp.
       {% endhint %}
 
 19. To remove the directory, use the recursive option again by typing `rm -r CommandLineBasics2`.
       {% hint style='danger' %}
-      Be **VERY** careful when running rm commands. If you do it from  the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or Mac OSx\) or other really important data!!
+Be **VERY** careful when running rm commands. If you do it from  the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or Mac OSx\) or other really important data!!
       {% endhint %}
 
    What if we need to move a file? Well, then use `mv`! The proper syntax for the command is `mv <source> <destination>`.
 
 20. Type `mv ~/CodingAndCocktails/CommandLineBasics/CLIFun.txt ~/CodingAndCocktails/`.
       {% hint style='info' %}
-      If you're in the CodingAndCocktails directory, the command `mv CommandLineBasics/CLIFun.txt .` will also work. Remember, '**.**' is a shortcut for the current directory.
+If you're in the CodingAndCocktails directory, the command `mv CommandLineBasics/CLIFun.txt .` will also work. Remember, '**.**' is a shortcut for the current directory.
       {% endhint %}
 
 
