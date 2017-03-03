@@ -53,4 +53,3 @@
 **Grep \(aka search\):** `grep searchterm filename`
 
 **Get out of “stuck” command:**  CTRL + C
-

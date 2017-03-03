@@ -46,4 +46,3 @@ Jump back to [**Part 1**](/part-1-navigation-and-basics.md) if you need some hel
     {% hint style='info' %}
 This will load or reload your profile settings.
     {% endhint %}
-

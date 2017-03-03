@@ -44,4 +44,3 @@ To get the numerical value for read, write, and execute, you add their individua
 6. Type in `./CnCScript.sh` and hit enter to run your script.
 
 You've just written your first script! Yay!
-

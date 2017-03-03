@@ -109,4 +109,3 @@ If you need further help with the `vim` command, check out the video below.
   </p>
   </video>
 {% endraw %}
-

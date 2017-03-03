@@ -48,4 +48,3 @@ Now try navigating around on your own! See the video below for some help. You ca
   </p>
   </video>
 {% endraw %}
-

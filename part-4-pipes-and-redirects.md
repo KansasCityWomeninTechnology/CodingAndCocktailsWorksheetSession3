@@ -43,6 +43,3 @@ The `sort` command is just what it sounds like. The `-r` is there so we can reve
 9. Type `history | sort -r > history_pipesorted.txt`, then type `cat history_pipesorted.txt | less` again.
 
 10. Enter `history | grep cat | sort -r > history_grep.txt`, then `cat history_grep.txt`.
-
-
-

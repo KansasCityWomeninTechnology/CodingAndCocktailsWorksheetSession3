@@ -52,6 +52,8 @@ To be used in the format `<command> /?`. Example: `grep --help`.
 
 * Ctrl + R: Allows you to search through the previous commands
 
+* Ctrl + C: Cancels out of current command
+
 **Have some fun**!
 
 Here's a couple of fun things you can do in the command line:
@@ -62,7 +64,3 @@ The `telnet` command uses a **protocol** that allows you to log in to another re
     {% endhint %}
 
 2. You can also play a fun game to sharpen your vim skills. Visit https://vim-adventures.com/.
-
-
-
-
