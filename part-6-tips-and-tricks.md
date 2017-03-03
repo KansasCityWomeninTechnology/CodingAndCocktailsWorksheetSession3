@@ -14,7 +14,7 @@ Below is a list of more useful stuff and shortcuts. Try them out!
 * `tail` - similar to head, prints out the last _n_ lines of a file \(also defaults to 10\)
     {% hint style='hint' %}
 `tail -nf` will continue to show the last _n_ lines of a file so that if it's updated, the output will be as well.
-
+    {% endhint %}
 * `clear`- will clear your terminal
 * `whoami` - tells you the username that you're logged in as
 * `uptime` - displays how long your machine has been up
