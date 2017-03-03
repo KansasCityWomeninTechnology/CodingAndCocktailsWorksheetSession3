@@ -11,7 +11,7 @@ Below is a list of more useful stuff and shortcuts. Try them out!
 * `date` - will show you the current system date
 * `hostname` - shows the machine name you're currently logged into
 * `head` - prints out the first `-n` lines of a file \(defaults to 10\)
-* `tail` - similar to head, prints out the last -n lines of a file \(also defaults to 10\)
+* `tail` - similar to head, prints out the last _n_ lines of a file \(also defaults to 10\)
   * `tail -nf` will continue to show the last _n_ lines of a file so that if it's updated, the output will be as well
 * `clear`- will clear your terminal
 * `whoami` - tells you the username that you're logged in as
@@ -32,24 +32,29 @@ Below is a list of more useful stuff and shortcuts. Try them out!
 
 **Moving around at the CLI prompt**:
 
-* **Ctrl + U**: Clears the line from the cursor point back to the beginning.
+* Ctrl + U: Clears the line from the cursor point back to the beginning.
 
-* **Ctrl + A**: Moves the cursor to the beginning of the line.
+* Ctrl + A: Moves the cursor to the beginning of the line.
 
-* **Ctrl + E**: Moves the cursor to the end of the line.
+* Ctrl + E: Moves the cursor to the end of the line.
 
-* **Ctrl + R**: Allows you to search through the previous commands
+* Ctrl + R: Allows you to search through the previous commands
 
-**Have some fun**:
+**Have some fun**!
 
-Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have! Let's find out:
+Here's a couple of fun things you can do in the command line:
+
+    Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have! Let's find out:
 
 1. Type `telnet towel.blinkenlights.nl` and hit Enter.
     {% hint style='info' %}
-   * `telnet` is a protocol that allows you to log in to another remote machine, located in this case at towel.blinkenlights.nl.
-   {% endhint %}
+    The `telnet` command uses a **protocol** that allows you to log in to another remote machine, located in this case at towel.blinkenlights.nl. A protocol is a set of procedures and rules for data transmission.
+    {% endhint %}
 
-You can also play a fun game to learn vim with https://vim-adventures.com/.
+    You can also play a fun game to sharpen your vim skills:
+
+2. Visit https://vim-adventures.com/.
+
 
 
 
