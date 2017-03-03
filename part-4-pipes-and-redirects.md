@@ -10,7 +10,7 @@ A stream is input/output of data travelling between processes which can be stand
 
 1. Type `sort << END` and enter in all of the cocktail names you can recall.
     {% hint style='info' %}
-The **END **can actually be any word you want. You're telling **sort** to accept input until a specific value is given.
+The **END **can actually be any word you want. You're telling `sort` to accept input until a specific value is given.
     {% endhint %}
 
     You can also redirect to a file. Let's a make a list of our favorite beverages. We'll use the $MY\_FAV variable from before.

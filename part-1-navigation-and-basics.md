@@ -12,20 +12,20 @@ Let's find out what the full path to the ~ directory looks like with the `pwd` c
 
 1. Type `pwd` and hit Enter.
     {% hint style='info' %}
-    When you type `pwd` and hit enter, you should see your current user's home directory listed.
+When you type `pwd` and hit enter, you should see your current user's home directory listed.
     {% endhint %}
 
 2. Type `ls`** **to see the contents of your current directory.
 3. Type `ls -al` and compare it to your previous output.  You should see more information and all files, including hidden files.
 4. Next, use `cd` to change directory into one that was listed in the output of `ls`. You'll need to use the syntax `cd directory`.
     {% hint style='tip' %}
-    Both Git Bash and oh-my-zsh use formatting to distinguish between what's a directory and what's a file. You won't be able to `cd` into a file.
+Both Git Bash and oh-my-zsh use formatting to distinguish between what's a directory and what's a file. You won't be able to `cd` into a file.
     {% endhint %}
 
 5. Once you've moved into a new directory, type `ls -al`** **again to see what's listed there.
 6. Let's move back up one directory. To do this, type `cd ..`.
     {% hint style='info' %}
-    The '**..**' is a shortcut for the parent directory  much like the **~** is a shortcut for your home directory. A parent directory would be the directory that contains your current directory. No matter where you are, `cd ..`** **or `cd ~` are always valid commands.
+The '**..**' is a shortcut for the parent directory  much like the **~** is a shortcut for your home directory. A parent directory would be the directory that contains your current directory. No matter where you are, `cd ..`** **or `cd ~` are always valid commands.
     {% endhint %}
 
 You'll also want to utilize **tab completion** with your **tab** key and your **up/down** arrow keys. Tab completion will allow you to enter in part of a filename or directory name and then it'll be completed it for you. Your up/down arrow keys will allow you to scroll through previous commands.
@@ -33,7 +33,7 @@ You'll also want to utilize **tab completion** with your **tab** key and your **
 7. Let's switch back to the home directory by typing `cd ~`.
 8. Enter in `cd Cod` then stop and hit your `tab` key. Tab completion will find your CodingAndCocktails folder and enter the rest in for you!
     {% hint style='info' %}
-    If the CodingAndCocktails folder doesn't exist, create it using `mkdir CodingAndCocktails`.
+If the CodingAndCocktails folder doesn't exist, create it using `mkdir CodingAndCocktails`.
     {% endhint %}
 
 Now try navigating around on your own! See the video below for some help. You can watch it in fullscreen as well. To download the video, right-click and click "Save video as...".
