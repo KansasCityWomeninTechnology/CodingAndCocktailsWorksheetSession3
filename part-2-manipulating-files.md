@@ -10,28 +10,30 @@ Let's get straight to learning how to manipulate files and directory structures!
 
 2. In your CodingAndCocktails folder, create a **CommandLineBasics** folder by entering in `mkdir CommandLineBasics`.
 
-3. Let's create a file by typing `touch CLIFun.txt`.
+3. Then change into your newly created directory by typing `cd CommandLineBasics`.
+
+4. Let's create a file by typing `touch CLIFun.txt`.
    {% hint style='info' %}
    * If you go to that same location through your GUI like you might be used to, you'll see the file created there as a visual representation.
    {% endhint %}
 
-4. Now, we'll want to add some content to your file. Open your file in vim by typing `vim CLIFun.txt`.
+5. Now, we'll want to add some content to your file. Open your file in vim by typing `vim CLIFun.txt`.
    {% hint style='info' %}
    * While **vim** is one option for a text editor, there are many others available. You can use this [**vim cheat sheet**](https://vim.rtorr.com/)** **to take full advantage of** **its powerful features.
    {% endhint %}
 
-What's with all the squigglies?!?
+   What's with all the squigglies?!?
 
 ![](/images/vim_squigglies.png)
 
-Don't worry! By learning a few basic vim commands, you'll be saving contents in your files in no time. Let's start by copying the [**lorem ipsum**](https://en.wikipedia.org/wiki/Lorem_ipsum) text below.
+   Don't worry! By learning a few basic vim commands, you'll be saving contents in your files in no time. Let's start by copying the [**lorem ipsum**](https://en.wikipedia.org/wiki/Lorem_ipsum) text below.
 
  ```
    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
    aliquip ex ea commodo consequat.
    ```
-1. Go back to iTerm2/Git Bash and hit `i`. That'll put you into **INSERT** mode.
+6. Go back to iTerm2/Git Bash and hit `i`. That'll put you into **INSERT** mode.
 
 7. Now hit **⌘V** on your Mac or **CTRL + V** on your Windows laptop to paste the text you copied.
 
@@ -46,7 +48,7 @@ Don't worry! By learning a few basic vim commands, you'll be saving contents in 
 
 11. To add more content, type `vim CLIFun.txt` to enter the editor again. Hit `i` again like we did before and start entering in some text.
 
-But that messed up our lorem ipsum sample! What to do?!? No worries, let's just close out of the text editor without saving our changes. We did a 'write' and then 'quit' earlier, let's instead skip the 'write' part.
+   But that messed up our lorem ipsum sample! What to do?!? No worries, let's just close out of the text editor without saving our changes. We did a 'write' and then 'quit' earlier, let's instead skip the 'write' part.
 
 12. Hit `esc` again to exit out of **INSERT** mode.
 
@@ -57,7 +59,7 @@ But that messed up our lorem ipsum sample! What to do?!? No worries, let's just 
 
 14. Type `cat CLIFun.txt` again to confirm your changes weren't saved.
 
-Let's now work with `cp` and `rm`** **to make copies of our file and remove files.
+   Let's now work with `cp` and `rm`** **to make copies of our file and remove files.
 
 15. Type `cp CLIFun.txt CLIFun2.txt`.
    {% hint style='info' %}
@@ -66,7 +68,7 @@ Let's now work with `cp` and `rm`** **to make copies of our file and remove file
 
 16. Ok, let's undo that by entering `rm CLIFun2.txt`.
 
-Let's try copying a directory as well.
+   Let's try copying a directory as well.
 
 17. Type `cp CommandLineBasics CommandLineBasics2` after changing into the CodingAndCocktails parent directory.
    {% hint style='info' %}
@@ -83,7 +85,7 @@ Let's try copying a directory as well.
    * Be **VERY** careful when running rm commands. If you do it from  the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or Mac OSx\) or other really important data!!
    {% endhint %}
 
-What if we need to move a file? Well, then use `mv`! The proper syntax for the command is `mv <source> <destination>`.
+   What if we need to move a file? Well, then use `mv`! The proper syntax for the command is `mv <source> <destination>`.
 
 20. Type `mv ~/CodingAndCocktails/CommandLineBasics/CLIFun.txt ~/CodingAndCocktails/`.
    {% hint style='info' %}
