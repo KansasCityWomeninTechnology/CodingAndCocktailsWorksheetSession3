@@ -39,9 +39,9 @@ You'll also want to utilize **tab completion** with your **tab** key and your **
 Now try navigating around on your own! See the video below for some help. You can watch it in fullscreen or download it as well.
 
 {% raw %}
-  <video id="CLI01" class="video-js" controls preload="auto" width="700" height="450"
-  poster="CLI01.jpg" data-setup="{}">
-  <source src="videos/CLI01.webm" type='video/webm'>
+  <video id="CLI_Part1" class="video-js" controls preload="auto" width="700" height="450"
+  poster="CLI_Part1.jpg" data-setup="{}">
+  <source src="videos/CLI_Part1.mp4" type='video/mp4'>
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a web browser that
     <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
