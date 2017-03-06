@@ -52,7 +52,7 @@ To be used in the format `<command> /?`. Example: `grep --help`.
 
 * Ctrl + R: Allows you to search through the previous commands.
 
-* Ctrl + C: Cancels out of current command.
+* Ctrl + C: Cancels out of the current command.
 
 **Have some fun**!
 
