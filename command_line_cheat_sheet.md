@@ -20,11 +20,9 @@
 
 **Stdin:** `<`
 
-**Stdout \(redirect\):** `<`
+**Stdout \(redirect\):** `>`
 
-**Stdout \(append\):** `>`
-
-**Stderr** `>>`
+**Stdout \(append\):** `>>`
 
 **Pipe:** `|`
 
