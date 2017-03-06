@@ -16,8 +16,6 @@
 
 **Previous Command:** `↑`
 
-**Don’t forget about tab completion!**
-
 **Stdin:** `<`
 
 **Stdout \(redirect\):** `>`
@@ -25,6 +23,8 @@
 **Stdout \(append\):** `>>`
 
 **Pipe:** `|`
+
+**Don’t forget about tab completion!**
 
 ## Command Reference
 
@@ -51,3 +51,4 @@
 **Grep \(aka search\):** `grep searchterm filename`
 
 **Get out of “stuck” command:**  CTRL + C
+
