@@ -16,17 +16,17 @@
 
 **Previous Command:** `↑`
 
-**Don’t forget about tab completion!**
-
 **Stdin:** `<`
 
-**Stdout \(redirect\):** `<`
+**Stdout \(redirect\):** `>`
 
-**Stdout \(append\):** `>`
-
-**Stderr** `>>`
+**Stdout \(append\):** `>>`
 
 **Pipe:** `|`
+
+{% hint style='tip' %}
+**Don’t forget about tab completion!**
+{% endhint %}
 
 ## Command Reference
 
