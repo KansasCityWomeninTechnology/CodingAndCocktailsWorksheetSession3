@@ -50,9 +50,9 @@ To be used in the format `<command> /?`. Example: `grep --help`.
 
 * Ctrl + E: Moves the cursor to the end of the line.
 
-* Ctrl + R: Allows you to search through the previous commands
+* Ctrl + R: Allows you to search through the previous commands.
 
-* Ctrl + C: Cancels out of current command
+* Ctrl + C: Cancels out of current command.
 
 **Have some fun**!
 
