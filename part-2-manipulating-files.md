@@ -14,7 +14,7 @@ Let's get straight to learning how to manipulate files and directory structures!
 
 4. Let's create a file by typing `touch CLIFun.txt`.
     {% hint style='info' %}
-If you go to that same location through your GUI like you might be used to, you'll see the file created there as a visual representation.
+If you go to that same location through your GUI like you might be used to, you'll see the file created there as a visual representation. You open the current directory you're in on a Mac by typing `open .`. On a Windows machine, `start .` will do the same.
     {% endhint %}
 
 5. Now, we'll want to add some content to your file. Open your file in vim by typing `vim CLIFun.txt`.
