@@ -17,9 +17,9 @@ When you type `pwd` and hit enter, you should see your current user's home direc
 
 2. Type `ls`** **to see the contents of your current directory.
 3. Type `ls -al` and compare it to your previous output.  You should see more information and all files, including hidden files.
-4. Next, use `cd` to **change** **directory** into the **CodingAndCocktails** listed in the output of `ls`. You'll need to use the syntax `cd CodingAndCocktails` for example.
+4. Next, enter in `cd CodingAndCocktails` to **change** **directory** into the **CodingAndCocktails** directory listed in the output of `ls`.
     {% hint style='info' %}
-If the CodingAndCocktails folder doesn't exist, create it using `mkdir CodingAndCocktails`. Make sure you switch into your home folder by typing `cd ~` first. You should have done this when following _The Tools_ worksheet.
+If the CodingAndCocktails folder doesn't exist, create it using `mkdir CodingAndCocktails`. Make sure you switch into your home folder by typing `cd ~` first. You should have done this when following [**The Tools**](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/organization---codingandcocktails-folder.html) worksheet.
     {% endhint %}
     {% hint style='tip' %}
 Both Git Bash and oh-my-zsh use formatting to distinguish between what's a directory and what's a file. You won't be able to `cd` into a file.
