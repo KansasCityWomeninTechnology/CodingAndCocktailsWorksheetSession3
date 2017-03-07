@@ -77,17 +77,22 @@ Oh no, we got an error again: '**cp: CommandLineBasics is a directory \(not copi
 
 18. Let's try that again. Type `cp -r CommandLineBasics CommandLineBasics2`.
       {% hint style='tip' %}
-Don't forget your tab completion! This time, you'll see a **CommandLineBasics2** directory that's the same as the directory we copied it from, except that it has a more current timestamp.
+Don't forget your tab completion!
       {% endhint %}
 
-19. To remove the directory, use the recursive option again by typing `rm -r CommandLineBasics2`.
+19. List the directory contents to make sure the copy worked by entering `ls -al`.
+      {% hint style='tip' %}
+This time, you'll see a **CommandLineBasics2** directory that's the same as the directory we copied it from, except that it has a more current timestamp.
+      {% endhint %}
+
+20. To remove the directory, use the recursive option again by typing `rm -r CommandLineBasics2`.
       {% hint style='danger' %}
 Be **VERY** careful when running rm commands. If you do it from  the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or Mac OSx\) or other really important data!!
       {% endhint %}
 
    What if we need to move a file? Well, then use `mv`! The proper syntax for the command is `mv <source> <destination>`.
 
-20. Type `mv ~/CodingAndCocktails/CommandLineBasics/CLIFun.txt ~/CodingAndCocktails/`.
+21. Type `mv ~/CodingAndCocktails/CommandLineBasics/CLIFun.txt ~/CodingAndCocktails/`.
       {% hint style='info' %}
 If you're in the CodingAndCocktails directory, the command `mv CommandLineBasics/CLIFun.txt .` will also work. Remember, '**.**' is a shortcut for the current directory.
       {% endhint %}
