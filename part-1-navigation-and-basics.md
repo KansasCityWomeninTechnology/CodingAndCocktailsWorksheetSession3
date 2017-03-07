@@ -17,7 +17,10 @@ When you type `pwd` and hit enter, you should see your current user's home direc
 
 2. Type `ls`** **to see the contents of your current directory.
 3. Type `ls -al` and compare it to your previous output.  You should see more information and all files, including hidden files.
-4. Next, use `cd` to change directory into one that was listed in the output of `ls`. You'll need to use the syntax `cd directory`.
+4. Next, enter in `cd CodingAndCocktails` to **change** **directory** into the **CodingAndCocktails** directory listed in the output of `ls`.
+    {% hint style='info' %}
+If the CodingAndCocktails folder doesn't exist, create it using `mkdir CodingAndCocktails`. Make sure you switch into your home folder by typing `cd ~` first. You should have done this when following [**The Tools**](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/organization---codingandcocktails-folder.html) worksheet.
+    {% endhint %}
     {% hint style='tip' %}
 Both Git Bash and oh-my-zsh use formatting to distinguish between what's a directory and what's a file. You won't be able to `cd` into a file.
     {% endhint %}
@@ -32,9 +35,6 @@ You'll also want to utilize **tab completion** with your **tab** key and your **
 
 7. Let's switch back to the home directory by typing `cd ~`.
 8. Enter in `cd Cod` then stop and hit your `tab` key. Tab completion will find your CodingAndCocktails folder and enter the rest in for you!
-    {% hint style='info' %}
-If the CodingAndCocktails folder doesn't exist, create it using `mkdir CodingAndCocktails`.
-    {% endhint %}
 
 Now try navigating around on your own! See the video below for some help. You can watch it in fullscreen as well. To download the video, right-click and click "Save video as...".
 

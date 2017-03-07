@@ -14,7 +14,7 @@ Let's get straight to learning how to manipulate files and directory structures!
 
 4. Let's create a file by typing `touch CLIFun.txt`.
     {% hint style='info' %}
-If you go to that same location through your GUI like you might be used to, you'll see the file created there as a visual representation.
+If you go to that same location through your GUI like you might be used to, you'll see the file created there as a visual representation. You open the current directory you're in on a Mac by typing `open .`. On a Windows machine, `start .` will do the same.
     {% endhint %}
 
 5. Now, we'll want to add some content to your file. Open your file in vim by typing `vim CLIFun.txt`.
@@ -35,7 +35,7 @@ While **vim** is one option for a text editor, there are many others available. 
       ```
 6. Go back to iTerm2/Git Bash and hit `i`. That'll put you into **INSERT** mode.
 
-7. Now hit **⌘V** on your Mac or **CTRL + V** on your Windows laptop to paste the text you copied.
+7. Now hit **⌘V** on your Mac or **Shift + Ins** in Git Bash on your Windows laptop to paste the text you copied.
 
 8. Hit `esc` to exit out of **INSERT** mode.
 
@@ -77,17 +77,22 @@ Oh no, we got an error again: '**cp: CommandLineBasics is a directory \(not copi
 
 18. Let's try that again. Type `cp -r CommandLineBasics CommandLineBasics2`.
       {% hint style='tip' %}
-Don't forget your tab completion! This time, you'll see a **CommandLineBasics2** directory that's the same as the directory we copied it from, except that it has a more current timestamp.
+Don't forget your tab completion!
       {% endhint %}
 
-19. To remove the directory, use the recursive option again by typing `rm -r CommandLineBasics2`.
+19. List the directory contents to make sure the copy worked by entering `ls -al`.
+      {% hint style='tip' %}
+This time, you'll see a **CommandLineBasics2** directory that's the same as the directory we copied it from, except that it has a more current timestamp.
+      {% endhint %}
+
+20. To remove the directory, use the recursive option again by typing `rm -r CommandLineBasics2`.
       {% hint style='danger' %}
 Be **VERY** careful when running rm commands. If you do it from  the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or Mac OSx\) or other really important data!!
       {% endhint %}
 
    What if we need to move a file? Well, then use `mv`! The proper syntax for the command is `mv <source> <destination>`.
 
-20. Type `mv ~/CodingAndCocktails/CommandLineBasics/CLIFun.txt ~/CodingAndCocktails/`.
+21. Type `mv ~/CodingAndCocktails/CommandLineBasics/CLIFun.txt ~/CodingAndCocktails/`.
       {% hint style='info' %}
 If you're in the CodingAndCocktails directory, the command `mv CommandLineBasics/CLIFun.txt .` will also work. Remember, '**.**' is a shortcut for the current directory.
       {% endhint %}
