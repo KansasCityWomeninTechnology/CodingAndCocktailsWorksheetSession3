@@ -29,7 +29,7 @@ The '`#!` is known as a **shebang** and tells the shell what **interpreter** to 
 
 3. Save your script within vim by typing `:wq`.
 
-4. Enter`ls -al` in the command line.
+4. Enter`ls -alh` in the command line. Remember, you could also run `la` instead if you wanted to use the alias that was created earlier.
     {% hint style='info' %}
 You'll see the permissions for each file listed in the left-most column. The third and fourth columns list the user and group ownership respectively. We won't have to change the ownership of the file \(which can be done with `chown`\) since our user will both be creating the file and running it.
     {% endhint %}
