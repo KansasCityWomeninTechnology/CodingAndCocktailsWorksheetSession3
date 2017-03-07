@@ -35,7 +35,7 @@ While **vim** is one option for a text editor, there are many others available. 
       ```
 6. Go back to iTerm2/Git Bash and hit `i`. That'll put you into **INSERT** mode.
 
-7. Now paste the text you copied into your CLI window.
+7. Now hit **⌘V** on your Mac or **Shift + Ins** in Git Bash on your Windows laptop to paste the text you copied.
 
 8. Hit `esc` to exit out of **INSERT** mode.
 
