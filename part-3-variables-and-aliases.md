@@ -16,33 +16,39 @@ Be careful when including spaces - in that case, you'll want to enclose your val
 Note the `$` at the beginning of the variable.
     {% endhint %}
 
-  Now try displaying the values for the built-in OS variables of HOME, USERNAME, and HOST. Remember, you should use the syntax `echo $VAR`.
+  Now try displaying the values for the built-in OS variables of HOME and USERNAME. Remember, you should use the syntax `echo $VAR`.
 
-  **PATH** is a unique variable. It includes the locations of all executables. When you run a command, your shell looks in the directories specified there for an executable with a matching name. You can add a custom directories depending on where a program gets installed. Let's check out what's included in our path:
+  **PATH** is a unique variable. It includes the locations of all executables, which are files or programs able to be run by a computer. When you run a command, your shell looks in the directories specified there for an executable with a matching name. Most installers modify your path automatically for you to include any new paths needed! Let's check out what's included in our path:
 
-3. `echo $PATH`
+3. Type out `echo $PATH`.
+    {% hint style='info' %}
+To add directories to the PATH, you would use the syntax `export PATH=/some/directory:$PATH`. Notice that you can reference the PATH variable in creating the new PATH. **Be very careful editing your PATH as you could loose access to your programs!**
+    {% endhint %}
 
-  To add directories to the PATH, you would use the syntax `export PATH=/some/directory:$PATH`. Notice that you can reference the PATH variable in creating the new PATH. Many installers do this step automagically for you!
+  So what's an alias? Basically, it's a shortcut you create to a command. For example, remember the `ls -al` command we used earlier? You can add an `-h` option to show file sizes in a more **h**uman readeable format. The command `ls -alh` gives us more information and makes the output easier to read. Let's bind it to a new command, `la`, to save us some keystrokes:
 
-  So what's an alias? Basically, it's a shortcut you create to a command. For example, remember the `ls -al` command we used earlier? It gives us more information and makes the output easier to read. Let's bind it to `ls` to save us some keystrokes:
+4. Enter `alias "ls -alh"=la`.
 
-4. `alias ls="ls -al"`
+  Now you can enter `la` and get the output for `ls -alh` instead. You can imagine how much time this customization can save!
+    {% hint style='tip' %}
+The command `ll` is already built-in as an alias for `ls -al`.
+    {% endhint %}
 
-  Now you can enter `ls` and get the output for `ls -al` instead. You can imagine how much time this customization can save!
+5. Now, close out of your terminal and open a new one. You'll notice that the alias we just create didn't persist. That's because every time you open a new terminal, it's settings, namely what's called your **profile,** are reloaded.
 
-  If you close out of your terminal and open a new one, you'll notice that the alias we just create didn't persist. That's because every time you open a new terminal, it's settings, namely what's called your **profile,** are reloaded. You can edit your profile by following these steps:
+  You can edit your profile by following these steps:
 
-5. Create the file by typing `touch ~/.bash_profile`.
+6. Create the file by typing `touch ~/.bash_profile`.
     {% hint style='info' %}
 If the file already exists, its timestamp will be updated but no harm will be done.
     {% endhint %}
 
-6. Type `vim ~/.bash_profile` and hit enter. Then add the alias command we used above using INSERT mode with `i`.
+7. Type `vim ~/.bash_profile` and hit enter. Then add the alias command we used above using INSERT mode with `i`.
     {% hint style='tip' %}
 Jump back to [**Part 1**](/part-1-navigation-and-basics.md) if you need some help with navigating in vim.
     {% endhint %}
 
-7. Type`source ~/.bash_profile` in your command line.
+8. Type`source ~/.bash_profile` in your command line.
     {% hint style='info' %}
 This will load or reload your profile settings.
     {% endhint %}
