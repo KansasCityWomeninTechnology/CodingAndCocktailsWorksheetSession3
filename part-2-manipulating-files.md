@@ -90,9 +90,9 @@ This time, you'll see a **CommandLineBasics2** directory that's the same as the 
 Be **VERY** careful when running rm commands. If you do it from  the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or Mac OSx\) or other really important data!!
       {% endhint %}
 
-   What if we need to move a file? Well, then use `mv`! The proper syntax for the command is `mv <source> <destination>`.
+What if we need to move a file? Well, then use `mv`! The proper syntax for the command is `mv <source> <destination>`.
 
-21. Type `mv ~/CodingAndCocktails/CommandLineBasics/CLIFun.txt ~/CodingAndCocktails/`.
+1. Type `mv ~/CodingAndCocktails/CommandLineBasics/CLIFun.txt ~/CodingAndCocktails/`.
       {% hint style='info' %}
 If you're in the CodingAndCocktails directory, the command `mv CommandLineBasics/CLIFun.txt .` will also work. Remember, '**.**' is a shortcut for the current directory.
       {% endhint %}

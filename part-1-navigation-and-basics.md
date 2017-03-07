@@ -5,6 +5,9 @@
 #### Where am I?!?
 
 The command line is just another way to navigate your computer's directory structure and issue commands. Typically, you have a **GUI**, or **G**raphical **U**ser **I**nterface, available to you. So why use a **CLI **\(**C**ommand **L**ine **I**nterface\)? Well, believe it or not, it's faster, uses fewer resources, and is much more powerful than a GUI! Let's take a look at how to orient yourself at the command line.
+    {% hint style='info' %}
+The CLI might also be called a terminal.
+    {% endhint %}
 
 When you first open iTerm2 in a Mac or Git Bash in Windows, you'll likely be in your home directory at what's called a **prompt** in a **shell**. A shell is the program that provides the text-only user interface. The prompt is what's waiting on you to provide input to the shell in the form of a command. You probably will see a **~** in your CLI as well. This is a shortcut for your home directory.
 
@@ -33,8 +36,8 @@ The '**..**' is a shortcut for the parent directory  much like the **~** is a sh
 
 You'll also want to utilize **tab completion** with your **tab** key and your **up/down** arrow keys. Tab completion will allow you to enter in part of a filename or directory name and then it'll be completed it for you. Your up/down arrow keys will allow you to scroll through previous commands.
 
-7. Let's switch back to the home directory by typing `cd ~`.
-8. Enter in `cd Cod` then stop and hit your `tab` key. Tab completion will find your CodingAndCocktails folder and enter the rest in for you!
+1. Let's switch back to the home directory by typing `cd ~`.
+2. Enter in `cd Cod` then stop and hit your `tab` key. Tab completion will find your CodingAndCocktails folder and enter the rest in for you!
 
 Now try navigating around on your own! See the video below for some help. You can watch it in fullscreen as well. To download the video, right-click and click "Save video as...".
 

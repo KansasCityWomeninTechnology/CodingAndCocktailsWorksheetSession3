@@ -10,7 +10,7 @@ To create a script, you'll need to write it and give it the proper **permissions
 
 So let's try it!
 
-1. Open a new file in your CodingandCocktails folder by typing `vim CnCScript.sh`.
+1. Open a new file in your CodingandCocktails folder by typing `vim CnCScript.sh`. This command will both create and open the file for you.
     {% hint style='info' %}
 The '.sh' is optional but makes it easy for you to tell which files are scripts.
     {% endhint %}
