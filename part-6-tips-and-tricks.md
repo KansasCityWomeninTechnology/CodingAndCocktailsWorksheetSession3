@@ -60,6 +60,15 @@ Here's a couple of fun things you can do in the command line:
 
 1. Play a fun game to sharpen your vim skills. Visit https://vim-adventures.com/.
 
+2. Make your computer talk!
+
+**Mac:** Type `say "Coding and Cocktails is my favorite place"`.
+    {% hint style='tip' %}
+You can add new voices under System Preferences -> Accessibility -> Speech. If you want to specify a voice, use the syntax  `say -v "Vicki" "hey there pardner"`.
+    {% endhint %}
+
+**Windows:** Type `PowerShell -Command "Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('what you want your computer to say');"`.
+
 Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have!
 
 1. **Mac:** Type `telnet towel.blinkenlights.nl` and hit Enter.
