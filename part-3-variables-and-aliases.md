@@ -22,7 +22,10 @@ Note the `$` at the beginning of the variable.
 
 3. Type out `echo $PATH` ![](images/enter.png).
     {% hint style='info' %}
-To add directories to the PATH, you would use the syntax `export PATH=/some/directory:$PATH`. Notice that you can reference the PATH variable in creating the new PATH. **Be very careful editing your PATH as you could loose access to your programs!**
+To add directories to the PATH, you would use the syntax `export PATH=/some/directory:$PATH`. Notice that you can reference the PATH variable in creating the new PATH.
+    {% endhint %}
+    {% hint style='danger' %}
+Be **VERY** careful editing your PATH as you could loose access to your programs!
     {% endhint %}
 
   So what's an alias? Basically, it's a shortcut you create to a command. For example, remember the `ls -al` command we used earlier? You can add an `-h` option to show file sizes in a more **h**uman readeable format. The command `ls -alh` gives us more information and makes the output easier to read. Let's bind it to a new command, `la`, to save us some keystrokes:
