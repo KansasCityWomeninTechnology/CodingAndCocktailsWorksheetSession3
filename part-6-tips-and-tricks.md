@@ -54,13 +54,31 @@ To be used in the format `<command> /?`. Example: `grep --help`.
 
 * Ctrl + C: Cancels out of the current command.
 
-**Have some fun**!
+**Have some fun!**
 
 Here's a couple of fun things you can do in the command line:
 
-1. Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have! Type `telnet towel.blinkenlights.nl` and hit Enter.
+1. Play a fun game to sharpen your vim skills. Visit https://vim-adventures.com/.
+
+Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have!
+
+1. **Mac:** Type `telnet towel.blinkenlights.nl` and hit Enter.
     {% hint style='info' %}
 The `telnet` command uses a **protocol** that allows you to log in to another remote machine, located in this case at towel.blinkenlights.nl. A protocol is a set of procedures and rules for data transmission.
     {% endhint %}
 
-2. You can also play a fun game to sharpen your vim skills. Visit https://vim-adventures.com/.
+2. **Windows:** Enable telnet by following the video below, then type `winpty telnet towel.blinkenlights.nl` and hit Enter.
+    {% hint style='info' %}
+The `winpty` command allows Git Bash to properly use the `telnet` command in Windows. You could also run `telnet towel.blinkenlights.nl` in the built-in Windows command prompt to get the same results.
+    {% endhint %}
+
+{% raw %}
+  <video id="enable-telnet" class="video-js" controls preload="auto" width="900" height="600"
+  poster="enable-telnet.jpg" data-setup="{}">
+  <source src="videos/enable-telnet.mp4" type='video/mp4'>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that
+    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>
+  </video>
+{% endraw %}
