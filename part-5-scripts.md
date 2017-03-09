@@ -17,12 +17,12 @@ The '.sh' is optional but makes it easy for you to tell which files are scripts.
 
 2. Enter the following in your script. Remember, you'll type `i` to enter INSERT mode in vim. If you'd like to add more comments such as an author or date to your script, you can do that by starting the comment line with `#`.
 
-   * ```
-     #!/bin/bash
-     # My first script
+    ```
+    #!/bin/bash
+    # My first script
 
-     echo "Hello Coding & Cocktails!"
-     ```
+    echo "Hello Coding & Cocktails!"
+    ```
     {% hint style='info' %}
 The '`#!` is known as a **shebang** and tells the shell what **interpreter** to use. An interpreter is basically a program that executes commands. In this script, we're assigning the Bash shell as the interpreter. The rest of the script, in this case, then needs to be written in the Bash language. If you want to learn more about Bash, you can check out this Wikipedia entry: https://en.wikipedia.org/wiki/Bash_(Unix_shell).
     {% endhint %}
