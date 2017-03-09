@@ -17,7 +17,7 @@ Let's get straight to learning how to manipulate files and directory structures!
 If you go to that same location through your GUI like you might be more used to, you'll see the file created there as a visual representation. You open the current directory you're in on a Mac by using `open .`. On a Windows machine, `start .` will do the same.
     {% endhint %}
 
-5. Now, we'll want to add some content to your file. Open your file in vim by typing `vim CLIFun.txt` ![](images/enter.png).
+5. Let's add some content to our file. Open your file in vim by typing `vim CLIFun.txt` ![](images/enter.png).
     {% hint style='info' %}
 While **vim** is one option for a text editor, there are many others available. You can use this [**vim cheat sheet**](https://vim.rtorr.com/)** **to take full advantage of** **its powerful features.
     {% endhint %}
