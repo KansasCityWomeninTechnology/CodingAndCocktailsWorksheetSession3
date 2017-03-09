@@ -63,24 +63,24 @@ Here's a few fun things you can do in the command line:
 
 2. Make your computer talk!
 
-    **Mac:** Type `say "Coding and Cocktails is my favorite place"`.
+    **Mac:** Type `say "Coding and Cocktails is my favorite place"` ![](images/enter.png).
     {% hint style='tip' %}
 You can add new voices under System Preferences -> Accessibility -> Speech. If you want to specify a voice, use the syntax  `say -v "Vicki" "hey there pardner"`.
     {% endhint %}
 
-    **Windows:** Enter the following.
+    **Windows:** Enter the following, then ![](images/enter.png).
         ```
-        PowerShell -Command "Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('what you want your computer to say');"`.
+        PowerShell -Command "Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('what you want your computer to say');"`
         ```
 
 3. Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have!
 
-    **Mac:** Type `telnet towel.blinkenlights.nl` and hit Enter.
+    **Mac:** Type `telnet towel.blinkenlights.nl` ![](images/enter.png).
     {% hint style='info' %}
 The `telnet` command uses a **protocol** that allows you to log in to another remote machine, located in this case at towel.blinkenlights.nl. A protocol is a set of procedures and rules for data transmission.
     {% endhint %}
 
-    **Windows:** Enable telnet by following the video below, then type `winpty telnet towel.blinkenlights.nl` and hit Enter.
+    **Windows:** Enable telnet by following the video below, then type `winpty telnet towel.blinkenlights.nl` ![](images/enter.png).
     {% hint style='info' %}
 The `winpty` command allows Git Bash to properly use the `telnet` command in Windows. You could also run `telnet towel.blinkenlights.nl` in the built-in Windows command prompt to get the same results.
     {% endhint %}

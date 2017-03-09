@@ -21,9 +21,9 @@ While following along with the worksheet, type out the commands instead of doing
 
 1. Open iTerm2 on a Mac or Git Bash in Windows.
 
-2. Type `pwd` in your CLI. ![](images/enter.png)
+2. Type `pwd` ![](images/enter.png) in your CLI to see your current user's home directory.
     {% hint style='info' %}
-When you type `pwd` and hit enter, you should see your current user's home directory listed.
+The ![](images/enter.png) icon tells you when to hit `enter`.
     {% endhint %}
 
 3. Type `ls` ![](images/enter.png) to see the contents of your current directory.

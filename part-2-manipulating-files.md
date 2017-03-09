@@ -6,18 +6,18 @@
 
 Let's get straight to learning how to manipulate files and directory structures!
 
-1. Change into your home folder by typing `cd ~`. Type `ls -al` to check if a **CodingAndCocktails** folder already exists.
+1. Change into your home folder by typing `cd ~`![](images/enter.png). Type `ls -al` ![](images/enter.png) to check if a **CodingAndCocktails** folder already exists.
 
-2. In your CodingAndCocktails folder, create a **CommandLineBasics** folder by entering in `mkdir CommandLineBasics`.
+2. In your CodingAndCocktails folder, create a **CommandLineBasics** folder by entering in `mkdir CommandLineBasics` ![](images/enter.png).
 
-3. Then change into your newly created directory by typing `cd CommandLineBasics`.
+3. Then change into your newly created directory by typing `cd CommandLineBasics` ![](images/enter.png).
 
-4. Let's create a file by typing `touch CLIFun.txt`.
+4. Let's create a file by typing `touch CLIFun.txt` ![](images/enter.png).
     {% hint style='info' %}
-If you go to that same location through your GUI like you might be used to, you'll see the file created there as a visual representation. You open the current directory you're in on a Mac by typing `open .`. On a Windows machine, `start .` will do the same.
+If you go to that same location through your GUI like you might be more used to, you'll see the file created there as a visual representation. You open the current directory you're in on a Mac by using `open .`. On a Windows machine, `start .` will do the same.
     {% endhint %}
 
-5. Now, we'll want to add some content to your file. Open your file in vim by typing `vim CLIFun.txt`.
+5. Now, we'll want to add some content to your file. Open your file in vim by typing `vim CLIFun.txt` ![](images/enter.png).
     {% hint style='info' %}
 While **vim** is one option for a text editor, there are many others available. You can use this [**vim cheat sheet**](https://vim.rtorr.com/)** **to take full advantage of** **its powerful features.
     {% endhint %}
@@ -39,62 +39,62 @@ While **vim** is one option for a text editor, there are many others available. 
 
 8. Hit `esc` to exit out of **INSERT** mode.
 
-9. Next, type in `:wq` and then hit **Enter**. Awesome, now we've got some content to play with!
+9. Next, type in `:wq` ![](images/enter.png). Awesome, now we've got some content to play with!
     {% hint style='info' %}
 The 'w' stands for **write** and the 'q' stands for **quit**.
     {% endhint %}
 
-10. Now type `cat CLIFun.txt` to display the contents of the file. Cool!
+10. Now type `cat CLIFun.txt` ![](images/enter.png) to display the contents of the file. Cool!
 
-11. To add more content, type `vim CLIFun.txt` to enter the editor again. Hit `i` again like we did before and start entering in some text.
+11. To add more content, type `vim CLIFun.txt` ![](images/enter.png) to enter the editor again. Hit `i` again like we did before and start entering in some text.
 
    But that messed up our lorem ipsum sample! What to do?!? No worries, let's just close out of the text editor without saving our changes. We did a 'write' and then 'quit' earlier, let's instead skip the 'write' part.
 
 12. Hit `esc` again to exit out of **INSERT** mode.
 
-13. Hit `:q` then **Enter**.
+13. Hit `:q` ![](images/enter.png).
       {% hint style='info' %}
-You'll be prompted with '**E37: No write since last change \(add ! to override\)**'. Follow the instructions there. Hit `:q!` then **Enter**.
+You'll be prompted with '**E37: No write since last change \(add ! to override\)**'. Follow the instructions there. Hit `:q!` ![](images/enter.png).
       {% endhint %}
 
-14. Type `cat CLIFun.txt` again to confirm your changes weren't saved.
+14. Type `cat CLIFun.txt` ![](images/enter.png) again to confirm your changes weren't saved.
 
    Let's now work with `cp` and `rm`** **to make copies of our file and remove files.
 
-15. Type `cp CLIFun.txt CLIFun2.txt`.
+15. Type `cp CLIFun.txt CLIFun2.txt` ![](images/enter.png).
       {% hint style='info' %}
 If you do an `ls -al` you'll see there's now a **CLIFun2.txt** file with the same size as the **CLIFun.txt** file but a more current timestamp.
       {% endhint %}
 
-16. Ok, let's undo that by entering `rm CLIFun2.txt`.
+16. Ok, let's undo that by entering `rm CLIFun2.txt` ![](images/enter.png).
 
    Let's try copying a directory as well.
 
-17. Type `cp CommandLineBasics CommandLineBasics2` after changing into the CodingAndCocktails parent directory.
+17. Type `cp CommandLineBasics CommandLineBasics2` ![](images/enter.png) after changing into the CodingAndCocktails parent directory.
       {% hint style='info' %}
 Oh no, we got an error again: '**cp: CommandLineBasics is a directory \(not copied\)**'! It looks like `cp` doesn't work with directories, but actually, we can copy a directory by adding an option to `cp`. We'll add a **-r** for **recursive**.
       {% endhint %}
 
-18. Let's try that again. Type `cp -r CommandLineBasics CommandLineBasics2`.
+18. Let's try that again. Type `cp -r CommandLineBasics CommandLineBasics2` ![](images/enter.png).
       {% hint style='tip' %}
 Don't forget your tab completion!
       {% endhint %}
 
-19. List the directory contents to make sure the copy worked by entering `ls -al`.
+19. List the directory contents to make sure the copy worked by entering `ls -al` ![](images/enter.png).
       {% hint style='tip' %}
 This time, you'll see a **CommandLineBasics2** directory that's the same as the directory we copied it from, except that it has a more current timestamp.
       {% endhint %}
 
-20. To remove the directory, use the recursive option again by typing `rm -r CommandLineBasics2`.
+20. To remove the directory, use the recursive option again by typing `rm -r CommandLineBasics2` ![](images/enter.png).
       {% hint style='danger' %}
 Be **VERY** careful when running rm commands. If you do it from  the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or Mac OSx\) or other really important data!!
       {% endhint %}
 
-What if we need to move a file? Well, then use `mv`! The proper syntax for the command is `mv <source> <destination>`.
+What if we need to move a file? Well, we can use `mv`! The proper syntax for the command is `mv <source> <destination>`.
 
-1. Type `mv ~/CodingAndCocktails/CommandLineBasics/CLIFun.txt ~/CodingAndCocktails/`.
+1. Type `mv ~/CodingAndCocktails/CommandLineBasics/CLIFun.txt ~/CodingAndCocktails/` ![](images/enter.png).
       {% hint style='info' %}
-If you're in the CodingAndCocktails directory, the command `mv CommandLineBasics/CLIFun.txt .` will also work. Remember, '**.**' is a shortcut for the current directory.
+If you're in the CodingAndCocktails directory, the command `mv CommandLineBasics/CLIFun.txt .` will also work. Remember, **.** is a shortcut for the current directory.
       {% endhint %}
 
 

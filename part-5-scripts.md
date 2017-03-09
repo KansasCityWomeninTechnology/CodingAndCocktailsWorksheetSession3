@@ -10,7 +10,7 @@ To create a script, you'll need to write it and give it the proper **permissions
 
 So let's try it!
 
-1. Open a new file in your CodingandCocktails folder by typing `vim CnCScript.sh`. This command will both create and open the file for you.
+1. Open a new file in your CodingandCocktails folder by typing `vim CnCScript.sh` ![](images/enter.png). This command will both create and open the file for you.
     {% hint style='info' %}
 The '.sh' is optional but makes it easy for you to tell which files are scripts.
     {% endhint %}
@@ -27,20 +27,20 @@ The '.sh' is optional but makes it easy for you to tell which files are scripts.
 The `#!` is known as a **shebang** and tells the shell what **interpreter** to use. An interpreter is basically a program that executes commands. In this script, we're assigning the Bash shell as the interpreter. The rest of the script, in this case, then needs to be written in the Bash language. If you want to learn more about Bash, you can check out this Wikipedia entry: [https://en.wikipedia.org/wiki/Bash_(Unix_shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell)).
     {% endhint %}
 
-3. Save your script within vim by typing `:wq`.
+3. Save your script within vim by typing `:wq` ![](images/enter.png).
 
-4. Enter`ls -alh` in the command line. Remember, you could also run `la` instead if you wanted to use the alias that was created earlier.
+4. Enter`ls -alh`![](images/enter.png) in the command line. Remember, you could also run `la` instead if you wanted to use the alias that was created earlier.
     {% hint style='info' %}
 You'll see the permissions for each file listed in the left-most column. The third and fourth columns list the user and group ownership respectively. We won't have to change the ownership of the file \(which can be done with `chown`\) since our user will both be creating the file and running it.
     {% endhint %}
 
   Your shell uses **r**, **w**, and **x **along with corresponding numerical values **4**, **2**, and **1** for each to represent read, write, or execute. You'll need to specify values for the **owner **\(**u**\), \(**g**\)**roup**, and \(**o**\)**ther** in that order. We can run the following to add read, write, AND execute permissions for the owner.
 
-5. Enter `chmod u+rwx CnCScript.sh` or `chmod 700 CnCScript.sh` into your command line prompt.
+5. Enter `chmod u+rwx CnCScript.sh` ![](images/enter.png) or `chmod 700 CnCScript.sh` ![](images/enter.png) into your command line prompt. These two commands will yield the same results.
     {% hint style='info' %}
 To get the numerical value for read, write, and execute, you add their individual values. So, 4+2+1=7. The first number denotes the permissions for the user while the second and third are for the group and other. "Other" refers to everyone else that's not a member of the owning group.
     {% endhint %}
 
-6. Type in `./CnCScript.sh` and hit enter to run your script.
+6. Type in `./CnCScript.sh` ![](images/enter.png) to run your script.
 
-You've just written your first script! Congrats!
+You've just written your first script! Yay!
