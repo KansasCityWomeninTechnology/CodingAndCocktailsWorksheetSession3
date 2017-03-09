@@ -24,7 +24,7 @@ The '.sh' is optional but makes it easy for you to tell which files are scripts.
     echo "Hello Coding & Cocktails!"
     ```
     {% hint style='info' %}
-The '`#!` is known as a **shebang** and tells the shell what **interpreter** to use. An interpreter is basically a program that executes commands. In this script, we're assigning the Bash shell as the interpreter. The rest of the script, in this case, then needs to be written in the Bash language. If you want to learn more about Bash, you can check out this Wikipedia entry: https://en.wikipedia.org/wiki/Bash_(Unix_shell).
+The `#!` is known as a **shebang** and tells the shell what **interpreter** to use. An interpreter is basically a program that executes commands. In this script, we're assigning the Bash shell as the interpreter. The rest of the script, in this case, then needs to be written in the Bash language. If you want to learn more about Bash, you can check out this Wikipedia entry: [https://en.wikipedia.org/wiki/Bash_(Unix_shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell)).
     {% endhint %}
 
 3. Save your script within vim by typing `:wq`.
@@ -43,4 +43,4 @@ To get the numerical value for read, write, and execute, you add their individua
 
 6. Type in `./CnCScript.sh` and hit enter to run your script.
 
-You've just written your first script! Yay!
+You've just written your first script! Congrats!

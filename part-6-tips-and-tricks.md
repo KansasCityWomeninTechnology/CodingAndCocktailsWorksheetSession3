@@ -10,10 +10,10 @@ Below is a list of more useful stuff and shortcuts. Try them out!
 
 * `date` - will show you the current system date
 * `hostname` - shows the machine name you're currently logged into
-* `head` - prints out the first `-n` lines of a file \(defaults to 10\)
-* `tail` - similar to head, prints out the last _n_ lines of a file \(also defaults to 10\)
+* `head` - prints out the first _n_ lines of a file \(defaults to 10\); example: `head -5 file.txt`
+* `tail` - similar to head, prints out the last _n_ lines of a file \(also defaults to 10\); example: `tail -5 file.txt`
     {% hint style='tip' %}
-`tail -nf` will continue to show the last _n_ lines of a file so that if it's updated, the output will be as well.
+`tail -<n>f` will continue to show the last _n_ lines of a file so that if it's updated, the output will be as well.
     {% endhint %}
 * `clear`- will clear your terminal
 * `whoami` - tells you the username that you're logged in as
@@ -42,6 +42,7 @@ For example, `man chmod` will give you information on how to use the `chmod` com
     {% hint style='tip' %}
 To be used in the format `<command> /?`. Example: `grep --help`.
     {% endhint %}
+
 **Moving around at the CLI prompt**:
 
 * Ctrl + U: Clears the line from the cursor point back to the beginning.
@@ -62,24 +63,24 @@ Here's a couple of fun things you can do in the command line:
 
 2. Make your computer talk!
 
-**Mac:** Type `say "Coding and Cocktails is my favorite place"`.
-    {% hint style='tip' %}
-You can add new voices under System Preferences -> Accessibility -> Speech. If you want to specify a voice, use the syntax  `say -v "Vicki" "hey there pardner"`.
-    {% endhint %}
+    **Mac:** Type `say "Coding and Cocktails is my favorite place"`.
+        {% hint style='tip' %}
+    You can add new voices under System Preferences -> Accessibility -> Speech. If you want to specify a voice, use the syntax  `say -v "Vicki" "hey there pardner"`.
+        {% endhint %}
 
-**Windows:** Type `PowerShell -Command "Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('what you want your computer to say');"`.
+    **Windows:** Type `PowerShell -Command "Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('what you want your computer to say');"`.
 
-Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have!
+3. Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have!
 
-1. **Mac:** Type `telnet towel.blinkenlights.nl` and hit Enter.
-    {% hint style='info' %}
-The `telnet` command uses a **protocol** that allows you to log in to another remote machine, located in this case at towel.blinkenlights.nl. A protocol is a set of procedures and rules for data transmission.
-    {% endhint %}
+    **Mac:** Type `telnet towel.blinkenlights.nl` and hit Enter.
+        {% hint style='info' %}
+    The `telnet` command uses a **protocol** that allows you to log in to another remote machine, located in this case at towel.blinkenlights.nl. A protocol is a set of procedures and rules for data transmission.
+        {% endhint %}
 
-2. **Windows:** Enable telnet by following the video below, then type `winpty telnet towel.blinkenlights.nl` and hit Enter.
-    {% hint style='info' %}
-The `winpty` command allows Git Bash to properly use the `telnet` command in Windows. You could also run `telnet towel.blinkenlights.nl` in the built-in Windows command prompt to get the same results.
-    {% endhint %}
+    **Windows:** Enable telnet by following the video below, then type `winpty telnet towel.blinkenlights.nl` and hit Enter.
+        {% hint style='info' %}
+    The `winpty` command allows Git Bash to properly use the `telnet` command in Windows. You could also run `telnet towel.blinkenlights.nl` in the built-in Windows command prompt to get the same results.
+        {% endhint %}
 
 {% raw %}
   <video id="enable-telnet" class="video-js" controls preload="auto" width="900" height="600"
