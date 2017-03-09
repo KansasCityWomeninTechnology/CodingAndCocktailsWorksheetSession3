@@ -21,30 +21,30 @@ While following along with the worksheet, type out the commands instead of doing
 
 1. Open iTerm2 on a Mac or Git Bash in Windows.
 
-2. Type `pwd` in your CLI and hit Enter.
+2. Type `pwd` in your CLI. [![](images/enter.png)]
     {% hint style='info' %}
 When you type `pwd` and hit enter, you should see your current user's home directory listed.
     {% endhint %}
 
-3. Type `ls`** **to see the contents of your current directory.
-4. Type `ls -al` and compare it to your previous output.  You should see more information and all files, including hidden files.
-5. Next, enter in `cd CodingAndCocktails` to **change** **directory** into the **CodingAndCocktails** directory listed in the output of `ls`.
+3. Type `ls` [![](images/enter.png)] to see the contents of your current directory.
+4. Type `ls -al` [![](images/enter.png)] and compare it to your previous output.  You should see more information and all files, including hidden files.
+5. Next, enter in `cd CodingAndCocktails` [![](images/enter.png)] to **change** **directory** into the **CodingAndCocktails** directory listed in the output of `ls`.
     {% hint style='info' %}
-If the CodingAndCocktails folder doesn't exist, create it using `mkdir CodingAndCocktails`. Make sure you switch into your home folder by typing `cd ~` first. You should have done this when following [**The Tools**](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/organization---codingandcocktails-folder.html) worksheet.
+If the CodingAndCocktails folder doesn't exist, create it using `mkdir CodingAndCocktails` [![](images/enter.png)]. Make sure you switch into your home folder by typing `cd ~` [![](images/enter.png)] first. You should have done this when following [**The Tools**](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/organization---codingandcocktails-folder.html) worksheet.
     {% endhint %}
     {% hint style='tip' %}
 Both Git Bash and oh-my-zsh use formatting to distinguish between what's a directory and what's a file. You won't be able to `cd` into a file.
     {% endhint %}
 
-6. Once you've moved into a new directory, type `ls -al`** **again to see what's listed there.
-7. Let's move back up one directory. To do this, type `cd ..`.
+6. Once you've moved into a new directory, type `ls -al` [![](images/enter.png)] again to see what's listed there.
+7. Let's move back up one directory. To do this, type `cd ..` [![](images/enter.png)].
     {% hint style='info' %}
-The '**..**' is a shortcut for the parent directory  much like the **~** is a shortcut for your home directory. A parent directory would be the directory that contains your current directory. No matter where you are, `cd ..`** **or `cd ~` are always valid commands.
+The **..** is a shortcut for the parent directory  much like the **~** is a shortcut for your home directory. A parent directory would be the directory that contains your current directory. No matter where you are, `cd ..` or `cd ~` are always valid commands.
     {% endhint %}
 
 You'll also want to utilize **tab completion** with your **tab** key and your **up/down** arrow keys. Tab completion will allow you to enter in part of a filename or directory name and then it'll be completed for you. Your up/down arrow keys will allow you to scroll through previous commands.
 
-1. Let's switch back to the home directory by typing `cd ~`.
+1. Let's switch back to the home directory by typing `cd ~` [![](images/enter.png)].
 2. Enter in `cd Cod` then stop and hit your `tab` key. Tab completion will find your CodingAndCocktails folder and enter the rest in for you!
 
 Now try navigating around on your own! See the video below for some help. You can watch it in fullscreen as well. To download the video, right-click and click "Save video as...".
