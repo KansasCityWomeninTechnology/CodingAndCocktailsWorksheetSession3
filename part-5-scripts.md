@@ -36,7 +36,7 @@ You'll see the permissions for each file listed in the left-most column. The thi
 
   Your shell uses **r**, **w**, and **x **along with corresponding numerical values **4**, **2**, and **1** for each to represent read, write, or execute. You'll need to specify values for the **owner **\(**u**\), \(**g**\)**roup**, and \(**o**\)**ther** in that order. We can run the following to add read, write, AND execute permissions for the owner.
 
-5. Enter `chmod u+rwx CnCScript.sh` ![](images/enter.png) or `chmod 700 CnCScript.sh` ![](images/enter.png) into your command line prompt. These two commands will yield the same results.
+5. Enter `chmod u+rwx CnCScript.sh` ![](images/enter.png) or `chmod 700 CnCScript.sh` ![](images/enter.png) into your command line prompt. Both of these commands yield the same results.
     {% hint style='info' %}
 To get the numerical value for read, write, and execute, you add their individual values. So, 4+2+1=7. The first number denotes the permissions for the user while the second and third are for the group and other. "Other" refers to everyone else that's not a member of the owning group.
     {% endhint %}
