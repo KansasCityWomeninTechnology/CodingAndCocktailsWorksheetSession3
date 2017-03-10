@@ -2,7 +2,7 @@
 
 ---
 
-#### Passing Output to a Program or File
+#### Passing output to stream
 
 **Pipe** is used to pass output to another **program or utility**. **Redirect** is used to pass output to either a **file or stream**.
 
@@ -18,6 +18,8 @@ The **END** can actually be any word you want. You're telling `sort` to accept i
 3. When you're done, type `END` ![](images/enter.png).
 
     The sorted list of your cocktails now shows as your output.
+
+#### Redirecting output to a file
 
 You can also redirect to a file. Let's a make a list of our favorite beverages.
 
@@ -40,6 +42,8 @@ Remember you can use your up arrow here to scroll through your prior commands!
     {% endhint %}
 
 5. To add your second favorite color type `echo "My second favorite color is green" >> fav_color.txt` ![](images/enter.png) then `cat fav_color.txt` ![](images/enter.png).
+
+#### Pipes
 
 A pipe is a chain of processes so that output of one process \(stdout\) is fed to the input \(stdin\) of another.
 

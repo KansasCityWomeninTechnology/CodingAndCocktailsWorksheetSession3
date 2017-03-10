@@ -2,7 +2,7 @@
 
 ---
 
-#### Create and Edit Files and Directories
+#### Create and edit files and directories
 
 Let's get straight to learning how to manipulate files and directory structures!
 
@@ -90,6 +90,8 @@ This time, you'll see a **CommandLineBasics2** directory that's the same as the 
 Be **VERY** careful when running rm commands. If you do it from  the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or Mac OSx\) or other really important data!!
       {% endhint %}
 
+#### Moving a file or directory
+
 What if we need to move a file? Well, we can use `mv`! The proper syntax for the command is `mv <source> <destination>`.
 
 1. Type `mv ~/CodingAndCocktails/CommandLineBasics/CLIFun.txt ~/CodingAndCocktails/` ![](images/enter.png).
@@ -97,6 +99,8 @@ What if we need to move a file? Well, we can use `mv`! The proper syntax for the
 If you're in the CodingAndCocktails directory, the command `mv CommandLineBasics/CLIFun.txt .` will also work. Remember, **.** is a shortcut for the current directory.
       {% endhint %}
 
+
+#### Word count
 
 Another command that's useful for files is `wc`. You can remember it as **word count**, and it'll be in the syntax `wc [options] filename`. Here are some available options you can try out:
 

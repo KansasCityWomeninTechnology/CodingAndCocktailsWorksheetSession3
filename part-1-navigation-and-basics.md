@@ -42,6 +42,8 @@ Both Git Bash and oh-my-zsh use formatting to distinguish between what's a direc
 The **..** is a shortcut for the parent directory  much like the **~** is a shortcut for your home directory. A parent directory would be the directory that contains your current directory. No matter where you are, `cd ..` or `cd ~` are always valid commands.
     {% endhint %}
 
+#### Tab Completion
+
 You'll also want to utilize **tab completion** with your **tab** key and your **up/down** arrow keys. Tab completion will allow you to enter in part of a filename or directory name and then it'll be completed for you. Your up/down arrow keys will allow you to scroll through previous commands.
 
 1. Let's switch back to the home directory by typing `cd ~` ![](images/enter.png).

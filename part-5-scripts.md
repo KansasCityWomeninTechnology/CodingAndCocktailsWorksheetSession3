@@ -29,12 +29,14 @@ The `#!` is known as a **shebang** and tells the shell what **interpreter** to u
 
 3. Save your script within vim by typing `:wq` ![](images/enter.png).
 
-4. Enter`ls -alh`![](images/enter.png) in the command line. Remember, you could also run `la` instead if you wanted to use the alias that was created earlier.
+4. Enter`ls -alh`![](images/enter.png) in the command line to see your script. Remember, you could also run `la` instead if you wanted to use the alias that was created earlier.
     {% hint style='info' %}
 You'll see the permissions for each file listed in the left-most column. The third and fourth columns list the user and group ownership respectively. We won't have to change the ownership of the file \(which can be done with the `chown` command\) since our user will both be creating the file and running it.
     {% endhint %}
 
-  Your shell uses **r**, **w**, and **x **along with corresponding numerical values **4**, **2**, and **1** for each to represent read, write, or execute. You'll need to specify values for the **owner **\(**u**\), \(**g**\)**roup**, and \(**o**\)**ther** in that order. We can run the following to add read, write, AND execute permissions for the owner.
+#### Permissions
+
+  Your shell uses **r**, **w**, and **x **along with corresponding numerical values **4**, **2**, and **1** for each to represent read, write, or execute. You'll need to specify values for the **owner **\(**u**\), \(**g**\)**roup**, and \(**o**\)**ther** in that order. Scripts require proper permissions in order to be ran. We can use `chmod` to add read, write, AND execute permissions for the owner.
 
 5. Enter `chmod u+rwx CnCScript.sh` ![](images/enter.png) or `chmod 700 CnCScript.sh` ![](images/enter.png) into your command line prompt. Both of these commands yield the same results.
     {% hint style='info' %}
