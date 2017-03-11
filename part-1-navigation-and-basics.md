@@ -99,6 +99,8 @@ Now try navigating around on your own! See the video below for some help. You ca
    {% hint style='danger' %}
 Any time the worksheet mentions to change directory to your home directory or type `cd ~` you will want to type `cd ~/workspace` instead.
     {% endhint %}
+    
+12. Continue with Step 1 of this worksheet section.
 
 
 <!--endsec-->
