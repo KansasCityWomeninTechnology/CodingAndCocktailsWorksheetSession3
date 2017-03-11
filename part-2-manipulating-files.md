@@ -66,11 +66,11 @@ You'll be prompted with '**E37: No write since last change \(add ! to override\)
 If you do an `ls -al` you'll see there's now a **CLIFun2.txt** file with the same size as the **CLIFun.txt** file but a more current timestamp.
       {% endhint %}
 
-16. Ok, let's undo that by entering `rm CLIFun2.txt` ![](images/enter.png).
+16. Ok, let's undo that by typing `rm CLIFun2.txt` ![](images/enter.png).
 
    Let's try copying a directory as well.
 
-17. Type `cp CommandLineBasics CommandLineBasics2` ![](images/enter.png) after changing into the CodingAndCocktails parent directory.
+17. Change directory into the CodingAndCocktails parent directory then type `cp CommandLineBasics CommandLineBasics2` ![](images/enter.png).
       {% hint style='info' %}
 Oh no, we got an error again: '**cp: CommandLineBasics is a directory \(not copied\)**'! It looks like `cp` doesn't work with directories, but actually, we can copy a directory by adding an option to `cp`. We'll add a **-r** for **recursive**.
       {% endhint %}
