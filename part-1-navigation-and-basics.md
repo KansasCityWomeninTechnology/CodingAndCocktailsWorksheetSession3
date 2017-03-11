@@ -14,7 +14,7 @@ When you first open your CLI, you'll likely be in your home directory at what's 
 You can resize your CLI window and fonts. In Windows, right-click on the git icon at the top left of your CLI window to find the Properties menu. In iTerm2 on a Mac, there's a slew of options in the Edit and View menus.
     {% endhint %}
 
-Let's find out what the full path to the ~ directory looks like with the `pwd` command, which stands for **p**resent **w**orking **d**irectory.
+Let's find out what the full path to the ~ directory looks like with the `pwd` command, which stands for **p**rint **w**orking **d**irectory.
     {% hint style='tip' %}
 While following along with the worksheet, type out the commands instead of doing a copy & paste to avoid inadvertently using any wrong characters.
     {% endhint %}
