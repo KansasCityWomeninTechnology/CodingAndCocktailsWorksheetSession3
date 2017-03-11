@@ -19,9 +19,9 @@ Let's find out what the full path to the ~ directory looks like with the `pwd` c
 While following along with the worksheet, type out the commands instead of doing a copy & paste to avoid inadvertently using any wrong characters.
     {% endhint %}
     
-    {% hint style='danger' %}
+{% hint style='danger' %}
 If you are using a Chromebook, please skip to the Chromebook Only section below!
-    {% endhint %}
+{% endhint %}
 
 1. Open iTerm2 on a Mac or Git Bash in Windows.
 
