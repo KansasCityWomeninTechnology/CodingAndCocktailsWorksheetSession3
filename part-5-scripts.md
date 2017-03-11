@@ -27,7 +27,7 @@ The '.sh' is optional but makes it easy for you to tell which files are scripts.
 The `#!` is known as a **shebang** and tells the shell what **interpreter** to use. An interpreter is basically a program that executes commands. In this script, we're assigning the Bash shell as the interpreter. The rest of the script, in this case, then needs to be written in the Bash language. If you want to learn more about Bash, you can check out this Wikipedia entry: [https://en.wikipedia.org/wiki/Bash_(Unix_shell)](https://en.wikipedia.org/wiki/Bash_(Unix_shell)).
     {% endhint %}
 
-3. Save your script within vim by typing `:wq` ![](images/enter.png).
+3. Save your script within vim by first pressing the `esc` key on your keyboard to exit insert mode and then typing `:wq` ![](images/enter.png).
 
 4. Enter`ls -alh`![](images/enter.png) in the command line to see your script. Remember, you could also run `la` instead if you wanted to use the alias that was created earlier.
     {% hint style='info' %}
