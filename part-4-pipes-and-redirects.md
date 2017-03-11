@@ -25,10 +25,11 @@ You can also redirect to a file. Let's a make a list of our favorite beverages.
 
 1. Create a new variable by typing `export MY_FAV_COLOR=purple` ![](images/enter.png). Feel free to change `purple` to whatever you'd like.
 
-2. Enter `echo "My favorite color is " $MY_FAV_COLOR > fav_color.txt` ![](images/enter.png), then `cat fav_color.txt` ![](images/enter.png) to see the results.
-    {% hint style='tip' %}
-To keep everything organized, make sure you're in your CommandLineBasics directory before running this command!
+{% hint style='tip' %}
+To keep everything organized, make sure you're in your CommandLineBasics directory before running this next command! Use the `cd` command to navigate there!
     {% endhint %}
+
+2. Enter `echo "My favorite color is " $MY_FAV_COLOR > fav_color.txt` ![](images/enter.png), then `cat fav_color.txt` ![](images/enter.png) to see the results.
 
 3. Let's add our second favorite color. Type `echo "My second favorite color is green" > fav_color.txt` ![](images/enter.png), then `cat fav_color.txt` ![](images/enter.png).
 
