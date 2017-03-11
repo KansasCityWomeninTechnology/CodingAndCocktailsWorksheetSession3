@@ -20,7 +20,7 @@ While following along with the worksheet, type out the commands instead of doing
     {% endhint %}
     
 {% hint style='danger' %}
-If you are using a Chromebook, please skip to the Chromebook Only section below!
+If you are using a Chromebook, please skip to the Chromebooks Only section below and expand it to follow the directions!
 {% endhint %}
 
 1. Open iTerm2 on a Mac or Git Bash in Windows.
@@ -93,6 +93,8 @@ Now try navigating around on your own! See the video below for some help. You ca
 10. In the terminal section of your workspace is where you'll be doing most of your work this evening.  If you'd like to make it bigger, hover over the top line of the terminal section with your mouse - it will change to an up-down arrow icon and then you can drag up which will also make the file editing area smaller. 
 
    ![](/images/c9_terminal.png)
+   
+11. Type `mkdir CodingAndCocktails` to created your folder/directory that you'll be working in tonight.
    
    {% hint style='danger' %}
 Any time the worksheet mentions to change directory to your home directory or type `cd ~` you will want to type `cd ~/workspace` instead.
