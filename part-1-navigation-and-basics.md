@@ -66,6 +66,8 @@ Now try navigating around on your own! See the video below for some help. You ca
   </video>
 {% endraw %}
 
+---
+
 <!--sec data-title="Chromebooks Only: Cloud9 Instructions" data-id="section0" data-show=true data-collapse=true ces-->
 
 1. Sign up for an account at [c9.io](https://c9.io)
@@ -94,7 +96,7 @@ Now try navigating around on your own! See the video below for some help. You ca
 
    ![](/images/c9_terminal.png)
    
-11. Type `mkdir CodingAndCocktails` to created your folder/directory that you'll be working in tonight.
+11. Type `mkdir CodingAndCocktails` to created your folder/directory that you'll be working in tonight. You'll notice a new folder show up on the left side of your screen where the 
    
    {% hint style='danger' %}
 Any time the worksheet mentions to change directory to your home directory or type `cd ~` you will want to type `cd ~/workspace` instead.
