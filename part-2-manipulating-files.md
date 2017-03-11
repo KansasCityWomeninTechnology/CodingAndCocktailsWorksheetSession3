@@ -94,13 +94,13 @@ Be **VERY** careful when running rm commands. If you do it from  the wrong direc
 
 What if we need to move a file? Well, we can use `mv`! The proper syntax for the command is `mv <source> <destination>`.
 
+{% hint style='danger' %}
+Chromebooks Only: Cloud9 users remember to use `~/workspace` in place of `~`
+{% endhint %}
+
 1. Type `mv ~/CodingAndCocktails/CommandLineBasics/CLIFun.txt ~/CodingAndCocktails/` ![](images/enter.png).
       {% hint style='info' %}
 If you're in the CodingAndCocktails directory, the command `mv CommandLineBasics/CLIFun.txt .` will also work. Remember, **.** is a shortcut for the current directory.
-      {% endhint %}
-      
-      {% hint style='danger' %}
-Cloud9 users remember to use `~/workspace` in place of `~`
       {% endhint %}
 
 
