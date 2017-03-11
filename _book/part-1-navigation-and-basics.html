@@ -1,0 +1,446 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Part 1: Navigating & Basics · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="part-2-manipulating-files.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="part-1-navigation-and-basics.html">
+            
+                <a href="part-1-navigation-and-basics.html">
+            
+                    
+                    Part 1: Navigating & Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="part-2-manipulating-files.html">
+            
+                <a href="part-2-manipulating-files.html">
+            
+                    
+                    Part 2: Manipulating Files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="part-3-variables-and-aliases.html">
+            
+                <a href="part-3-variables-and-aliases.html">
+            
+                    
+                    Part 3: Variables & Aliases
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="part-4-pipes-and-redirects.html">
+            
+                <a href="part-4-pipes-and-redirects.html">
+            
+                    
+                    Part 4: Pipes & Redirects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="part-5-scripts.html">
+            
+                <a href="part-5-scripts.html">
+            
+                    
+                    Part 5: Scripts & Permissions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="part-6-tips-and-tricks.html">
+            
+                <a href="part-6-tips-and-tricks.html">
+            
+                    
+                    Part 6: Tips & Tricks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="homework.html">
+            
+                <a href="homework.html">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="command_line_cheat_sheet.html">
+            
+                <a href="command_line_cheat_sheet.html">
+            
+                    
+                    Command Line Cheat Sheet
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Part 1: Navigating & Basics</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="part-1-navigating--basics">Part 1: Navigating &amp; Basics</h1>
+<hr>
+<h4 id="where-am-i">Where am I?!?</h4>
+<p>The command line is just another way to navigate your computer&apos;s directory structure and issue commands. Typically, you have a <strong>GUI</strong>, or <strong>G</strong>raphical <strong>U</strong>ser <strong>I</strong>nterface, available to you. So why use a <strong>CLI </strong>(<strong>C</strong>ommand <strong>L</strong>ine <strong>I</strong>nterface)? Well, believe it or not, it&apos;s faster, uses fewer resources, and is much more powerful than a GUI! Let&apos;s take a look at how to orient yourself at the command line.
+    <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>The terms CLI and terminal can be used interchangeably.</p>
+</div></div></p>
+<p>When you first open your CLI, you&apos;ll likely be in your home directory at what&apos;s called a <strong>prompt</strong> in a <strong>shell</strong>. A shell is the program that provides the text-only user interface. The prompt is what&apos;s waiting on you to provide input to the shell in the form of a command. You probably will see a <strong>~</strong> in your CLI as well. This is a shortcut for your home directory.
+    <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>You can resize your CLI window and fonts. In Windows, right-click on the git icon at the top left of your CLI window to find the Properties menu. In iTerm2 on a Mac, there&apos;s a slew of options in the Edit and View menus.</p>
+</div></div></p>
+<p>Let&apos;s find out what the full path to the ~ directory looks like with the <code>pwd</code> command, which stands for <strong>p</strong>resent <strong>w</strong>orking <strong>d</strong>irectory.
+    <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>While following along with the worksheet, type out the commands instead of doing a copy &amp; paste to avoid inadvertently using any wrong characters.</p>
+</div></div></p>
+<pre><code>If you are using a Chromebook, please skip to the Chromebook Only section below!
+
+</code></pre><ol>
+<li><p>Open iTerm2 on a Mac or Git Bash in Windows.</p>
+</li>
+<li><p>Type <code>pwd</code> <img src="images/enter.png" alt=""> in your CLI to see your current user&apos;s home directory.
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>The <img src="images/enter.png" alt=""> icon tells you when to hit <code>enter</code>.</p>
+</div></div></p>
+</li>
+<li><p>Type <code>ls</code> <img src="images/enter.png" alt=""> to see the contents of your current directory.</p>
+</li>
+<li>Type <code>ls -al</code> <img src="images/enter.png" alt=""> and compare it to your previous output.  You should see more information and all files, including hidden files.</li>
+<li><p>Next, enter in <code>cd CodingAndCocktails</code> <img src="images/enter.png" alt=""> to <strong>change</strong> <strong>directory</strong> into the <strong>CodingAndCocktails</strong> directory listed in the output of <code>ls</code>.
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>If the CodingAndCocktails folder doesn&apos;t exist, create it using <code>mkdir CodingAndCocktails</code>. Make sure you switch into your home folder by typing <code>cd ~</code> first. You should have done this when following <a href="https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/organization---codingandcocktails-folder.html" target="_blank"><strong>The Tools</strong></a> worksheet.</p>
+</div></div>
+ <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>Both Git Bash and oh-my-zsh use formatting to distinguish between what&apos;s a directory and what&apos;s a file. You won&apos;t be able to <code>cd</code> into a file.</p>
+</div></div></p>
+</li>
+<li><p>Once you&apos;ve moved into a new directory, type <code>ls -al</code> <img src="images/enter.png" alt=""> again to see what&apos;s listed there.</p>
+</li>
+<li>Let&apos;s move back up one directory. To do this, type <code>cd ..</code> <img src="images/enter.png" alt="">.
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>The <strong>..</strong> is a shortcut for the parent directory  much like the <strong>~</strong> is a shortcut for your home directory. A parent directory would be the directory that contains your current directory. No matter where you are, <code>cd ..</code> or <code>cd ~</code> are always valid commands.</p>
+</div></div></li>
+</ol>
+<h4 id="tab-completion">Tab Completion</h4>
+<p>You&apos;ll also want to utilize <strong>tab completion</strong> with your <strong>tab</strong> key and your <strong>up/down</strong> arrow keys. Tab completion will allow you to enter in part of a filename or directory name and then it&apos;ll be completed for you. Your up/down arrow keys will allow you to scroll through previous commands.</p>
+<ol>
+<li>Let&apos;s switch back to the home directory by typing <code>cd ~</code> <img src="images/enter.png" alt="">.</li>
+<li>Enter in <code>cd Cod</code> then stop and hit your <code>tab</code> key. Tab completion will find your CodingAndCocktails folder and enter the rest in for you!</li>
+</ol>
+<p>Now try navigating around on your own! See the video below for some help. You can watch it in fullscreen as well. To download the video, right-click and click &quot;Save video as...&quot;.</p>
+  <video id="CLI_Part1" class="video-js" controls preload="auto" width="900" height="600" poster="CLI_Part1.jpg" data-setup="{}">
+  <source src="videos/CLI_Part1.mp4" type="video/mp4">
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that
+    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>
+  </video>
+
+
+<sec data-title="Chromebooks Only: Cloud9 Instructions" data-id="section0" data-show="true" data-collapse="true"><div class="panel panel-default"><div class="panel-heading"><h2 id="chromebooks-only-cloud9-instructions">Chromebooks Only: Cloud9 Instructions<a class="pull-right section atTitle btn btn-default" target="section0"><span class="fa fa-angle-up"></span></a></h2></div><div class="panel-collapse in" id="section0"><div class="panel-body">
+<ol>
+<li><p>Sign up for an account at <a href="https://c9.io" target="_blank">c9.io</a></p>
+<p>Note: It will ask you for credit card information but you will not get charged for anything since we do not use features of Cloud9 that cost money. Ask a mentor for the Coding &amp; Cocktails card for Cloud9.</p>
+</li>
+<li><p>Confirm your account from your email and log in to Cloud9.</p>
+</li>
+<li><p>Select <code>Workspaces</code> from the left side panel if you are not already there.</p>
+</li>
+<li><p>Choose <code>Create a new workspace</code>.</p>
+</li>
+<li><p>Pick a name for your workspace and enter it - it can be anything you&apos;d like.  You do not need a description but feel free to add one if you&apos;d like.</p>
+</li>
+<li><p>Leave your workspace as a &quot;Public workspace&quot;.</p>
+</li>
+<li><p>In the template section choose <code>Node.js</code></p>
+</li>
+<li><p>Click on the <code>Create Workspace</code> button.</p>
+<p>Cloud9 will take a minute and create your workspace here</p>
+</li>
+<li><p>Close the README.md file that is open when you get to your workspace.</p>
+</li>
+<li><p>In the terminal section of your workspace is where you&apos;ll be doing most of your work this evening.  If you&apos;d like to make it bigger, hover over the top line of the terminal section with your mouse - it will change to an up-down arrow icon and then you can drag up which will also make the file editing area smaller. </p>
+<p><img src="images/c9_terminal.png" alt=""></p>
+<p><div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle"></i></div><div class="hints-container"><p>Any time the worksheet mentions to change directory to your home directory or type <code>cd ~</code> you will want to type <code>cd ~/workspace</code> instead.</p>
+</div></div></p>
+</li>
+</ol>
+</div></div></div></sec>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Overview">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="part-2-manipulating-files.html" class="navigation navigation-next " aria-label="Next page: Part 2: Manipulating Files">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Part 1: Navigating & Basics","level":"1.2","depth":1,"next":{"title":"Part 2: Manipulating Files","level":"1.3","depth":1,"path":"part-2-manipulating-files.md","ref":"part-2-manipulating-files.md","articles":[]},"previous":{"title":"Overview","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["custom-favicon","hints","sectionx","local-video","livereload"],"pluginsConfig":{"livereload":{},"search":{},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"favicon":"assets/favicon.ico","custom-favicon":{},"local-video":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part-1-navigation-and-basics.md","mtime":"2017-03-11T20:05:34.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-11T20:06:09.127Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
