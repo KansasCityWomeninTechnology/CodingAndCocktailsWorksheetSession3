@@ -18,6 +18,10 @@ Let's find out what the full path to the ~ directory looks like with the `pwd` c
     {% hint style='tip' %}
 While following along with the worksheet, type out the commands instead of doing a copy & paste to avoid inadvertently using any wrong characters.
     {% endhint %}
+    
+    {% hint style='danger' %}
+If you are using a Chromebook, please skip to the Chromebook Only section below!
+    {% endhint %}
 
 1. Open iTerm2 on a Mac or Git Bash in Windows.
 
@@ -61,3 +65,35 @@ Now try navigating around on your own! See the video below for some help. You ca
   </p>
   </video>
 {% endraw %}
+
+<!--sec data-title="Chromebooks Only: Cloud9 Instructions" data-id="section0" data-show=true data-collapse=true ces-->
+
+1. Sign up for an account at [c9.io](https://c9.io)
+   
+   Note: It will ask you for credit card information but you will not get charged for anything since we do not use features of Cloud9 that cost money. Ask a mentor for the Coding & Cocktails card for Cloud9.
+
+2. Confirm your account from your email and log in to Cloud9.
+
+3. Select `Workspaces` from the left side panel if you are not already there.
+
+4. Choose `Create a new workspace`.
+
+5. Pick a name for your workspace and enter it - it can be anything you'd like.  You do not need a description but feel free to add one if you'd like.
+
+6. Leave your workspace as a "Public workspace".
+
+7. In the template section choose `Node.js`
+
+8. Click on the `Create Workspace` button.
+
+   Cloud9 will take a minute and create your workspace here
+   
+9. Close the README.md file that is open when you get to your workspace.
+
+10. In the terminal section of your workspace is where you'll be doing most of your work this evening.  If you'd like to make it bigger you can drag the top of the terminal section up which will also make the file editing area smaller. 
+
+   ![](/images/c9_terminal.png)
+<!--endsec-->
+
+
+
