@@ -11,7 +11,7 @@ Variables can be created with the `export` command. Several programs and utiliti
 Be careful when including spaces - in that case, you'll want to enclose your value in quotation marks so it doesn't break up the command, i.e. `export MY_FAV_DRINK="Horsefeather"`.
     {% endhint %}
 
-2. Enter `echo $MY_FAV_DRINK` ![](images/enter.png) in your command line.
+2. Type `echo $MY_FAV_DRINK` ![](images/enter.png) in your command line.
     {% hint style='tip' %}
 Note the `$` at the beginning of the variable.
     {% endhint %}
@@ -32,7 +32,7 @@ Be **VERY** careful editing your PATH as you could loose access to your programs
 
   So what's an alias? Basically, it's a shortcut you create to a command. For example, remember the `ls -al` command we used earlier? You can add an `-h` option to show file sizes in a more **h**uman readeable format. The command `ls -alh` gives us more information and makes the output easier to read. Let's bind it to a new command, `la`, to save us some keystrokes:
 
-2. Enter `alias "ls -alh"=la` ![](images/enter.png).
+2. Enter `alias la="ls -alh"` ![](images/enter.png).
 
   Now you can type `la` ![](images/enter.png) and get the output for `ls -alh` instead. You can imagine how much time this customization can save!
     {% hint style='tip' %}
