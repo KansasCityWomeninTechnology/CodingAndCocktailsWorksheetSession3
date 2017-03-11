@@ -42,7 +42,7 @@ You'll see the permissions for each file listed in the left-most column. The thi
 
 6. Enter `chmod u+rwx CnCScript.sh` ![](images/enter.png) or `chmod 700 CnCScript.sh` ![](images/enter.png) into your command line prompt. Both of these commands yield the same results.
 
-7. Now check permissions again by pushing the up arrow twice to scroll back through your commands and then press enter. You'll see that now the owner has execute (**x**) permission as well. 
+7. Now check permissions again by pushing the up arrow twice to scroll back through your commands back to `ls -l CnCScript.sh` and then press enter. You'll see that now the owner has execute (**x**) permission as well. 
 
     {% hint style='info' %}
 To get the numerical value for read, write, and execute, you add their individual values. So, 4+2+1=7. The first number denotes the permissions for the user while the second and third are for the group and other. "Other" refers to everyone else that's not a member of the owning group.
