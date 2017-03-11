@@ -98,6 +98,10 @@ What if we need to move a file? Well, we can use `mv`! The proper syntax for the
       {% hint style='info' %}
 If you're in the CodingAndCocktails directory, the command `mv CommandLineBasics/CLIFun.txt .` will also work. Remember, **.** is a shortcut for the current directory.
       {% endhint %}
+      
+      {% hint style='danger' %}
+Cloud9 users remember to use `~/workspace` in place of `~`
+      {% endhint %}
 
 
 #### Word count
