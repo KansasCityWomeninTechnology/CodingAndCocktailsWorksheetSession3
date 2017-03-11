@@ -1,0 +1,413 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Part 3: Variables & Aliases · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="part-4-pipes-and-redirects.html" />
+    
+    
+    <link rel="prev" href="part-2-manipulating-files.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="part-1-navigation-and-basics.html">
+            
+                <a href="part-1-navigation-and-basics.html">
+            
+                    
+                    Part 1: Navigating & Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="part-2-manipulating-files.html">
+            
+                <a href="part-2-manipulating-files.html">
+            
+                    
+                    Part 2: Manipulating Files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="part-3-variables-and-aliases.html">
+            
+                <a href="part-3-variables-and-aliases.html">
+            
+                    
+                    Part 3: Variables & Aliases
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="part-4-pipes-and-redirects.html">
+            
+                <a href="part-4-pipes-and-redirects.html">
+            
+                    
+                    Part 4: Pipes & Redirects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="part-5-scripts.html">
+            
+                <a href="part-5-scripts.html">
+            
+                    
+                    Part 5: Scripts & Permissions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="part-6-tips-and-tricks.html">
+            
+                <a href="part-6-tips-and-tricks.html">
+            
+                    
+                    Part 6: Tips & Tricks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="homework.html">
+            
+                <a href="homework.html">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="command_line_cheat_sheet.html">
+            
+                <a href="command_line_cheat_sheet.html">
+            
+                    
+                    Command Line Cheat Sheet
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Part 3: Variables & Aliases</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="part-3-variables--aliases">Part 3: Variables &amp; Aliases</h1>
+<hr>
+<h4 id="creating-variables-and-aliases">Creating variables and aliases</h4>
+<p>Variables can be created with the <code>export</code> command. Several programs and utilities use built in variables programmatically. Here&apos;s how to create and also how to display variable values:</p>
+<ol>
+<li><p>Type <code>export MY_FAV_DRINK=Greyhound</code> <img src="images/enter.png" alt="">. Feel free to put in any value you&apos;d like!
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>Be careful when including spaces - in that case, you&apos;ll want to enclose your value in quotation marks so it doesn&apos;t break up the command, i.e. <code>export MY_FAV_DRINK=&quot;Horsefeather&quot;</code>.</p>
+</div></div></p>
+</li>
+<li><p>Type <code>echo $MY_FAV_DRINK</code> <img src="images/enter.png" alt=""> in your command line.
+ <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>Note the <code>$</code> at the beginning of the variable.</p>
+</div></div></p>
+<p>Now try displaying the values for the built-in OS variables of HOME and USERNAME. Remember, you should use the syntax <code>echo $VAR</code>.</p>
+</li>
+</ol>
+<h4 id="the-path-variable">The PATH variable</h4>
+<p>  <strong>PATH</strong> is a unique variable. It includes the locations of all executables, which are files or programs able to be run by a computer. When you run a command, your shell looks in the directories specified there for an executable with a matching name. Most installers modify your path automatically for you to include any new paths needed! Let&apos;s check out what&apos;s included in our path:</p>
+<ol>
+<li><p>Type out <code>echo $PATH</code> <img src="images/enter.png" alt="">.
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>To add directories to the PATH, you would use the syntax <code>export PATH=/some/directory:$PATH</code>. Notice that you can reference the PATH variable in creating the new PATH.</p>
+</div></div>
+ <div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle"></i></div><div class="hints-container"><p>Be <strong>VERY</strong> careful editing your PATH as you could loose access to your programs!</p>
+</div></div></p>
+<p>So what&apos;s an alias? Basically, it&apos;s a shortcut you create to a command. For example, remember the <code>ls -al</code> command we used earlier? You can add an <code>-h</code> option to show file sizes in a more <strong>h</strong>uman readeable format. The command <code>ls -alh</code> gives us more information and makes the output easier to read. Let&apos;s bind it to a new command, <code>la</code>, to save us some keystrokes:</p>
+</li>
+<li><p>Enter <code>alias la=&quot;ls -alh&quot;</code> <img src="images/enter.png" alt="">.</p>
+<p>Now you can type <code>la</code> <img src="images/enter.png" alt=""> and get the output for <code>ls -alh</code> instead. You can imagine how much time this customization can save!
+ <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>The command <code>ll</code> is a built-in alias for <code>ls -al</code>.</p>
+</div></div></p>
+</li>
+</ol>
+<h4 id="making-aliases-and-variables-persistent">Making aliases and variables persistent</h4>
+<p>  Now, close out of your terminal and open a new one. You&apos;ll notice that the alias we just create didn&apos;t persist. That&apos;s because every time you open a new terminal, its settings, namely what&apos;s called your <strong>profile,</strong> are reloaded.</p>
+<p>You can edit your profile by following these steps:</p>
+<ol>
+<li><p>Create the file by typing <code>touch ~/.bash_profile</code> <img src="images/enter.png" alt="">.
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>If the file already exists, its timestamp will be updated but no harm will be done.</p>
+</div></div></p>
+</li>
+<li><p>Type <code>vim ~/.bash_profile</code> <img src="images/enter.png" alt="">. Then add the alias command we used above using INSERT mode with <code>i</code>.
+ <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>Jump back to <a href="part-1-navigation-and-basics.html"><strong>Part 1</strong></a> if you need some help with navigating in vim.</p>
+</div></div>
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>Your custom variables, like the $MY_FAV_DRINK we set above, will also be lost when you close your terminal. You can add custom variables to your ~/.bash_profile as well by adding the <code>export MY_FAV_DRINK=Greyhound</code> command, for example, in its own line.</p>
+</div></div></p>
+</li>
+<li><p>Type<code>source ~/.bash_profile</code> <img src="images/enter.png" alt=""> in your command line. This will load or reload your profile settings.</p>
+</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="part-2-manipulating-files.html" class="navigation navigation-prev " aria-label="Previous page: Part 2: Manipulating Files">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="part-4-pipes-and-redirects.html" class="navigation navigation-next " aria-label="Next page: Part 4: Pipes & Redirects">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Part 3: Variables & Aliases","level":"1.4","depth":1,"next":{"title":"Part 4: Pipes & Redirects","level":"1.5","depth":1,"path":"part-4-pipes-and-redirects.md","ref":"part-4-pipes-and-redirects.md","articles":[]},"previous":{"title":"Part 2: Manipulating Files","level":"1.3","depth":1,"path":"part-2-manipulating-files.md","ref":"part-2-manipulating-files.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["custom-favicon","hints","sectionx","local-video","livereload"],"pluginsConfig":{"livereload":{},"search":{},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"favicon":"assets/favicon.ico","custom-favicon":{},"local-video":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part-3-variables-and-aliases.md","mtime":"2017-03-11T20:50:17.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-11T20:06:09.127Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
