@@ -8,13 +8,13 @@ Let's get straight to learning how to manipulate files and directory structures!
 
 1. Change into your home folder by typing `cd ~`![](images/enter.png). Type `ls -al` ![](images/enter.png) to check if a **CodingAndCocktails** folder already exists.
 
-2. In your CodingAndCocktails folder, create a **CommandLineBasics** folder by entering in `mkdir CommandLineBasics` ![](images/enter.png).
+2. Change directory into your CodingAndCocktails folder and create a **CommandLineBasics** folder by typing in `mkdir CommandLineBasics` ![](images/enter.png).
 
 3. Then change into your newly created directory by typing `cd CommandLineBasics` ![](images/enter.png).
 
 4. Let's create a file by typing `touch CLIFun.txt` ![](images/enter.png).
     {% hint style='info' %}
-If you go to that same location through your GUI like you might be more used to, you'll see the file created there as a visual representation. You open the current directory you're in on a Mac by using `open .`. On a Windows machine, `start .` will do the same.
+If you go to that same location through your GUI like you might be more used to, you'll see the file created there as a visual representation. You open the current directory you're in on a Mac by using `open .`. On a Windows machine, `start .` will do the same. In Cloud9 you'll see the file by opening the folders on the left side of your screen.
     {% endhint %}
 
 5. Let's add some content to our file. Open your file in vim by typing `vim CLIFun.txt` ![](images/enter.png).
@@ -33,7 +33,7 @@ While **vim** is one option for a text editor, there are many others available. 
       et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
       aliquip ex ea commodo consequat.
       ```
-6. Go back to iTerm2/Git Bash and hit `i`. That'll put you into **INSERT** mode.
+6. Go back to iTerm2/Git Bash and hit the `i` button on your keyboard. That'll put you into **INSERT** mode.
 
 7. Now hit **⌘V** on your Mac or **Shift + Ins** in Git Bash on your Windows laptop to paste the text you copied.
 
@@ -52,9 +52,9 @@ The 'w' stands for **write** and the 'q' stands for **quit**.
 
 12. Hit `esc` again to exit out of **INSERT** mode.
 
-13. Hit `:q` ![](images/enter.png).
-      {% hint style='info' %}
-You'll be prompted with '**E37: No write since last change \(add ! to override\)**'. Follow the instructions there. Hit `:q!` ![](images/enter.png).
+13. Type `:q` ![](images/enter.png).
+      {% hint style='danger' %}
+You'll be prompted with '**E37: No write since last change \(add ! to override\)**'. Follow the instructions there. Type `:q!` ![](images/enter.png).
       {% endhint %}
 
 14. Type `cat CLIFun.txt` ![](images/enter.png) again to confirm your changes weren't saved.
