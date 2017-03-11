@@ -90,9 +90,15 @@ Now try navigating around on your own! See the video below for some help. You ca
    
 9. Close the README.md file that is open when you get to your workspace.
 
-10. In the terminal section of your workspace is where you'll be doing most of your work this evening.  If you'd like to make it bigger you can drag the top of the terminal section up which will also make the file editing area smaller. 
+10. In the terminal section of your workspace is where you'll be doing most of your work this evening.  If you'd like to make it bigger, hover over the top line of the terminal section with your mouse - it will change to an up-down arrow icon and then you can drag up which will also make the file editing area smaller. 
 
    ![](/images/c9_terminal.png)
+   
+   {% hint style='danger' %}
+Any time the worksheet mentions to change directory to your home directory or type `cd ~` you will want to type `cd ~/workspace` instead.
+    {% endhint %}
+
+
 <!--endsec-->
 
 
