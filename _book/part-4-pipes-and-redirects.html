@@ -1,0 +1,425 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Part 4: Pipes & Redirects · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="part-5-scripts.html" />
+    
+    
+    <link rel="prev" href="part-3-variables-and-aliases.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="part-1-navigation-and-basics.html">
+            
+                <a href="part-1-navigation-and-basics.html">
+            
+                    
+                    Part 1: Navigating & Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="part-2-manipulating-files.html">
+            
+                <a href="part-2-manipulating-files.html">
+            
+                    
+                    Part 2: Manipulating Files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="part-3-variables-and-aliases.html">
+            
+                <a href="part-3-variables-and-aliases.html">
+            
+                    
+                    Part 3: Variables & Aliases
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="part-4-pipes-and-redirects.html">
+            
+                <a href="part-4-pipes-and-redirects.html">
+            
+                    
+                    Part 4: Pipes & Redirects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="part-5-scripts.html">
+            
+                <a href="part-5-scripts.html">
+            
+                    
+                    Part 5: Scripts & Permissions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="part-6-tips-and-tricks.html">
+            
+                <a href="part-6-tips-and-tricks.html">
+            
+                    
+                    Part 6: Tips & Tricks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="homework.html">
+            
+                <a href="homework.html">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="command_line_cheat_sheet.html">
+            
+                <a href="command_line_cheat_sheet.html">
+            
+                    
+                    Command Line Cheat Sheet
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Part 4: Pipes & Redirects</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="part-4-pipes--redirects">Part 4: Pipes &amp; Redirects</h1>
+<hr>
+<h4 id="passing-output-to-stream">Passing output to stream</h4>
+<p><strong>Pipe</strong> is used to pass output to another <strong>program or utility</strong>. <strong>Redirect</strong> is used to pass output to either a <strong>file or stream</strong>.</p>
+<p>A stream is input/output of data travelling between processes which can be standard input (stdin), standard output (stdout), and standard error (stderr). Let&apos;s start by looking at an example of redirecting to a stream.</p>
+<ol>
+<li><p>Type <code>sort &lt;&lt; END</code> <img src="images/enter.png" alt="">. You&apos;ll be taken to a new line with a <code>&gt;</code> prompt.
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>The <strong>END</strong> can actually be any word you want. You&apos;re telling <code>sort</code> to accept input until a specific value is given.</p>
+</div></div></p>
+</li>
+<li><p>Type in a cocktail name and hit enter. Enter in as many cocktails as you can think of, each on its own line.</p>
+</li>
+<li><p>When you&apos;re done, type <code>END</code> <img src="images/enter.png" alt="">.</p>
+<p> The sorted list of your cocktails now shows as your output.</p>
+</li>
+</ol>
+<h4 id="redirecting-output-to-a-file">Redirecting output to a file</h4>
+<p>You can also redirect to a file. Let&apos;s a make a list of our favorite beverages.</p>
+<ol>
+<li>Create a new variable by typing <code>export MY_FAV_COLOR=purple</code> <img src="images/enter.png" alt="">. Feel free to change <code>purple</code> to whatever you&apos;d like.</li>
+</ol>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>To keep everything organized, make sure you&apos;re in your CommandLineBasics directory before running this next command! Use the <code>cd</code> command to navigate there!</p>
+</div></div></p>
+<ol>
+<li><p>Enter <code>echo &quot;My favorite color is &quot; $MY_FAV_COLOR &gt; fav_color.txt</code> <img src="images/enter.png" alt="">, then <code>cat fav_color.txt</code> <img src="images/enter.png" alt=""> to see the results.</p>
+</li>
+<li><p>Let&apos;s add our second favorite color. Type <code>echo &quot;My second favorite color is green&quot; &gt; fav_color.txt</code> <img src="images/enter.png" alt="">, then <code>cat fav_color.txt</code> <img src="images/enter.png" alt="">.</p>
+<p> Hmm, what happened there? Oh, we&apos;ll actually need to use the redirect to <strong>append</strong> instead! The <code>&gt;</code> we used prior will overwrite whatever was previously in the file. We can use <code>&gt;&gt;</code> instead to append instead of overwrite.</p>
+<p> Let&apos;s try that again.</p>
+</li>
+<li><p>Enter <code>echo &quot;My favorite color is &quot; $MY_FAV_COLOR &gt; fav_color.txt</code> <img src="images/enter.png" alt="">, then <code>cat fav_color.txt</code> <img src="images/enter.png" alt="">.
+ <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-mortar-board"></i></div><div class="hints-container"><p>Remember you can use your up arrow here to scroll through your prior commands!</p>
+</div></div></p>
+</li>
+<li><p>To add your second favorite color type <code>echo &quot;My second favorite color is green&quot; &gt;&gt; fav_color.txt</code> <img src="images/enter.png" alt=""> then <code>cat fav_color.txt</code> <img src="images/enter.png" alt="">.</p>
+</li>
+</ol>
+<h4 id="pipes">Pipes</h4>
+<p>A pipe is a chain of processes so that output of one process (stdout) is fed to the input (stdin) of another.</p>
+<p>Another command,<code>less</code>, allows you to &quot;scroll&quot; through output. We&apos;ll use the <code>history</code> command and pipe <code>less</code> to it in the examples below. The <code>history</code> command is very useful if you need to search through your previous commands.</p>
+<ol>
+<li>In your command line, type<code>history &gt; history.log</code> <img src="images/enter.png" alt="">.</li>
+<li><p>Now enter <code>cat history.log | less</code> <img src="images/enter.png" alt="">.
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>You&apos;ll see &apos;<strong>:</strong>&apos; at the bottom of the terminal. Hit Enter or your up/down arrows to continue scrolling. Hit &apos;q&apos; to quit.</p>
+</div></div></p>
+<p> You can also chain redirects and pipes. Here are a couple of examples to try:</p>
+</li>
+<li><p>Enter <code>sort -r &lt; history.log &gt; history_sorted.txt</code> <img src="images/enter.png" alt="">, then type <code>cat history_sorted.txt | less</code> <img src="images/enter.png" alt=""> to scroll through your sorted list.
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>The <code>sort</code> command is just what it sounds like. The command <code>history</code> outputs oldest command to latest command at the bottom, but you&apos;re probably more interested in your more recent commands, so let&apos;s reverse the order. The <code>-r</code> is there so we can reverse the order of the sort.</p>
+</div></div></p>
+</li>
+<li><p>Type <code>history | sort -r &gt; history_pipesorted.txt</code> <img src="images/enter.png" alt="">, then type <code>cat history_pipesorted.txt | less</code> <img src="images/enter.png" alt=""> again.
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>This command is another way of getting the same output as the prior command. The only difference is that the commands we&apos;ve ran since our last <code>history</code> commands will now be included.</p>
+</div></div></p>
+</li>
+<li><p>Enter <code>history | grep cat | sort -r &gt; history_grep.txt</code> <img src="images/enter.png" alt="">, then <code>cat history_grep.txt</code> <img src="images/enter.png" alt="">.
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>The <code>grep</code> command searches text for the occurence of a specified string, in this case <code>cat</code>.</p>
+</div></div></p>
+</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="part-3-variables-and-aliases.html" class="navigation navigation-prev " aria-label="Previous page: Part 3: Variables & Aliases">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="part-5-scripts.html" class="navigation navigation-next " aria-label="Next page: Part 5: Scripts & Permissions">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Part 4: Pipes & Redirects","level":"1.5","depth":1,"next":{"title":"Part 5: Scripts & Permissions","level":"1.6","depth":1,"path":"part-5-scripts.md","ref":"part-5-scripts.md","articles":[]},"previous":{"title":"Part 3: Variables & Aliases","level":"1.4","depth":1,"path":"part-3-variables-and-aliases.md","ref":"part-3-variables-and-aliases.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["custom-favicon","hints","sectionx","local-video","livereload"],"pluginsConfig":{"livereload":{},"search":{},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"favicon":"assets/favicon.ico","custom-favicon":{},"local-video":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"part-4-pipes-and-redirects.md","mtime":"2017-03-11T20:55:27.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-11T20:06:09.127Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
