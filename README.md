@@ -1,12 +1,24 @@
-# Coding & Cocktails Session 3:
-## Command Line Basics {#command-line-basics}
-<hr>
-**![Coding & Cocktails Badge](assets/codingcocktailsbadge-200.png)**
+# Coding & Cocktails Session 3: Command Line Basics
+
+The `docs` directory contains worksheets for Coding & Cocktails session 3 published on Gitbooks: [Coding & Cocktails - Session 3: Command Line Basics](https://www.gitbook.com/book/codingandcocktailskc/session-2-command-line-basics/details).
+
+## Getting Going
+Install [Gitbook](https://www.npmjs.com/package/gitbook) CLI from npm.
+
+```bash
+gitbook install
+gitbook serve
+```
+To build without serving, `gitbook build`.
+
+## Associated Repos
+None
+
+## TODO
+- [ ] Incorporate feedback from curriculum retro in Google Drive
 
 
-### Overview
+## License
+![](https://lh6.googleusercontent.com/osprAumZLusoNUcKnPtOWMijWYLZ8ydrUS0gMTvMCoyhSVBd69InqiXqQjc7fH8iQiVbZLXvyyvPZXwKjeyHuPnrd2zJT1mYLa1WoziryvxOo0q7nvMnpfeeVPBgfqW0bnp1--wa)![](https://lh5.googleusercontent.com/AZZipN4uXuU6FkxA0zLbrq9EwMhky22oNI8UtjQ2-Kgzy64Jmbij_IKUwXDcqGjnHWSMg9h3ii2Dx_SLI871nVn56NyF1VnmDbkEL2m9sJ_9YYGpNC8kdiYepai1jAZLEWWt8iTW)![](https://lh6.googleusercontent.com/GSxH81qYzBJkBR39GbviwKcwxem0RbN8XTx_6BOHgziQ6OomnG-au25ZSdiNQ4rX2p2HanRGa8_SzTPhJ3SKW-Vrs6fJ8N9s0FLq1EVSwUZXrLZuUVONachwFWwqTr6PMpn1csnu)
 
-During the session we’ll cover Command Line basics. We’ll put those to use here getting comfortable with interacting with the filesystem in a text based way!
-
-[![](images/glossary.png)](http://bit.ly/CnCgloss)
-[![](images/tools.png)](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/)
+This work is licensed by [http://kcwomenintech.org/](http://kcwomenintech.org/) under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).

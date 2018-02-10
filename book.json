@@ -1,4 +1,9 @@
 {
+    "root": "./docs",
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md"
+    },
     "plugins": [
         "custom-favicon",
         "hints",
@@ -6,6 +11,12 @@
         "local-video"
     ],
     "pluginsConfig": {
-        "favicon": "assets/favicon.ico"
+        "favicon": "assets/favicon.ico",
+        "hints": {
+            "info": "fa fa-info-circle fa-lg",
+            "tip": "fa fa-lightbulb-o fa-lg",
+            "danger": "fa fa-exclamation-circle fa-lg",
+            "working": "fa fa-question-circle fa-lg"
+        }
     }
 }
