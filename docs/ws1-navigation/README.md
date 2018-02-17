@@ -17,7 +17,8 @@ This section will help guide you through the following steps:
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
-{% hint style='danger' %}If you are using a Chromebook, please skip to the <a href="#chromebook-instructions">Chromebook instructions</a> below!
+{% hint style='danger' %}
+If you are using a Chromebook, please skip to the <a href="#chromebook-instructions">Chromebook instructions</a> below!
 {% endhint %}
 
 ## Navigate between directories and view files {#navigation} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
@@ -29,12 +30,9 @@ JAD TODO Text here?
 {% include "./2create.md" %}
 
 ## Move and delete files and directories {#move-delete} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-JAD TODO Text here?
+Let's now work with `cp` and `rm`** **to make copies of our file and remove files.
 {% include "./3move-delete.md" %}
 
-## Searching {#search} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-JAD TODO Text here?
-{% include "./4search.md" %}
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 

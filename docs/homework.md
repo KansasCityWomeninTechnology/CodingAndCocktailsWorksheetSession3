@@ -5,7 +5,7 @@
 
 1. Work through the Command Line course on codecademy at [https://www.codecademy.com/learn/learn-the-command-line](https://www.codecademy.com/learn/learn-the-command-line).
 
-2. Beat the game at [http://overthewire.org/wargames/bandit/](http://overthewire.org/wargames/bandit/). You'll start by entering in the command `ssh bandit0@bandit.labs.overthewire.org` ![](images/enter.png) and typing `bandit0` as the password when prompted.
+2. Beat the game at [http://overthewire.org/wargames/bandit/](http://overthewire.org/wargames/bandit/). You'll start by entering in the command `ssh bandit0@bandit.labs.overthewire.org` <i class="fa fa-share fa-rotate-180"></i> and typing `bandit0` as the password when prompted.
     {% hint style='info' %}
 The `ssh` command stands for **s**ecure **sh**ell and is a network protocol, much like `telnet`.
     {% endhint %}

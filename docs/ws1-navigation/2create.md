@@ -1,10 +1,10 @@
-1. Change into your home folder by typing `cd ~`![](images/enter.png). Type `ls -al` ![](images/enter.png) to check if a **CodingAndCocktails** folder already exists.
-
-2. Change directory into your CodingAndCocktails folder and create a **CommandLineBasics** folder by typing in `mkdir CommandLineBasics` ![](images/enter.png).
-
-3. Then change into your newly created directory by typing `cd CommandLineBasics` ![](images/enter.png).
-
-4. Let's create a file by typing `touch CLIFun.txt` ![](images/enter.png).
-    {% hint style='info' %}
-If you go to that same location through your GUI like you might be more used to, you'll see the file created there as a visual representation. You open the current directory you're in on a Mac by using `open .`. On a Windows machine, `start .` will do the same. In Cloud9 you'll see the file by opening the folders on the left side of your screen.
+1. Navigate into your home directory and change directory to "CodingAndCocktails". Navigate to this directory in the file explorer. 
+    {% hint style='tip' %}
+The worksheet will call out specific steps to verify output in your file explorer, but feel free to keep your file explorer in sync with your terminal each step of the way.
     {% endhint %}
+
+1. Create a "CommandLineBasics" folder by using the **m**ake **d**irectory command. Type in `mkdir CommandLineBasics` <i class="fa fa-share fa-rotate-180"></i>. Do you see your new folder in the explorer?
+
+1. Change directory into your newly created "CommandLineBasics" folder by typing `cd CommandLineBasics` <i class="fa fa-share fa-rotate-180"></i>.
+
+1. Let's create a file by typing `touch CLIFun.txt` <i class="fa fa-share fa-rotate-180"></i>. Do you see your file in the explorer?
