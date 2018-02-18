@@ -12,9 +12,10 @@ If you are using a Chromebook, please skip to the <a href="#chromebook-instructi
 {% endhint %}
 
 
+## Open your terminal
+Mac users- Open iTerm2.
 
-
-
+Windows users- Open Cmder as administrator by [following the instructions here](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-command-line/#optional-pin).
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 

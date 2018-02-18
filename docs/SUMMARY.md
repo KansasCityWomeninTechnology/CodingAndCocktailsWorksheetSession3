@@ -1,5 +1,6 @@
 # Summary
 * [Overview](README.md)
+* [Setup Instructions](setup/README.md)
 
 ### Worksheet
 * [Command Line Basics](ws1-navigation/README.md)

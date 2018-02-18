@@ -1,12 +1,11 @@
-
-1. We'll practice using vim on the "CLIFun.txt". Open your file in vim by typing `vim CLIFun.txt` <i class="fa fa-share fa-rotate-180"></i>.
+1. We'll practice using vim on the _CLIFun.txt_. Open your file in vim by typing `vim CLIFun.txt` <i class="fa fa-share fa-rotate-180"></i>.
     {% hint style='info' %}
 While **vim** is one option for a text editor, there are others available. You can use this [vim cheat sheet](https://vim.rtorr.com/) to take full advantage of its powerful features.
     {% endhint %}
 
    What's with all the squigglies?!?
 
-   ![](/images/vim_squigglies.png)
+   ![](images/vim_squigglies.png)
 
    Don't worry! By learning a few basic vim commands, you'll be saving contents in your files in no time. Let's start by copying the [**lorem ipsum**](https://en.wikipedia.org/wiki/Lorem_ipsum) text below.
 
@@ -26,7 +25,7 @@ While **vim** is one option for a text editor, there are others available. You c
 The 'w' stands for **w**rite and the 'q' stands for **q**uit.
     {% endhint %}
 
-1. Inspect the contents of "CLIFun.txt" using `cat`.
+1. Inspect the contents of _CLIFun.txt_ using `cat`.
 
 1. To add more content, type `vim CLIFun.txt` <i class="fa fa-share fa-rotate-180"></i> to enter the editor again. Press `i` again like we did before and start entering in some text.
 
@@ -39,9 +38,9 @@ The 'w' stands for **w**rite and the 'q' stands for **q**uit.
 You'll see '**E37: No write since last change \(add ! to override\)**'. Follow the instructions there by typing `:q!` <i class="fa fa-share fa-rotate-180"></i>.
       {% endhint %}
 
-1. Inspect the contents of "CLIFun.txt" using `cat` to confirm your changes weren't saved.
+1. Inspect the contents of _CLIFun.txt_ using `cat` to confirm your changes weren't saved.
 
-1. Let's add some more content to our "steps.txt" file. Open your file in vim by typing `vim steps.txt` <i class="fa fa-share fa-rotate-180"></i>.
+1. Let's add some more content to our _steps.txt_ file. Open your file in vim by typing `vim steps.txt` <i class="fa fa-share fa-rotate-180"></i>.
 
 1. We want to navigate to the end of file. Type `G$` <i class="fa fa-share fa-rotate-180"></i>.
    {% hint style='info' %}

@@ -1,6 +1,6 @@
 1. Type `cp CLIFun.txt CLIFun2.txt` <i class="fa fa-share fa-rotate-180"></i>. Do you see the new file in the explorer?
       {% hint style='info' %}
-If you do an `ls -al` you'll see there's now a **CLIFun2.txt** file with the same size as the **CLIFun.txt** file but with a more current timestamp.
+If you do an `ls -al` you'll see there's now a _CLIFun2.txt_ file with the same size as the _CLIFun.txt_ file but with a more current timestamp.
       {% endhint %}
 
 1. Let's remove "CLIFun2.txt" by typing `rm CLIFun2.txt` <i class="fa fa-share fa-rotate-180"></i>. 
@@ -17,7 +17,7 @@ Don't forget your tab completion!
 
 1. List the directory contents to make sure the copy worked by entering `ls -al` <i class="fa fa-share fa-rotate-180"></i>.
       {% hint style='tip' %}
-This time, you'll see a **CommandLineBasics2** directory that's the same as the directory we copied it from, except that it has a more current timestamp. You can also check it out in the explorer.
+This time, you'll see a "CommandLineBasics2" directory that's in the same as the directory we copied it from, except that it has a more current timestamp. You can also check it out in the explorer.
       {% endhint %}
 
 1. To remove the directory, use the recursive option again by typing `rm -r CommandLineBasics2` <i class="fa fa-share fa-rotate-180"></i>.
@@ -27,5 +27,5 @@ Be **VERY** careful when running rm commands. If you do it from the wrong direct
 
 1. Now let's move files. Navigate to the "CodingAndCocktails" directory and type `mv CommandLineBasics/CLIFun.txt .` <i class="fa fa-share fa-rotate-180"></i>.
       {% hint style='tip' %}
-Remember, **.** is a shortcut for the current directory.
+Remember, `.` is a shortcut for the current directory.
       {% endhint %}

@@ -12,7 +12,7 @@
         "anchors",
         "codeblock-label",
         "codetabs",
-        "terminal"
+        "simpletabs"
     ],
     "pluginsConfig": {
         "favicon": "assets/favicon.ico",
@@ -21,11 +21,6 @@
             "tip": "fa fa-lightbulb-o fa-lg",
             "danger": "fa fa-exclamation-circle fa-lg",
             "working": "fa fa-question-circle fa-lg"
-        },
-        "terminal": {
-            "copyButtons": false,
-            "fade": false,
-            "style": "white"
         }
     }
 }
