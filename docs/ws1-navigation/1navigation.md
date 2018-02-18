@@ -60,7 +60,7 @@ You'll also want to utilize **tab completion** with your **tab** key and your **
 
 1. Type in `cd Cod` then press `Tab`. Tab completion will find your "CodingAndCocktails" folder and fill in the rest of the directory name for you!
 
-1. Navigate back to your home directory by using the following shortcut command for your operating system
+1. Navigate back to your home directory by using the following shortcut command for your operating system and pressing `Enter`
    {% codetabs name="Mac", type="bash" -%} 
    cd ~
    {%- language name="Windows", type="bash" -%} 

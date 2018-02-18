@@ -23,18 +23,19 @@ This section will help guide you through the following steps:
 A stream is input/output of data travelling between processes which can be standard input \(stdin\), standard output \(stdout\), and standard error \(stderr\). Let's start by looking at an example of redirecting to a stream.
 {% include "./1redirects.md" %}
 
-## Piping commands {#pipes} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-JAD TODO Text here?
-A pipe is a chain of processes so that output of one process \(stdout\) is fed to the input \(stdin\) of another.
-{% include "./2pipes.md" %}
-
 ## Edit files {#edit} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
 JAD TODO Text here?
-{% include "./3vim.md" %}
+{% include "./2vim.md" %}
 
 ## Searching {#search} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
 JAD TODO Text here?
-{% include "./4search.md" %}
+{% include "./3search.md" %}
+
+## Piping commands {#pipes} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
+JAD TODO Text here?
+A pipe is a chain of processes so that output of one process \(stdout\) is fed to the input \(stdin\) of another.
+{% include "./4pipes.md" %}
+
 
 
 

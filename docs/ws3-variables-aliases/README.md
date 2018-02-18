@@ -18,6 +18,7 @@ JAD TODO Text here?
 
 ## Creating aliases {#aliases} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
 JAD TODO Text here?
+So what's an alias? Basically, it's a shortcut you create to a command. For example, remember the `ls -al` command we used earlier? You can add an `-h` option to show file sizes in a more **h**uman readeable format. The command `ls -alh` gives us more information and makes the output easier to read. Let's bind it to a new command, `la`, to save us some keystrokes:
 {% include "./2aliases.md" %}
 
 ## Useful commands {#commands} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
