@@ -1,21 +1,10 @@
 1. Type in `cd Cod` then press `Tab`. Tab completion will find your "CodingAndCocktails" folder and fill in the rest of the directory name for you!
 
-1. Navigate back to your home directory by using the following shortcut command for your operating system and pressing `Enter`
-   {% codetabs name="Mac", type="bash" -%} 
-   cd ~
-   {%- language name="Windows", type="bash" -%} 
-   cd %USERPROFILE%
-   {%- language name="Chromebooks", type="bash" -%} 
-   cd ~
-   {%- endcodetabs %}
+1. Navigate back to your home directory by typing `cd ~` <i class="fa fa-share fa-rotate-180"></i>.
 
    {% hint style='info' %}
 No matter where you are, your OS shortcut to the home directory is always a valid commands.
     {% endhint %}
-    {% hint style='tip' %}
-Windows users can use tab completion to navigate to their home directory. Type `cd %userp` and press `Tab`. Cmder will fill in the rest.
-    {% endhint %}
-
 
 Now try navigating around on your own! See the video below for some help. You can watch it in fullscreen as well. To download the video, right-click and click "Save video as...".
 

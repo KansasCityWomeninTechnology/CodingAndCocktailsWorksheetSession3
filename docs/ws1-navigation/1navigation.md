@@ -4,7 +4,7 @@ The <i class="fa fa-share fa-rotate-180"></i> icon tells you when to press `Ente
 
 1. In your terminal, type `pwd` <i class="fa fa-share fa-rotate-180"></i> in your CLI to see your current directory. `pwd` stands for **p**rint **w**orking **d**irectory. 
    {% hint style='info' %}
-You should be in your home directory. On Macs, you will see `~` after your prompt. On Windows, you will see `C:\Users\[Your log in name]\`. We will refer to this directory as your home directory in the remainder of the worksheet.
+You should be in your home directory. You will see `~` after your prompt. We will refer to this directory as your home directory in the remainder of the worksheet.
     {% endhint %}
 
 1. Open a file explorer by using the following command for your operating system (click on the tab for your operating system)

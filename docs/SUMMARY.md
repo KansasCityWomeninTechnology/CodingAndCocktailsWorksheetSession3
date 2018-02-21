@@ -10,8 +10,9 @@
 * [Quiz](quiz.md)
 
 
-----
-* [Homework](homework.md)
+### Bonus
+* [Web Server](homework/web-server.md)
+* [Homework](homework/homework.md)
 
 ----
 * [Command Line Cheat Sheet](references/command_line_cheat_sheet.md)
