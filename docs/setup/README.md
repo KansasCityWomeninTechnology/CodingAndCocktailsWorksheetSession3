@@ -23,6 +23,7 @@ We will use a couple of different shells tonight-- bash and powershell both in C
 
 1. Open Cmder as administrator by [following the instructions here](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-command-line/#using-cmder). 
 1. Open a **bash as Admin** tab. You should see a `~` and a prompt with the Cmder **λ**.
+   ![](images/cmder-bash.png)
 <!--endsec-->
 
 

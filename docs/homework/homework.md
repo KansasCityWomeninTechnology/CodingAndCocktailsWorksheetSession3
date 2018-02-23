@@ -2,6 +2,7 @@
 The more you practice, the more comfortable you’ll feel!
 
 1. Create persistent variables and aliases (JAD TODO determine)
+
 1. Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have!
    {% tabs first="Macs", second="Windows" %}
 
@@ -29,15 +30,41 @@ The `telnet` command uses a **protocol** that allows you to log in to another re
 The `winpty` command allows Cmder to properly use the `telnet` command in Windows. You could also run `telnet towel.blinkenlights.nl` in the built-in Windows command prompt to get the same results.
     {% endhint %}
 
-1. Serve content from your computer using a secure tunnel
-JAD TODO - Install web server and [ngrok](). [Create an account](https://dashboard.ngrok.com/user/signup) on ngrok. Download and follow installation instructions for your OS. Use CSS code if they don't have one and serve using [instructions](https://dashboard.ngrok.com/get-started).
 
-#### Windows users
-1. JAD TODO - Rework through worksheet using Cmder's bash shell.
+## Windows users only
+There may be times when you don't have the bash shell. Let's learn some Windows shell commands to match our worksheet work. You can try working through the worksheet using Windows command prompt but you will run into differences quickly. Understanding the difference in a few basic commands may be helpful.
+
+1. Open Windows command prompt by typing "cmd" in the Windows task bar. Launch **Command Prompt Desktop app** as an Administrator.
+
+Not all of the bash commands are available in Windows. Windows PowerShell will have more bash commands.
+
+Here's some equivalent commands from bash to Windows command prompt.
+| bash | cmd |
+| --- | --- |
+| pwd | cd |
+| ls | dir | 
+| cd | cd |
+| ~ | %USERPROFILE% | 
+| mkdir | mkdir |
+| touch | nul > |
+| cp | copy |
+| cp -r | xcopy |
+| mv | move |
+| rm | del |
+| rm -r | deltree |
+| echo | echo |
+| cat | type |
+|  > | > |
+| >> | >> | 
+| export MY_VAR | set %MY_VAR% |
+| export | set | 
+
+{% hint style='info' %}
+You can find more [equivalent command here](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/ap-doslinux.html).
+{% endhint %}
 
 
-
-### More Practice
+## More Practice
 
 1. Work through the Command Line course on Codecademy at [https://www.codecademy.com/learn/learn-the-command-line](https://www.codecademy.com/learn/learn-the-command-line).
 
