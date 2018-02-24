@@ -1,12 +1,20 @@
 # Summary
-
 * [Overview](README.md)
-* [Part 1: Navigating & Basics](part-1-navigation-and-basics.md)
-* [Part 2: Manipulating Files](part-2-manipulating-files.md)
-* [Part 3: Variables & Aliases](part-3-variables-and-aliases.md)
-* [Part 4: Pipes & Redirects](part-4-pipes-and-redirects.md)
-* [Part 5: Scripts & Permissions](part-5-scripts.md)
-* [Part 6: Tips & Tricks](part-6-tips-and-tricks.md)
-* [Homework](homework.md)
-* [Command Line Cheat Sheet](command_line_cheat_sheet.md)
+* [Setup Instructions](setup/README.md)
+
+### Worksheet
+* [Command Line Basics](ws1-navigation/README.md)
+* [Redirection & Pipes](ws2-redirect-pipes/README.md) 
+* [Variables & Aliases](ws3-variables-aliases/README.md)
+* [Scripts & Permissions](ws4-scripts-permissions/README.md)
+* [Quiz](quiz.md)
+
+
+### Bonus
+* [Web Server](homework/web-server.md)
+* [Homework](homework/homework.md)
+
+----
+* [Command Line Cheat Sheet](references/command_line_cheat_sheet.md)
+* [Helpful Keyboard Shortcuts](references/README.md)
 

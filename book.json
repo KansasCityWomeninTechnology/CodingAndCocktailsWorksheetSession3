@@ -8,7 +8,11 @@
         "custom-favicon",
         "hints",
         "sectionx",
-        "local-video"
+        "local-video",
+        "anchors",
+        "codeblock-label",
+        "codetabs",
+        "simpletabs"
     ],
     "pluginsConfig": {
         "favicon": "assets/favicon.ico",

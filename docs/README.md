@@ -1,12 +1,25 @@
-# Coding & Cocktails Session 3:
-## Command Line Basics {#command-line-basics}
+<div>
+    <img src="assets/logo.png" style="float: left; margin: 0px 15px 15px 0px; height:125px;">
+    <h2 style="display:inline-block;margin-top:1em;">Coding &amp; Cocktails Session 3:</h2>
+    <h3 style="margin-top:0;margin-bottom:2em;">Command Line Basics</h3>
+</div>
 <hr>
-**![Coding & Cocktails Badge](assets/codingcocktailsbadge-200.png)**
 
 
 ### Overview
 
-During the session we’ll cover Command Line basics. We’ll put those to use here getting comfortable with interacting with the filesystem in a text based way!
+During the session we’ll cover Command Line basics and get comfortable with interacting with the filesystem in a text based way!
 
-[![](images/glossary.png)](http://bit.ly/CnCgloss)
-[![](images/tools.png)](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/)
+{% hint style='tip' %}
+First time at Coding & Cocktails?   [Click here to Install the Tools!](http://bit.ly/CnCTheTools)
+{% endhint %}
+
+{% hint style='tip' %}
+Don't know a term?   [Click here to check out our glossary!](http://bit.ly/CnCgloss)
+{% endhint %}
+
+{% hint style='tip' %}
+Want to be more efficient at working with your computer?
+
+[Click here to see our list of Helpful Keyboard Shortcuts!](/references/README.md)
+{% endhint %}
