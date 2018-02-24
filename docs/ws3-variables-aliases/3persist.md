@@ -1,5 +1,9 @@
   Now, close out of your terminal and open a new one. You'll notice that the alias we just create didn't persist. That's because every time you open a new terminal, its settings, namely what's called your **profile,** are reloaded.
 
+    {% hint style='danger' %}
+Attention Chromebook users - skip this section and proceed to [Useful commands](#commands).
+    {% endhint %}
+
 You can edit your profile by following these steps:
 
 1. Create the file by typing `touch ~/.bash_profile` ![](images/enter.png).

@@ -37,7 +37,7 @@ You're running a local web server! Now we want to use our command line skills an
 
 ## Create a public tunnel
 
-1. Create an account on [ngrok](https://ngrok.com/) and follow the installation steps. Remember when you installed ngrok.
+1. Create an account on [ngrok](https://ngrok.com/) and follow the installation steps. Remember where you installed ngrok.
 
 1. Open a terminal and navigate to the directory where you installed ngrok.
    {% hint style='tip' %}

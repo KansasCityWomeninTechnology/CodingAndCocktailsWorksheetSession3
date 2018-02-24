@@ -1,4 +1,4 @@
-1. We can pipe output from one command to another and create powerful commands. Type `ls | grep .txt` <i class="fa fa-share fa-rotate-180"></i> to view all _txt_ files in the current directory.
+1. We can pipe output from one command to another and create powerful commands. Type `ls | grep txt` <i class="fa fa-share fa-rotate-180"></i> to view all _txt_ files in the current directory.
    {% hint style='info' %}
 We are using the pipe operator (`|`) to take the output of `ls` and use it as input for `grep`.
    {% endhint %}

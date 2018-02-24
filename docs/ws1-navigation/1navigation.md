@@ -25,6 +25,8 @@ For Windows users, use `windows key` + `left arrow` or `windows` + `right arrow`
 
 For Mac users, hold down the full-screen button in the upper-left corner of a window to shrink and position to the left or right side of the screen. Release the button, then click another window to begin using both windows side by side.
 
+Chromebook users, sorry, you won't be able to open a file explorer. You'll use the command lines operations to inspect your work tonight.
+
 Mentors are happy to help!
    {% endhint %}
    {% hint style='working' %}
@@ -32,8 +34,13 @@ Did you know you can collapse the table of contents for worksheets?
 
 Click on the hamburger menu (<i class="fa fa-bars" aria-hidden="true"></i>) at the top of the page to toggle the table of contents.
    {% endhint %}
+      {% hint style='working' %}
+Did you know you can customize font size and color of the worksheets to make it easier for you to see?
 
-1. Type `ls` <i class="fa fa-share fa-rotate-180"></i> to see the contents of your current directory. You should see the same files in the terminal as you see in the explorer.
+Click on the font menu (<i class="fa fa-font" aria-hidden="true"></i>) at the top of the page to open a menu where you can make your font larger or smaller or change background color.
+   {% endhint %}
+
+1. In the terminal, type `ls` <i class="fa fa-share fa-rotate-180"></i> to see the contents of your current directory. You should see the same files in the terminal as you see in the explorer.
 
 1. Type `ls -al` <i class="fa fa-share fa-rotate-180"></i> and compare it to your previous output.  You should see more information and all files, including hidden files.
 
