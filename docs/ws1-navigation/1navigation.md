@@ -19,7 +19,7 @@ View the worksheet, terminal, and file explorer all at the same time by adjustin
 
 We want to lay out our workspace to look like this.
 
-JAD TODO INCLUDE PICTURE HERE
+![](images/desktop.png)
 
 For Windows users, use `windows key` + `left arrow` or `windows` + `right arrow` to resize the application and position to the left or right half of your screen.
 
@@ -49,5 +49,5 @@ Both Cmder and oh-my-zsh use formatting to distinguish between what's a director
 
 1. Let's move back up one directory-- the parent directory of "CodingAndCocktails". To do this, type `cd ..` <i class="fa fa-share fa-rotate-180"></i>.
     {% hint style='info' %}
-The **..** is a shortcut for the parent directory. A parent directory would be the directory that contains your current directory. No matter where you are, `cd ..` is always a valid command.
+The `..` is a shortcut for the parent directory. A parent directory would be the directory that contains your current directory. No matter where you are, `cd ..` is always a valid command.
     {% endhint %}
