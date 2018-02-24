@@ -1,5 +1,5 @@
 # Bonus - Running a server
-We can serve up web content on our own machine, but sometimes we want to make the content available publicly. In this bonus assignment we'll use a Chrome extension to act as a web server and use [ngrok](https://ngrok.com/), a command line service to expose your web server to the public securely.
+We can serve up web content on our own machine, but sometimes we want to make the content available publicly. In this bonus assignment we'll use a Chrome extension to act as a web server and use [ngrok](https://ngrok.com/), a command line service to expose your web server to the public securely using a HTTP tunnel.
 
 ## Prerequisites
 For this assignment, find a Slack buddy so you can share content to each other!
@@ -58,5 +58,8 @@ Windows users - open the standard cmd shell in Cmder.
    ![](images/ngrok.png)
 
 1. Navigate to either Forwarding URL in your phone. You can see your content! Share your URL with your Slack buddy or on the #codingandcocktails Slack channel. 
+   {% hint style='info' %}
+   You created a HTTP tunnel! A tunnel is a network link. In our case we created a tunnel from your computer to the public using the HTTP protocol. HTTP stands for **H**yper**t**ext **T**ransfer **P**rotocol and is what the internet is based on. You will learn more about protocols and the different types of protocols in the homework.
+{% endhint %}
 
 1. To exit out of ngrok, hit `CTRL+C`. When you exit out of ngrok, your public content will no longer be available.

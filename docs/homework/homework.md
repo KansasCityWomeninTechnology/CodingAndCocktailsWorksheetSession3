@@ -1,9 +1,17 @@
 # Homework
 The more you practice, the more comfortable you’ll feel!
 
-1. Create persistent variables and aliases (JAD TODO determine)
+{% hint style='tip' %}
+##### Hey Slacker!
 
-1. Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have!
+Remember, we're here to help.
+Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit.slack.com)
+{% endhint %}
+
+
+## Use telnet
+Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have!
+1. Follow the instructions for your OS.
    {% tabs first="Macs", second="Windows" %}
 
     {% content "first" %}
@@ -30,8 +38,7 @@ The `telnet` command uses a **protocol** that allows you to log in to another re
 The `winpty` command allows Cmder to properly use the `telnet` command in Windows. You could also run `telnet towel.blinkenlights.nl` in the built-in Windows command prompt to get the same results.
     {% endhint %}
 
-
-## Windows users only
+## Windows users only - Learn some native Windows shell commands
 There may be times when you don't have the bash shell. Let's learn some Windows shell commands to match our worksheet work. You can try working through the worksheet using Windows command prompt but you will run into differences quickly. Understanding the difference in a few basic commands may be helpful.
 
 1. Open Windows command prompt by typing "cmd" in the Windows task bar. Launch **Command Prompt Desktop app** as an Administrator.
@@ -39,6 +46,7 @@ There may be times when you don't have the bash shell. Let's learn some Windows 
 Not all of the bash commands are available in Windows. Windows PowerShell will have more bash commands.
 
 Here's some equivalent commands from bash to Windows command prompt.
+
 | bash | cmd |
 | --- | --- |
 | pwd | cd |
@@ -60,7 +68,7 @@ Here's some equivalent commands from bash to Windows command prompt.
 | export | set | 
 
 {% hint style='info' %}
-You can find more [equivalent command here](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/ap-doslinux.html).
+You can find more [equivalent commands here](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/ap-doslinux.html).
 {% endhint %}
 
 
@@ -78,9 +86,3 @@ The higher levels of this game can get decently advanced but take it step by ste
 
 1. Play a fun game to sharpen your vim skills. Visit https://vim-adventures.com/.
 
-{% hint style='tip' %}
-##### Hey Slacker!
-
-Remember, we're here to help.
-Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit.slack.com)
-{% endhint %}

@@ -42,14 +42,15 @@ You'll see '**E37: No write since last change \(add ! to override\)**'. Follow t
 
 1. Let's add some more content to our _steps.txt_ file. Open your file in vim by typing `vim steps.txt` <i class="fa fa-share fa-rotate-180"></i>.
 
-1. We want to navigate to the end of file. Type `G$` <i class="fa fa-share fa-rotate-180"></i>.
+1. We want to navigate to the end of file. Type `G` <i class="fa fa-share fa-rotate-180"></i>.
+   {% hint style='tip' %}
+Casing matters! Be sure to type `G`.      
+   {% endhint %}
    {% hint style='info' %}
-Vim is powerful, but can be overwhelming at first with all the shortcuts available. We could move to the end of the file by moving the cursor using arrow keys that we're familiar with or we can navigate to the last line of a file using `G` and to the last column in the line using `$`.
+Vim is powerful, but can be overwhelming at first with all the shortcuts available. We could move to the end of the file by moving the cursor using arrow keys that we're familiar with or we can navigate to the last line of a file using `G`.
    {% endhint %}
 
-1. Press `a` to append to the file.
-
-1. Add a new line by pressing `Enter` and type `grab a mentor if you have questions`.
+1. Press `o` to add a new line to the file then type `grab a mentor if you have questions`.
 
 1. Hit `Esc` to exit out of **INSERT** mode and save the file using `:wq` <i class="fa fa-share fa-rotate-180"></i>. Inspect your file using `cat` or in the explorer. Your file should look like this
 ![](./images/steps_checkpoint.png)
