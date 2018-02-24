@@ -16,7 +16,21 @@ While **vim** is one option for a text editor, there are others available. You c
     ```
 1. In your terminal, press `i` to enter **INSERT** mode.
 
-7. Now use the keyboard combination **⌘V** on your Mac or **Shift + Ins** in Cmder to paste the text you copied.
+1. Paste the text into vim using the keyboard combination following the instructions for your operating system below.
+   {% tabs first="Macs", second="Windows", third="Chromebooks" %}
+
+    {% content "first" %}
+Use the keyboard combination **⌘V**.
+    {% content "second" %}
+Use the keyboard combination **Shift + Ins**.
+    {% content "third" %}
+Copy paste does not work in Webminal. Type the following text
+
+```
+Lorem ipsum dolor sit amet
+```
+    {% endtabs %}
+
 
 1. Press `Esc` to exit out of **INSERT** mode.
 

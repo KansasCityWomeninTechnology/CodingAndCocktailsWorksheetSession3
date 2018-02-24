@@ -11,7 +11,8 @@ Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit
 
 ## Use telnet
 Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have!
-1. Follow the instructions for your OS.
+1. Follow the instructions for your OS. Use `CTRL` + `]` to exit. 
+
    {% tabs first="Macs", second="Windows" %}
 
     {% content "first" %}
@@ -39,11 +40,15 @@ The `winpty` command allows Cmder to properly use the `telnet` command in Window
     {% endhint %}
 
 ## Windows users only - Learn some native Windows shell commands
-There may be times when you don't have the bash shell. Let's learn some Windows shell commands to match our worksheet work. You can try working through the worksheet using Windows command prompt but you will run into differences quickly. Understanding the difference in a few basic commands may be helpful.
+There may be times when you don't have the bash shell. Windows PowerShell is the next best option for ongoing needs, but it's good to have exposure to Windows cmd. 
+
+Let's learn some Windows shell commands that match our worksheet work. You can try working through the worksheet using Windows command prompt but you will run into differences quickly. Understanding the difference in a few basic commands may be helpful.
 
 1. Open Windows command prompt by typing "cmd" in the Windows task bar. Launch **Command Prompt Desktop app** as an Administrator.
-
+   {% hint style='info' %}
 Not all of the bash commands are available in Windows. Windows PowerShell will have more bash commands.
+   {% endhint %}
+
 
 Here's some equivalent commands from bash to Windows command prompt.
 
@@ -54,7 +59,6 @@ Here's some equivalent commands from bash to Windows command prompt.
 | cd | cd |
 | ~ | %USERPROFILE% | 
 | mkdir | mkdir |
-| touch | nul > |
 | cp | copy |
 | cp -r | xcopy |
 | mv | move |
@@ -64,7 +68,8 @@ Here's some equivalent commands from bash to Windows command prompt.
 | cat | type |
 |  > | > |
 | >> | >> | 
-| export MY_VAR | set %MY_VAR% |
+| export MY_VAR | set MY_VAR |
+| echo $MY_VAR | echo %MY_VAR%
 | export | set | 
 
 {% hint style='info' %}
@@ -81,8 +86,8 @@ You can find more [equivalent commands here](https://access.redhat.com/documenta
 The `ssh` command stands for **s**ecure **sh**ell and is a network protocol, much like `telnet`.
     {% endhint %}
     {% hint style='tip' %}
-The higher levels of this game can get decently advanced but take it step by step. You can follow the walkthrough at [https://www.yalpski.net/bandit-wargame](https://www.yalpski.net/bandit-wargame) for levels 0-17 if you need further help. Always seach the internet for anything you don't understand or need further information on!
+The higher levels of this game can get decently advanced but take it step by step. You can follow the walk through at [https://www.yalpski.net/bandit-wargame](https://www.yalpski.net/bandit-wargame) for levels 0-17 if you need further help. Always search the internet for anything you don't understand or need further information on!
     {% endhint %}
 
-1. Play a fun game to sharpen your vim skills. Visit https://vim-adventures.com/.
+1. Play a fun game to sharpen your vim skills. Visit [https://vim-adventures.com/](https://vim-adventures.com/).
 

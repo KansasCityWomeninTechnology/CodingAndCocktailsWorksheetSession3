@@ -14,7 +14,7 @@ We created session variables which means the variables are only available for th
    {%- language name="Windows", type="bash" -%} 
    export
    {%- language name="Chromebooks", type="bash" -%} 
-   echo $VAR
+   export
    {%- endcodetabs %}
 
 1. There's a special variable called the **PATH** variable. Let's see what's in it. Type `echo $PATH` <i class="fa fa-share fa-rotate-180"></i>.

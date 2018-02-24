@@ -13,3 +13,10 @@ Tonight we will use [Webmnial](http://www.webminal.org) as your terminal. You wi
    {% hint style='danger' %}
 You will automatically get logged out of the terminal if you have a period of inactivity. You may have to retrace a few steps to get back to your worksheet location.   
    {% endhint %}
+
+1. Create a "CodingAndCocktails" directory by typing `mkdir CodingAndCocktails` and pressing `Enter`.
+
+    {% hint style='working' %}
+The worksheet will call out OS specific steps. Follow the instructions for "Chromebooks" if called out. Otherwise there are no more separate instructions required for Chromebooks. 
+   {% endhint %}
+
