@@ -1,5 +1,5 @@
 # Bonus - Running a server
-We can serve up web content on our own machine, but sometimes we want to make the content available publicly. In this bonus assignment we'll use a Chrome extension to act as a web server and use [ngrok](https://ngrok.com/), a command line service to expose your web server to the public securely using a HTTP tunnel.
+We can serve up web content on our own machine, but sometimes we want to make the content available publicly. In this bonus assignment we'll learn a little bit about networking by using a Chrome extension to act as a web server and use [ngrok](https://ngrok.com/), a command line service to expose your web server to the public securely using a HTTP tunnel.
 
 ## Prerequisites
 For this assignment, find a Slack buddy so you can share content to each other!
@@ -25,7 +25,7 @@ Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit
    
    ![](images/chrome-web-server-choose-folder.png)
 
-1. Notice the **Web Server URL(s)** has a link that looks something like `http://127.0.0.1:8887`. We are serving content to our local machine using port 8887. The network address `127.0.0.1` means home and is also referred as `localhost`. You can change the port if you want to. 
+1. Notice the **Web Server URL(s)** has a link that looks something like `http://127.0.0.1:8887`. We are serving content to our local machine using port 8887. The network address `127.0.0.1` means home and is also referred as `localhost`. You can change the port if you want to but some ports are pre-allocated and may cause conflicts. 
    
    ![](images/chrome-web-server-port.png)
 
@@ -33,7 +33,29 @@ Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit
   
    ![](images/web-server-content.png)
 
-You're running a local web server! Now we want to use our command line skills and make our content available using [ngrok](https://ngrok.com/).
+1. Try opening a new browser pointed to `localhost`. Don't forget to add your port! You should see your content.
+
+1. Each computer connected to a network has an **I**nternet **P**rotocol address, commonly referred to as **IP** address. Let's identify our IP address. In your terminal, run the command for your OS:
+    {% codetabs name="Mac", type="bash" -%} 
+ifconfig
+   {%- language name="Windows", type="bash" -%} 
+ipconfig
+   {%- endcodetabs %}
+
+   Your IP address is either listed as `inet addr` on Macs or `IPv4 Address` on Windows in the output. Don't worry, with proper firewall protection, your machine is safe.
+   
+   ![](images/ip-address.png)
+
+1. Web Server for Chrome can serve content to this address as well. Slide the toggle under **CHOOSE FOLDER** to stop the web server.
+
+1. Enable **Accessible on local network** and start the web server. You now see a new URL show up. It should be your IP address.
+
+   ![](images/serve-ip-address.png)
+
+1. Open a browser tab to the URL. You should see your content. 🎉  
+
+
+You're running a local web server! Now we want to use our command line skills and make our content securely available publicly using [ngrok](https://ngrok.com/).
 
 ## Create a public tunnel
 
