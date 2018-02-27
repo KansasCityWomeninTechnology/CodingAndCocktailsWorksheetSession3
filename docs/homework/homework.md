@@ -42,9 +42,9 @@ The `winpty` command allows Cmder to properly use the `telnet` command in Window
 ## Windows users only - Learn some native Windows shell commands
 There may be times when you don't have the bash shell. Windows PowerShell is the next best option for ongoing needs, but it's good to have exposure to Windows cmd. 
 
-Let's learn some Windows shell commands that match our worksheet work. You can try working through the worksheet using Windows command prompt but you will run into differences quickly. Understanding the difference in a few basic commands may be helpful.
+Let's learn some Windows shell commands that match some commands we learned in the worksheet. You can try stepping through the worksheet using Windows command prompt but you will run into differences. Understanding the difference of a few basic commands may be helpful.
 
-1. Open Windows command prompt by typing "cmd" in the Windows task bar. Launch **Command Prompt Desktop app** as an Administrator.
+1. Open Windows command prompt by typing "cmd" in the Windows task bar. Launch **Command Prompt Desktop app** as an Administrator to try using native Windows commands.
    {% hint style='info' %}
 Not all of the bash commands are available in Windows. Windows PowerShell will have more bash commands.
    {% endhint %}
