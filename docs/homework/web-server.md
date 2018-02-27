@@ -15,7 +15,7 @@ Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit
 
 ## Install and set up a web server
 
-1. Using Chrome, install the Chrome Web Extension [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb) by clicking on the link and clicking the **ADD TO CHROME** button and clicking **Add app** on the dialog that opens. It installs as a desktop application so you can run it the same way you run any of your applications or from Chrome itself.
+1. Using Chrome, install the Chrome Extension [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb) by clicking on the link. Click the **ADD TO CHROME** button and click **Add app** on the dialog that opens. It installs as a desktop application so you can run it the same way you run any of your applications or from Chrome itself.
   
    ![](images/chrome-web-server.png)
 
@@ -25,7 +25,7 @@ Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit
    
    ![](images/chrome-web-server-choose-folder.png)
 
-1. Notice the **Web Server URL(s)** has a link that looks something like `http://127.0.0.1:8887`. We are serving content to our local machine using port 8887. The network address `127.0.0.1` means home and is also referred as `localhost`. You can change the port if you want to but some ports are pre-allocated and may cause conflicts. 
+1. Notice the **Web Server URL(s)** has a link that looks something like `http://127.0.0.1:8887`. The numbers after the colon is the port. In this case, we are serving content to our local machine using port 8887 but Chrome Web Server may use a different port for you. The network address `127.0.0.1` means home and is also referred as `localhost`. You can change the port if you want to but some ports are pre-allocated and may cause conflicts. 
    
    ![](images/chrome-web-server-port.png)
 
@@ -67,7 +67,7 @@ Windows users - open the standard cmd shell in Cmder.
 {% endhint %}
 
 
-1. Run ngrok using the command for your OS. You will need to use the port you used when serving content. `./ngrok http 8887`.
+1. Run ngrok using the command for your OS. You will need to use the port you used when serving content. 
   
    {% codetabs name="Mac", type="bash" -%} 
    ./ngrok http 8887
