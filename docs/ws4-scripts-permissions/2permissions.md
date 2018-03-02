@@ -9,7 +9,7 @@ Windows users will see `-rwxr-xr-x`. You don't need to change permissions on the
 
 1. Run the script by following the instructions for your OS.
 
-   {% tabs first="Macs", second="Windows", third="Chromebooks" %}
+   {% tabs first="Mac", second="Windows", third="Chromebook" %}
 
     {% content "first" %}
 1. Run the script by typing `./CnCScript.sh` <i class="fa fa-share fa-rotate-180"></i>.

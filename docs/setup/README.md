@@ -19,7 +19,7 @@ If you are using a Chromebook, please skip to the <a href="#chromebook-instructi
 
 
 <!--sec data-title="Windows instructions" data-id="section1" data-show=true data-collapse=true ces-->
-We will use a couple of different shells tonight-- bash and powershell both in Cmder.
+We will use a couple of different shells tonight-- bash and PowerShell both in Cmder.
 
 1. Open Cmder as administrator by following the instructions in the Windows Cmder [Using Cmder section](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-command-line/cmder.html#using-cmder). 
 1. Open a **bash as Admin** tab. This may take a couple seconds. You should see a `~` and a prompt with the Cmder **λ**.
