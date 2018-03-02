@@ -42,7 +42,7 @@ ifconfig
 ipconfig
    {%- endcodetabs %}
 
-   Your IP address is either listed as `inet addr` on Macs or `IPv4 Address` on Windows in the output. Don't worry, with proper firewall protection, your machine is safe.
+   Your IP address is either listed as `inet addr` on Mac or `IPv4 Address` on Windows in the output. Don't worry, with proper firewall protection, your machine is safe.
    
    ![](images/ip-address.png)
 

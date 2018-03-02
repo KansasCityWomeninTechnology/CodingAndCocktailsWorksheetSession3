@@ -13,7 +13,7 @@ We created session variables which means the variables are only available for th
    echo $VAR
    {%- language name="Windows", type="bash" -%} 
    export
-   {%- language name="Chromebooks", type="bash" -%} 
+   {%- language name="Chromebook", type="bash" -%} 
    export
    {%- endcodetabs %}
 

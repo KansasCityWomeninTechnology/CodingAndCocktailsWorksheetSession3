@@ -16,7 +16,7 @@ The up and down arrow traverse through your command history.
 1. To clear your terminal, type `clear` <i class="fa fa-share fa-rotate-180"></i>. The terminal looks so clean!
 
 1. Make your computer talk to you. 
-   {% tabs first="Macs", second="Windows", third="Chromebooks" %}
+   {% tabs first="Mac", second="Windows", third="Chromebook" %}
 
     {% content "first" %}
 1. Type the following command `say "Coding and Cocktails is my favorite place"` <i class="fa fa-share fa-rotate-180"></i>.

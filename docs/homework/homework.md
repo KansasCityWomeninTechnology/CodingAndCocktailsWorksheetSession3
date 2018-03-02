@@ -13,7 +13,7 @@ Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit
 Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have!
 1. Follow the instructions for your OS. Use `CTRL` + `]` to exit. 
 
-   {% tabs first="Macs", second="Windows" %}
+   {% tabs first="Mac", second="Windows" %}
 
     {% content "first" %}
 Type `telnet towel.blinkenlights.nl` <i class="fa fa-share fa-rotate-180"></i>.
@@ -63,7 +63,7 @@ Here's some equivalent commands from bash to Windows command prompt.
 | cp -r | xcopy |
 | mv | move |
 | rm | del |
-| rm -r | deltree |
+| rm -rf | deltree |
 | echo | echo |
 | cat | type |
 |  > | > |

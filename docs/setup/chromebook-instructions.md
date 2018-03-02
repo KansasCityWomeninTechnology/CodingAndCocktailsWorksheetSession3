@@ -17,6 +17,6 @@ You will automatically get logged out of the terminal if you have a period of in
 1. Create a "CodingAndCocktails" directory by typing `mkdir CodingAndCocktails` and pressing `Enter`.
 
     {% hint style='working' %}
-The worksheet will call out OS specific steps. Follow the instructions for "Chromebooks" if called out. Otherwise there are no more separate instructions required for Chromebooks. 
+The worksheet will call out OS specific steps. Follow the instructions for "Chromebook" if called out. Otherwise there are no more separate instructions required for Chromebook. 
    {% endhint %}
 

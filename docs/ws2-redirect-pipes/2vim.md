@@ -17,7 +17,7 @@ While **vim** is one option for a text editor, there are others available. You c
 1. In your terminal, press `i` to enter **INSERT** mode.
 
 1. Paste the text into vim using the keyboard combination following the instructions for your operating system below.
-   {% tabs first="Macs", second="Windows", third="Chromebooks" %}
+   {% tabs first="Mac", second="Windows", third="Chromebook" %}
 
     {% content "first" %}
 Use the keyboard combination **⌘V**.
