@@ -15,6 +15,26 @@ The up and down arrow traverse through your command history.
 
 1. To clear your terminal, type `clear` <i class="fa fa-share fa-rotate-180"></i>. The terminal looks so clean!
 
+1. Look at a command's manual by using the `man` command.  
+   {% tabs first="Mac", second="Windows", third="Chromebook" %}
+
+    {% content "first" %}
+1. Type `man ls` <i class="fa fa-share fa-rotate-180"></i>.
+1. Notice there is a **Name**, **Synopsis**, and **Description** section with all the options for running the `ls` command.
+1. You can scroll using the up/down arrow keys. Type `q` to quit.
+
+    {% content "second" %}
+1. Windows doesn't support `man` so we'll look at an online resource.
+1. Navigate to [https://linux.die.net/man/](https://linux.die.net/man/).
+1. Search for "ls". The results will include ads, followed by the search results. Select **ls(1): directory contents - Linux man page**.
+1. Notice there is a **Name**, **Synopsis**, and **Description** section with all the options for running the `ls` command.
+
+    {% content "third" %}
+1. Type `man ls` <i class="fa fa-share fa-rotate-180"></i>.
+1. Notice there is a **Name**, **Synopsis**, and **Description** section with all the options for running the `ls` command.
+1. You can scroll using the up/down arrow keys. Type `q` to quit.
+    {% endtabs %}
+
 1. Make your computer talk to you. 
    {% tabs first="Mac", second="Windows", third="Chromebook" %}
 
