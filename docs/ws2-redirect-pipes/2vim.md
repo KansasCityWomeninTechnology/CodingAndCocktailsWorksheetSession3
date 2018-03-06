@@ -22,7 +22,7 @@ While **vim** is one option for a text editor, there are others available. You c
     {% content "first" %}
 Use the keyboard combination **⌘V**.
     {% content "second" %}
-Use the keyboard combination **Shift + Ins**.
+Use the keyboard combination **Ctrl + v**.
     {% content "third" %}
 Copy paste does not work in Webminal. Type the following text
 

@@ -40,9 +40,9 @@
 
 **Create Empty File:** `touch filename`
 
-**Write content to file:** `echo “content” > filename`
+**Write Content to File:** `echo "content" > filename`
 
-**Append content to a file:** `echo "content" >> filename`
+**Append Content to a File:** `echo "content" >> filename`
 
 **Copy File:** `cp sourcefile destfile`
 

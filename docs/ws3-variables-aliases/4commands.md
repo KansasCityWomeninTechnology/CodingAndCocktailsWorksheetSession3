@@ -36,15 +36,15 @@ The up and down arrow traverse through your command history.
     {% endtabs %}
 
 1. Make your computer talk to you. 
-   {% tabs first="Mac", second="Windows", third="Chromebook" %}
+   {% tabs talkMac="Mac", talkWindows="Windows", talkChromebook="Chromebook" %}
 
-    {% content "first" %}
+    {% content "talkMac" %}
 1. Type the following command `say "Coding and Cocktails is my favorite place"` <i class="fa fa-share fa-rotate-180"></i>.
 
 1. You can add new voices under **System Preferences** -> **Accessibility** -> **Speech**. If you want to specify a voice, use the syntax  `say -v "Vicki" "hey there pardner"`.
 
 
-    {% content "second" %}
+    {% content "talkWindows" %}
 This is an example where Cmder or **BASH** doesn't have the same utility. For Windows, we can use Powershell.
 
 1. In Cmder, open a new tab using PowerShell as Admin. If you need guidance, take a look at [Using Cmder section](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-command-line/#using-cmder) in The Tools setup.
@@ -54,7 +54,7 @@ This is an example where Cmder or **BASH** doesn't have the same utility. For Wi
 PowerShell -Command "Add-Type –AssemblyName System.Speech; (New-Object System.Speech.Synthesis.SpeechSynthesizer).Speak('Coding and Cocktails is my favorite place');"
 ```
 
-    {% content "third" %}
+    {% content "talkChromebook" %}
 Sorry Chromebook users, the online terminal doesn't have this capability.
 
     {% endtabs %}

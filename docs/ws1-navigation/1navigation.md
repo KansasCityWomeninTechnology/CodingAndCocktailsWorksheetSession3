@@ -42,8 +42,6 @@ Click on the font menu (<i class="fa fa-font" aria-hidden="true"></i>) at the to
 
 1. In the terminal, type `ls` <i class="fa fa-share fa-rotate-180"></i> to see the contents of your current directory. You should see the same files in the terminal as you see in the explorer.
 
-1. Type `ls -al` <i class="fa fa-share fa-rotate-180"></i> and compare it to your previous output.  You should see more information and all files, including hidden files.
-
 1. Next, **c**hange **d**irectory into the "CodingAndCocktails" directory listed in the output of `ls` by typing `cd CodingAndCocktails` <i class="fa fa-share fa-rotate-180"></i>.
    {% hint style='danger' %}
 If you don't have a "CodingAndCocktails" directory, take a moment to [set up your workspace](/setup).
@@ -52,7 +50,12 @@ If you don't have a "CodingAndCocktails" directory, take a moment to [set up you
 Both Cmder and oh-my-zsh use formatting to distinguish between what's a directory and what's a file. You won't be able to `cd` into a file.
    {% endhint %}
 
-1. In the "CodingAndCocktails" directory, type `ls -al` <i class="fa fa-share fa-rotate-180"></i> again to see what's listed there.
+1. In the "CodingAndCocktails" directory, type `ls` <i class="fa fa-share fa-rotate-180"></i> again to see what's listed there.
+
+1. Type `ls -al` <i class="fa fa-share fa-rotate-180"></i> and compare it to your previous output.  You should see more information and all files, including hidden files.
+  {% hint style='info' %}
+A hidden file is something that isn't normally visible. Examples are files prefixed with `.`, such as profile files. We'll learn more about profile files later in the worksheet. You'll also see `.` and `..`. These are special files representing your current directory and parent directory.
+   {% endhint %}
 
 1. Let's move back up one directory-- the parent directory of "CodingAndCocktails". To do this, type `cd ..` <i class="fa fa-share fa-rotate-180"></i>.
     {% hint style='info' %}

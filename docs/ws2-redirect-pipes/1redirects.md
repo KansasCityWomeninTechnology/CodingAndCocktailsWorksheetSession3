@@ -5,7 +5,7 @@
 The `>` operator takes the output of `echo`, the first command, and redirects the output from the console to a file instead.
       {% endhint %}
 
-1. Type `cat steps.txt` <i class="fa fa-share fa-rotate-180"></i> to read the content of the file. Open the file in the explorer to see the contents. 😎
+1. Type `cat steps.txt` <i class="fa fa-share fa-rotate-180"></i> to read the content of the file. Open the file in the file explorer to see the contents. 😎
       {% hint style='danger' %}
 Don't forget to close the file so that we have access to write to it.
       {% endhint %}

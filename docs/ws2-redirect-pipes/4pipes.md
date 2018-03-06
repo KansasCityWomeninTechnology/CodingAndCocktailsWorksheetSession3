@@ -11,5 +11,5 @@ We are using the pipe operator (`|`) to take the output of `ls` and use it as in
    ![](./images/pipe.png)
 
    {% hint style='info' %}
-The functionality of `|` seems similar to `>` or `>` but there is a distinction. Pipes (`|`) redirects data from one command to another command but redirection operators (`>` and `>>`) redirects the output of the command to file.
+The functionality of `|` seems similar to `>` or `>` but there is a distinction. Pipes (`|`) redirects data from one command to another command but redirection operators (`>` and `>>`) redirects the output of the command to a file.
    {% endhint %}
