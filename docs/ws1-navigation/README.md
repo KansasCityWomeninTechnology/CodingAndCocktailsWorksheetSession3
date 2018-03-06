@@ -26,7 +26,7 @@ Let's try our hand at incorporating these shortcut techniques.
 {% include "./2tabcompletion.md" %}
 
 ## Creating directories and files {#create} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Now that we know how navigate in the file system, let's try creating files and directories ourselves.
+Now that we know how to navigate in the file system, let's try creating files and directories ourselves.
 {% include "./3create.md" %}
 
 ## Move and delete files and directories {#move-delete} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>

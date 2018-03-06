@@ -5,7 +5,7 @@ Be careful when including spaces - in that case, you'll want to enclose your val
 
 1. To `echo` the variable, type `echo $MY_FAV_DRINK` <i class="fa fa-share fa-rotate-180"></i>.
    {% hint style='info' %}
-We created session variables which means the variables are only available for the session. Try closing your terminal, reopening, and `echo` your variable.
+We created a session variable which means the variable is available for the duration of the session. Try closing your terminal, reopening, and `echo` your variable.
    {% endhint %}
 
 1. Now try displaying the values for the built-in OS variables of HOME and USERNAME by typing in the following command for your OS then press `Enter`.

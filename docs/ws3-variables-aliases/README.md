@@ -13,11 +13,11 @@ This section will help guide you through the following steps:
 
 
 ## Creating environment variables {#variables} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Sometimes we want to access variables within the command line. Commonly used variables use include storing file location of certain applications or storing credentials for running applications. We will create a session variables.
+Sometimes we want to access variables within the command line. Commonly used variables include storing file location of certain applications or storing credentials for running applications. We will create session variables.
 {% include "./1variables.md" %}
 
 ## Creating aliases {#aliases} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-What's an alias? It's a shortcut you create to execute a often used command. For example, remember the `ls -al` command we used earlier? You can add an `-h` option to show file sizes in a more **h**uman readeable format. The command `ls -alh` gives us more information and makes the output easier to read. But that's so much typing if you use it often. Aliases make it faster to type commands.
+What's an alias? It's a shortcut you create to execute an often used command. For example, remember the `ls -al` command we used earlier? You can add an `-h` option to show file sizes in a more **h**uman readeable format. The command `ls -alh` gives us more information and makes the output easier to read. But that's so much typing if you use it often. Aliases make it faster to type commands.
 {% include "./2aliases.md" %}
 
 ## Make variables and aliases persistent {#persist} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>

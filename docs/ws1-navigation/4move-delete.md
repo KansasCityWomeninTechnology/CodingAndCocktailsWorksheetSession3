@@ -22,7 +22,7 @@ This time, you'll see a "CommandLineBasics2" directory that's in the same as the
 
 1. To remove the directory, use the recursive option again by typing `rm -r CommandLineBasics2` <i class="fa fa-share fa-rotate-180"></i>.
       {% hint style='danger' %}
-Be **VERY** careful when running rm commands. If you do it from the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or Mac OSx\) or other really important data!!
+Be **VERY** careful when running rm commands. If you do it from the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or macOS\) or other really important data!!
       {% endhint %}
 
 1. Now let's move files. Navigate to the "CodingAndCocktails" directory and type `mv CommandLineBasics/CLIFun.txt .` <i class="fa fa-share fa-rotate-180"></i>.
