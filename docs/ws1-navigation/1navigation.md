@@ -32,7 +32,7 @@ Mentors are happy to help!
    {% hint style='working' %}
 Did you know you can collapse the table of contents for worksheets?
 
-Click on the hamburger menu (<i class="fa fa-bars" aria-hidden="true"></i>) at the top of the page to toggle the table of contents.
+Click on the hamburger menu (<i class="fa fa-bars" aria-hidden="true"></i>) at the top of the page to toggle the table of contents. You can also use keyboard shortcut `s`- click anywhere on the worksheet to give the browser tab focus and press `s`.
    {% endhint %}
       {% hint style='working' %}
 Did you know you can customize font size and color of the worksheets to make it easier for you to see?
