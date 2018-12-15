@@ -3,15 +3,15 @@
 * [Setup Instructions](setup/README.md)
 
 ### Worksheet
-* [Command Line Basics](ws1-navigation/README.md)
-* [Redirection & Pipes](ws2-redirect-pipes/README.md) 
-* [Variables & Aliases](ws3-variables-aliases/README.md)
-* [Scripts & Permissions](ws4-scripts-permissions/README.md)
+* [Command Line Basics](ws1-command-line/README.md)
+* [Inspect a Git repo](ws2-inspect/README.md) 
+* [Create your own repo](ws3-create/README.md)
+* [Push changes](ws4-edit/README.md)
 * [Quiz](quiz.md)
 
 
 ### Bonus
-* [Web Server](homework/web-server.md)
+* [Merge & Fork](homework/merge.md)
 * [Homework](homework/homework.md)
 
 ----

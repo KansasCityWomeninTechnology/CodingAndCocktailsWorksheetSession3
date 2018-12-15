@@ -1,31 +1,49 @@
 # Setup {#top}
-Tonight we will get comfortable with the command line. Being able to visualize your work will help reinforce concepts. Follow the instructions below to prepare your workspace.
+Tonight we will get comfortable with the command line and learn about version control using Git. These concepts are not limited to web development-- the concepts we'll learn tonight are basic building blocks of the development process regardless of the technology stack. Or if you're creating a cocktail, it's the rocks (ice) that binds all the ingredients together in a supporting role. 
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
-If this is your first time at Coding & Cocktails [click here to install the tools](http://bit.ly/CnCTheTools). Be sure to follow the instructions to [create a folder for Coding & Cocktails work](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tips-directory-structure/).
+Follow the instructions on this page to prepare your workspace.
 
-<!-- trick markdown to give me a little space between these two sections of text -->
-## 
+## Required tools for this session
+
+You don't need all the tools for tonight's session. If you haven't installed all the tools listed in [The Tools](https://bit.ly/CnCTheTools) guide already, use the following list to install the required tools for the worksheet:
+
 {% hint style='danger' %}
-If you are using a Chromebook, please skip to the <a href="#chromebook-instructions">Chromebook instructions</a> below!
+If you are borrowing a laptop, your tools are pre-installed. Please ask your mentor to explain the tools we are using tonight.
 {% endhint %}
 
+1. [Chrome browser](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-browser/)
 
-## Prepare your terminal
-<!--sec data-title="Mac instructions" data-id="section0" data-show=true data-collapse=true ces-->
-1. Open iTerm2. You should see a prompt with `~`.
-<!--endsec-->
+1. [Atom IDE](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-atom/)
+
+1. [Command Line Tools](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-command-line/)
+
+1. [Github account, Git, and GitKraken](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-git/)
+
+1. [Coding & Cocktails folder](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tips-directory-structure/)
 
 
-<!--sec data-title="Windows instructions" data-id="section1" data-show=true data-collapse=true ces-->
-We will use a couple of different shells tonight-- bash and PowerShell both in Cmder.
+## Helpful tips as you work through the worksheet {#tips}
 
-1. Open Cmder as administrator by following the instructions in the Windows Cmder [Using Cmder section](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-command-line/cmder.html#using-cmder). 
-1. Open a **bash as Admin** tab. This may take a couple seconds. You should see a `~` and a prompt with the Cmder **λ**.
-   ![](images/cmder-bash.png)
-<!--endsec-->
+{% hint style='tip' %}
+View the worksheet and your IDE in split screen. 
 
-<!--sec data-title="Chromebook instructions" data-id="section2" data-show=true data-collapse=true ces-->
-{% include "./chromebook-instructions.md" %}
-<!--endsec-->
+For Windows users, use `windows key` + `left arrow` or `windows` + `right arrow` to resize the application and position to the left or right half of your screen.
+
+For Mac users, hold down the full-screen button in the upper-left corner of a window to shrink and position to the left or right side of the screen. Release the button, then click another window to begin using both windows side by side.
+
+Mentors are happy to help!
+{% endhint %}
+
+{% hint style='working' %}
+Did you know you can collapse the table of contents for worksheets?
+
+Click on the hamburger menu (<i class="fa fa-bars" aria-hidden="true"></i>) at the top of the page to toggle the table of contents. You can also use the keyboard shortcut `s`.
+{% endhint %}
+
+{% hint style='working' %}
+Did you know you can customize font size and color of the worksheets to make it easier for you to see?
+
+Click on the font menu (<i class="fa fa-font" aria-hidden="true"></i>) at the top of the page to open a menu where you can make your font larger or smaller or change background color.
+{% endhint %}

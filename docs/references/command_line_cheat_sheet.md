@@ -40,17 +40,11 @@
 
 **Create Empty File:** `touch filename`
 
-**Write Content to File:** `echo "content" > filename`
-
-**Append Content to a File:** `echo "content" >> filename`
-
 **Copy File:** `cp sourcefile destfile`
 
 **Move/Rename File:** `mv sourcefile destfile`
 
 **Remove File:** `rm filename`
-
-**Grep \(aka search\):** `grep searchterm filename`
 
 **Get out of “stuck” command:**  CTRL + C
 

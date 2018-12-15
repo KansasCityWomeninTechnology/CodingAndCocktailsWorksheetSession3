@@ -9,6 +9,16 @@ Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit
 {% endhint %}
 
 
+## More Practice
+
+1. https://try.github.io/levels/1/challenges/1
+
+1. https://www.codecademy.com/learn/learn-git
+
+1. Just for fun & more practice - Learning Git branching via a game! [http://pcottle.github.io/learnGitBranching/](http://pcottle.github.io/learnGitBranching/)
+
+1. Work through the Command Line course on Codecademy at [https://www.codecademy.com/learn/learn-the-command-line](https://www.codecademy.com/learn/learn-the-command-line).
+
 ## Use telnet
 Ever wondered what _Star Wars: Episode IV_ would look like in all text? Of course you have!
 1. Follow the instructions for your OS. Use `CTRL` + `]` to exit. 
@@ -42,7 +52,7 @@ The `winpty` command allows Cmder to properly use the `telnet` command in Window
 ## Windows users only - Learn some native Windows shell commands
 There may be times when you don't have the bash shell. Windows PowerShell is the next best option for ongoing needs because it has more bash commands built in, but it's good to have exposure to Windows cmd. 
 
-Let's learn some Windows shell commands that match some commands we learned in the worksheet. You can try stepping through the worksheet using Windows command prompt but you will run into differences. Understanding the difference of a few basic commands may be helpful.
+Let's learn some Windows shell commands that match some commands we learned in the worksheet. You can try stepping through command line portion of the worksheet using Windows command prompt but you will run into differences. Understanding the difference of a few basic commands may be helpful.
 
 1. Open Windows command prompt by typing "cmd" in the Windows task bar. Launch **Command Prompt Desktop app** as an Administrator to try using native Windows commands.
    {% hint style='info' %}
@@ -64,23 +74,14 @@ Here's some equivalent commands from bash to Windows command prompt.
 | mv | move |
 | rm | del |
 | rm -rf | deltree |
-| echo | echo |
-| cat | type |
-|  > | > |
-| >> | >> | 
-| export MY_VAR | set MY_VAR |
-| echo $MY_VAR | echo %MY_VAR%
-| export | set | 
 
 {% hint style='info' %}
 You can find more [equivalent commands here](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/ap-doslinux.html).
 {% endhint %}
 
 
-## More Practice
 
-1. Work through the Command Line course on Codecademy at [https://www.codecademy.com/learn/learn-the-command-line](https://www.codecademy.com/learn/learn-the-command-line).
-
+## Play some games
 1. Beat the game at [http://overthewire.org/wargames/bandit/](http://overthewire.org/wargames/bandit/). You'll start by entering in the command `ssh bandit0@bandit.labs.overthewire.org` <i class="fa fa-share fa-rotate-180"></i> and typing `bandit0` as the password when prompted.
     {% hint style='info' %}
 The `ssh` command stands for **s**ecure **sh**ell and is a network protocol, much like `telnet`.

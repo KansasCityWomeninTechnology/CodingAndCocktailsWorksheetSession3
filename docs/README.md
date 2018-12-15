@@ -1,14 +1,20 @@
 <div>
     <img src="assets/logo.png" style="float: left; margin: 0px 15px 15px 0px; height:125px;">
-    <h2 style="display:inline-block;margin-top:1em;">Coding &amp; Cocktails Session 3:</h2>
-    <h3 style="margin-top:0;margin-bottom:2em;">Command Line Basics</h3>
+    <h2 style="display:inline-block;margin-top:1em;">Coding &amp; Cocktails: The Rocks</h2>
+    <h3 style="margin-top:0;margin-bottom:2em;">Command Line Basics and Version Control using Git</h3>
 </div>
 <hr>
 
 
 ### Overview
 
-During the session we’ll cover Command Line basics and get comfortable with interacting with the filesystem in a text based way!
+Tonight we cover command line basics and version control using Git. 
+
+The command line enables developers to have work quickly and efficiently. It is a powerful way to create and manipulate files. We'll get comfortable interacting with the filesystem in a text based way!
+
+We'll also learn about version control to maintain code history and use the command line.
+
+These concepts are not limited to web development-- the concepts we'll learn tonight are basic building blocks of the development process regardless of the technology stack. Or if you're creating a cocktail, it's the rocks (ice) that binds all the ingredients together in a supporting role. 
 
 {% hint style='tip' %}
 First time at Coding & Cocktails?   [Click here to Install the Tools!](http://bit.ly/CnCTheTools)
