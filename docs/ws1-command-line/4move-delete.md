@@ -20,18 +20,20 @@ This time, you'll see a "session3-2" directory that's in the same as the directo
 
 1. To remove the directory, use the recursive option again by typing `rm -r session3-2` <i class="fa fa-share fa-rotate-180"></i>.
       {% hint style='danger' %}
-Be **VERY** careful when running rm commands. If you do it from the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or macOS\) or other really important data!!
+Be **VERY** careful when running `rm` commands. If you do it from the wrong directory, you could potentially remove your entire **OS** \(**O**perating **S**ystem, i.e. Windows or macOS\) or other really important data!!
       {% endhint %}
 
-1. Now let's move files. Navigate to the "CodingAndCocktails" directory and type `mv session3/CLIFun.txt .` <i class="fa fa-share fa-rotate-180"></i>.
+1. Now let's move files. Navigate to the "CodingAndCocktails" directory and type `mv session3/CLIFun2.txt .` <i class="fa fa-share fa-rotate-180"></i>.
       {% hint style='tip' %}
 Remember, `.` is a shortcut for the current directory.
+      {% endhint %}
+      {% hint style="working" %}
+Where is your _CLIFun2.txt_ file now? Verify your work by listing the directory contents and/or following along in the file explorer.
       {% endhint %}
 
 1. Let's remove _CLIFun2.txt_ by typing `rm CLIFun2.txt` <i class="fa fa-share fa-rotate-180"></i>. 
 
-1. There's a lot of commands in the terminal now and it looks a little cluttered. Let's clear it all out by using the `clear` command. Type `clear` <i class="fa fa-share fa-rotate-180"></i>.
-
 1. Sometimes we need a reminder of all the different commands we used. We can use `history` command to help. Type `history <i class="fa fa-share fa-rotate-180"></i>.
 
-1. Woah, that was a lot. Let's clear out the terminal using the up arrow. Press up arrow and you'll see your last command `history` appear after the prompt. Cool! Press up arrow again to see `clear`. Press `Enter` to run the command.
+1. There's a lot of commands in the terminal now and it looks a little cluttered. Let's clear it all out by using the `clear` command. Type `clear` <i class="fa fa-share fa-rotate-180"></i>.
+

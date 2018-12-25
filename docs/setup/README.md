@@ -1,5 +1,5 @@
 # Setup {#top}
-Tonight we will get comfortable with the command line and learn about version control using Git. These concepts are not limited to web development-- the concepts we'll learn tonight are basic building blocks of the development process regardless of the technology stack. Or if you're creating a cocktail, it's the rocks (ice) that binds all the ingredients together in a supporting role. 
+Tonight we will get comfortable with the command line and learn about version control using Git. 
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
@@ -7,7 +7,7 @@ Follow the instructions on this page to prepare your workspace.
 
 ## Required tools for this session
 
-You don't need all the tools for tonight's session. If you haven't installed all the tools listed in [The Tools](https://bit.ly/CnCTheTools) guide already, use the following list to install the required tools for the worksheet:
+You don't need all the tools for tonight's session. If you haven't installed all the tools listed in [The Tools](https://bit.ly/CnCTheTools) guide already, use the following list to install only the required tools for the worksheet:
 
 {% hint style='danger' %}
 If you are borrowing a laptop, your tools are pre-installed. Please ask your mentor to explain the tools we are using tonight.
@@ -22,7 +22,6 @@ If you are borrowing a laptop, your tools are pre-installed. Please ask your men
 1. [Github account, Git, and GitKraken](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-git/)
 
 1. [Coding & Cocktails folder](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tips-directory-structure/)
-
 
 ## Helpful tips as you work through the worksheet {#tips}
 

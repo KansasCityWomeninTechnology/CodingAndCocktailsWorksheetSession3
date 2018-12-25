@@ -74,8 +74,13 @@ It looks like a maze, but using this view we can trace revisions and see how a c
 Targeting one branch in a view makes identifying changes easier. This is the same view we had in GitHub when we saw all the commits for the selected branch.
   {% endhint %} 
 
-1. In your terminal, navigate to "CodingAndCocktails/session3" directory. You can check what folder you're in by typing `pwd` <i class="fa fa-share fa-rotate-180"></i>.
-
-1. Type `ls` <i class="fa fa-share fa-rotate-180"></i>. Notice GitKraken created a folder with the same name as the repository you cloned, "DrinkOrderApp".
-
+1. In your terminal, navigate to "CodingAndCocktails/session3" directory and list the files to see your new repo. Notice GitKraken created a folder with the same name as the repository you cloned, "DrinkOrderApp".
+    {% hint style='working' %} 
+<details>
+<summary>
+Need a little help? Expand this section for guidance. 
+</summary>
+Use the <code>pwd</code> command to determine which folder you are in. Change directories using the <code>cd</code> command. Remember you can move up a directory using <code>cd ..</code>. Then use the <code>ls</code> command to list out the files and folders.
+</details>
+   {% endhint %}
 

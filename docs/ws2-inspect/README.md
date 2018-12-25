@@ -9,7 +9,7 @@ This section will help guide you through the following steps:
 {% include "./instruction-steps.html" %}
 
 ## Explore a repository in GitHub {#github} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-We will take a quick tour of GitHub and cover the UI we will use for tonight's session work.
+We will take a quick tour of GitHub and cover the UI we will use for tonight's session work. You don't need to see your terminal and file explorer at the same time for this section of the worksheet. You can close the file explorer.
 {% include "./1github.md" %}
 
 ## Clone a repository {#clone} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>

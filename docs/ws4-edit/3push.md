@@ -7,10 +7,10 @@
    ![](images/git-graph-pre-squash.png)
 
    {% hint style='info' %}
-   JAD TODO Fix
-It shows each commit (with the unique identifier) and the commit message along with the author and date. Notice the top commit also has `(HEAD -> master)`. This says your own local copy of the "master" branch is at the top commit. Notice the bottom commit has `(origin/master, origin/HEAD)`. This is the last change that your remote, GitHub, is aware of. Your terminal may not show where HEAD is.
+It shows each commit (with the unique identifier) and the commit message along with the author and date. Notice the top commit also has `(HEAD -> cocktails-branch)`. This says your own local copy of the "cocktails-branch" branch is at the top commit. Notice the bottom commit has `(origin/master, origin/HEAD)`. This is the last change that your remote, GitHub, is aware of. Your terminal may not show where HEAD is.
    {% endhint %}
-      {% hint style='tip' %}
+   
+   {% hint style='tip' %}
 Your terminal automatically shows the output using 'less'. To exit out of 'less' type `q`.
    {% endhint %}
 
@@ -31,13 +31,13 @@ The remote, GitHub, has no knowledge of 'cocktails-branch'. We need to provide t
 
 1. Type `git log --graph` <i class="fa fa-share fa-rotate-180"></i>. You should see your change on 'cocktails-branch' and the second commit from the top is where 'master' is. You diverged from 'master'. Your git graph looks like this
 
-   ![](images/git-graph-branch.png)
+   ![](images/git-graph.png)
 
    {% hint style='tip' %}
 Use `q` to exit `less`.
    {% endhint %}
 
 
-1. In Chrome, navigate to your "MyFirstRepo" page and reload the page. You should see your new file _cocktails.txt_. You can click on the file to see the contents.
+1. In Chrome, navigate to your "MyFirstRepo" repo in GitHub and reload the page. You should see your new file _cocktails.txt_. You can click on the file to see the contents.
 
 1. You will also see **<span class="octicon octicon-history"></span> 2 commits** above the dropdown for 'master' branch. Click on it to navigate to your commit history. The commit history and path should match what you saw in the terminal.

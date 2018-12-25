@@ -20,6 +20,10 @@ Sometimes we change our minds and decide we no longer want a change. We'll learn
 Finally, perfection! Let's push those changes up to the remote, in our case, GitHub.
 {% include "./3push.md" %}
 
+## Nice Job!
+You used Git to keep track of changes in your file and pushed it to a repository!
+
+![](https://media.giphy.com/media/ivQ6Otsxv8y5O/giphy.gif)
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 

@@ -17,7 +17,7 @@ Development work usually isn't done in 'master'. Instead, feature branches are u
 {% include "./2branch.md" %}
 
 ## Add a new file and check status {#add} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>
-Now that we've cloned, we can start making changes. Let's practice by adding and staging files and learn about the command `git status`.
+Now that we've cloned, we can start making changes. Let's practice by adding and staging files by using the helpful information from the `git status` command.
 {% include "./3add.md" %}
 
 ## Commit your changes {#commit} <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span>

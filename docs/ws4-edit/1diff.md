@@ -4,7 +4,7 @@ What was up with that Atom command?
 When you install Atom it automatically adds itself to your system PATH. The command `atom` opens Atom. Adding `.` tells Atom to open at this file location.
    {% endhint %}
 
-1. Think of your favorite cocktail and add it at the end of the sentence in _cocktails.txt_ in Atom. Save your file. 
+1. Open _cocktails.txt_. Think of your favorite cocktail and add it at the end of the sentence in _cocktails.txt_ in Atom. Save your file. 
 
 1. We made an edit to an existing file. Let's see what `git status` in the terminal shows. 
    ```

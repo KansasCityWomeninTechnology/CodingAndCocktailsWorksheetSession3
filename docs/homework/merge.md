@@ -16,15 +16,18 @@ Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit
 
 1. Your view will switch to **Open a pull request**. Scroll down to the bottom of the page to see a diff of changes. Press the green **Create pull request** button.
 
-1. Click the green **Squash and merge pull request** button and **Confirm merge** button to merge your changes.
+1. Click the arrow next to the green **Merge pull request** button and select **Squash and merge**. The button changes to **Squash and merge**. Click the button.
+
+1. All your commit message display in the text input for you. Click **Confirm squash and merge** button to merge your changes.
 
 1. Click the **<span class="octicon octicon-code"></span> Code** tab at the top of the page to navigate back to your code. Click on _cocktails.txt_ to see your changes from 'cocktails-branch' in 'master'.
 
 1. Open your terminal and navigate to your "MyFirstRepo" folder in "CodingAndCocktails/session3" folder.
 
+1. Change branches to 'master' by typing `git checkout master` <i class="fa fa-share fa-rotate-180"></i>.
+
 1. Pull down the latest changes by typing `git pull` <i class="fa fa-share fa-rotate-180"></i>.
 
-1. Change branches to 'master' by typing `git checkout master` <i class="fa fa-share fa-rotate-180"></i>.
 
 
 # Fork a buddy's repo
@@ -39,7 +42,7 @@ Join the KCWiT #codingandcocktails Slack Channel: [kcwit.slack.com](http://kcwit
 If asked, “Where should we fork this repository?” Select your personal profile. This question indicates you're a part of a GitHub organization but we want to use our personal accounts this evening.  If you are not asked that question, carry on.
     {% endhint %}
 
-1. In your terminal, navigate to "CodingAndCocktails/VersionControl" folder in your home directory. If you are already in "MyFirstRepo", you can type `cd ..` <i class="fa fa-share fa-rotate-180"></i>.
+1. In your terminal, navigate to "CodingAndCocktails/session3" folder in your home directory. If you are already in "MyFirstRepo", you can type `cd ..` <i class="fa fa-share fa-rotate-180"></i>.
 
 1. GitHub will automatically add a "-1" to the name of the repository so that repository names are unique. Once the fork completes, GitHub navigates to your fork. Click on the green clone button to get the link to clone the fork to your machine.
    {% hint style='working' %}
@@ -61,7 +64,7 @@ Type <code>git checkout -b ladydev-branch</code> <i class="fa fa-share fa-rotate
 </details>
    {% endhint %}
 
-1. In the newly created branch, create a new file named using your name, such as "ladydev.txt". Add the message "Hello fellow ladydev!". Feel free to use the `echo` command, `vim`, or in Atom.
+1. In the newly created branch, create a new file named using your name, such as "ladydev.txt". Add the message "Hello fellow ladydev!". Feel free to use your favorite text editor or in Atom.
 
 1. In the terminal, add, stage, and commit your file. Add a friendly commit message.
    {% hint style='working' %}

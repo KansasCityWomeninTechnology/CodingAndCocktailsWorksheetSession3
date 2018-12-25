@@ -12,40 +12,24 @@ You can ignore the **Add .gitignore** and **Add a license** dropdowns for the ti
 
 1. You now have a repository! Notice you're automatically on 'master' branch. Click the green **Clone or download** button and copy the link by clicking on the <span class="octicon octicon-clippy"></span> button.
 
-1. Open your terminal and navigate to "CodingAndCocktails/session3" folder in your home directory.
-    {% hint style='tip' %}
-You can check what folder you're in by typing `pwd` <i class="fa fa-share fa-rotate-180"></i>. Then use the `cd` commands to navigate the file system. You can navigate up a directory by using `cd ..`.
-    {% endhint %}
-
-1. In the "session3" folder, type `git clone` and paste the link to your repository that you copied in the previous step. Press `Enter`. Your terminal will look like this
+1. In your terminal, navigate to the "CodingAndCocktails/session3" folder. Type `git clone` and paste the link to your repository that you copied in the previous step. Press `Enter`. Your terminal will look like this
    ```
 **[terminal]
 **[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/session3]
 **[delimiter λ ]**[command git clone https://github.com/kcwit/MyFirstRepo.git]
 Cloning into 'MyFirstRepo'...
-remote: Counting objects: 3, done.
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
    ```
 
-1. Type `ls` <i class="fa fa-share fa-rotate-180"></i>. You should see a new folder named "MyFirstRepo". 
-
-1. Open a file explorer to view your progress by using the following command for your OS and press `Enter`. You may want to inspect files in the file explorer to help reinforce concepts throughout the worksheet.
-   {% codetabs name="Mac", type="bash" -%} 
-open .
-   {%- language name="Windows", type="bash" -%} 
-start .
-   {%- endcodetabs %}
-   {% hint style='info' %}
-Chromebook users - you will use the built in file viewer. You will also not see the name of the branch automatically display in the terminal. 
-   {% endhint %}
-
-1. In the terminal, navigate into the directory by typing `cd MyFirstRepo` <i class="fa fa-share fa-rotate-180"></i>. Notice your terminal now contains the name of the branch 'master'.
+1. List out the folders in "session3" directory. You should see a new folder named "MyFirstRepo". Navigate into "MyFirstRepo" and notice your terminal now contains the name of the branch 'master'.
    {% hint style='tip' %}
 Don't forget to use Tab completion to make typing in the terminal easier!
    {% endhint %}
 
-1. Type `ls -al` <i class="fa fa-share fa-rotate-180"></i>. You should see the following files
+1. List all the files, including the hidden ones, to see the files Git creates for you. You should see the following files
    ```
 **[terminal]
 **[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (master)]
@@ -55,14 +39,14 @@ Don't forget to use Tab completion to make typing in the terminal easier!
 .git/
 README.md
    ```
-  {% hint style='tip' %}
-Navigate into "MyFirstRepo" in the file explorer if you want to follow along in a GUI. If you don't see the ".git" folder in the file explorer, you will need to enable viewing hidden files.
-  {% endhint %}
 
-1. Type `cat README.md` <i class="fa fa-share fa-rotate-180"></i>. You should see the contents of the read me text, which is the same text displayed in GitHub repository page.
    {% hint style='info' %}
-Git has special files. One of them is the ".git" folder. It contains all the information on reconstructing the version history for your repository.   
+Git has special files. One of them is the ".git" folder. It contains all the information on reconstructing the version history for your repository. The ".git" folder is a profile file we discussed earlier in the command line section.  
    {% endhint %}
+
+  {% hint style='tip' %}
+If you don't see the ".git" folder in the file explorer, you will need to enable viewing hidden files. 
+  {% endhint %}
 
 1. Type `git status` <i class="fa fa-share fa-rotate-180"></i>. You will see something like this
    ```
@@ -77,7 +61,7 @@ nothing to commit, working tree clean
 We haven't done anything to the repository so our working tree is clean. We can always run `git status` to double check our work.     
    {% endhint %}
 
-1. Let's open the repository in GitKraken. Select **File** <i class="fa fa-long-arrow-right"></i> **Open Repo**. In the **Repository Management** dialog select **Open a Repository** and select your "MyFirstRepo" folder in your home directory.
+1. Let's open the repository in GitKraken. In GitKraken, select **File** <i class="fa fa-long-arrow-right"></i> **Open Repo**. In the **Repository Management** dialog select **Open a Repository** and select your "MyFirstRepo" folder in your "CodingAndCocktails/session3" directory.
 
 1. When you create a repository with a read me file, GitHub automatically commits the file for you. You have 1 commit in your repository! Feel free to inspect your commit, the file, and your branch.
 

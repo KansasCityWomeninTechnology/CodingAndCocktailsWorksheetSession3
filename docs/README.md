@@ -8,9 +8,7 @@
 
 ### Overview
 
-Tonight we cover command line basics and version control using Git. 
-
-The command line enables developers to have work quickly and efficiently. It is a powerful way to create and manipulate files. We'll get comfortable interacting with the filesystem in a text based way!
+The command line enables developers to have work quickly and efficiently. It's a powerful way to create and manipulate files. We'll get comfortable interacting with the filesystem in a text based way!
 
 We'll also learn about version control to maintain code history and use the command line.
 

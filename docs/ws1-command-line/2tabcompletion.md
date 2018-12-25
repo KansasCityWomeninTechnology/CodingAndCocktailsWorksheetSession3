@@ -8,7 +8,7 @@
     {%- endcodetabs %}
 
    {% hint style='info' %}
-No matter where you are, your OS shortcut to the home directory is always a valid commands.
+No matter where you are, your OS shortcut to the home directory is always a valid command.
     {% endhint %}
 
 1. Press the up arrow twice and then <i class="fa fa-share fa-rotate-180"></i> to repeat a previous command. You're back in the "CodingAndCocktails" directory!

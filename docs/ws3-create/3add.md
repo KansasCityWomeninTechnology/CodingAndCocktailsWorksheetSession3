@@ -38,13 +38,13 @@ Changes to be committed:
 **[warning    new file:   cocktails.txt]
    ```
 
-1. In GitKraken, click on the **View change** button or click ont "//WIP" in the git tree view to see the staged files.
+1. In GitKraken, click on the **View change** button or click on "//WIP" in the git tree view to see the staged files.
 
    ![](images/gitkraken-staged-files.png)
 
-1. Oops! We meant to add some text to the file. It should say "My favorite cocktail is" in _cocktails.txt_. We need to fix that. You can use any editor you want to add the text. Make the change and save the file.
+1. Oops! We meant to add some text to the file. It should say "My favorite cocktail is" in _cocktails.txt_. We need to fix that. Open _cocktails.txt_ in any editor you want to add the text. Make the change and save the file.
 
-1. Check the git status in the terminal and take a look at GitKraken. Your terminal shows _cocktails.txt_ as unstaged and ready to be committed. What?! 😕 
+1. Check the git status in the terminal and take a look at GitKraken. Your terminal shows _cocktails.txt_ as unstaged and ready to be committed. What?! ![](../images/emojis/confused-face.png) 
    ```
 **[terminal]
 **[prompt LadyDev@Coding&Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (cocktails-branch)]
@@ -59,8 +59,13 @@ Changes not staged for commit:
   (use "git checkout -- <file>..." to discard changes in working directory)
 **[error     modified:   cocktails.txt]
    ```
+
    {% hint style='info' %}
 This is because when you ran `git add`, Git staged the file in the state at that time. With a new change, we have to stage the file again.  
+   {% endhint %}
+
+   {% hint style='working' %}
+In GitKraken, click on the _cocktails.txt_ in the **Staged Files** list at the bottom right of the application. Notice there's nothing to display in the diff view. Now click on _cocktails.txt_ in the **Unstaged Files** list at the top right of the application. We now see our text change.   
    {% endhint %}
 
 1. Stage _cocktails.txt_.
