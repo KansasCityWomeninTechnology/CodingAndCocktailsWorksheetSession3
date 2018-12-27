@@ -8,9 +8,9 @@
 
 ### Overview
 
-The command line enables developers to have work quickly and efficiently. It's a powerful way to create and manipulate files. We'll get comfortable interacting with the filesystem in a text based way!
+The command line enables developers to work quickly and efficiently. It's a powerful way to create and manipulate files. We'll get comfortable interacting with the filesystem in a text based way!
 
-We'll also learn about version control to maintain code history and use the command line.
+We'll also learn about version control to maintain code history and enables developers to work together on the same files.
 
 These concepts are not limited to web development-- the concepts we'll learn tonight are basic building blocks of the development process regardless of the technology stack. Or if you're creating a cocktail, it's the rocks (ice) that binds all the ingredients together in a supporting role. 
 
