@@ -1,0 +1,609 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Command Line Basics · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codeblock-label/block.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codetabs/codetabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-simpletabs/tabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../ws2-inspect/" />
+    
+    
+    <link rel="prev" href="../setup/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../setup/">
+            
+                <a href="../setup/">
+            
+                    
+                    Setup Instructions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Worksheet</li>
+        
+        
+    
+        <li class="chapter active" data-level="2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Command Line Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../ws2-inspect/">
+            
+                <a href="../ws2-inspect/">
+            
+                    
+                    Inspect a Git repo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../ws3-create/">
+            
+                <a href="../ws3-create/">
+            
+                    
+                    Create your own repo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../ws4-edit/">
+            
+                <a href="../ws4-edit/">
+            
+                    
+                    Push changes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../quiz.html">
+            
+                <a href="../quiz.html">
+            
+                    
+                    Quiz
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Bonus</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../homework/merge.html">
+            
+                <a href="../homework/merge.html">
+            
+                    
+                    Merge & Fork
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../homework/homework.html">
+            
+                <a href="../homework/homework.html">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../references/command_line_cheat_sheet.html">
+            
+                <a href="../references/command_line_cheat_sheet.html">
+            
+                    
+                    Command Line Cheat Sheet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../references/">
+            
+                <a href="../references/">
+            
+                    
+                    Helpful Keyboard Shortcuts
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Command Line Basics</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="command-line-basics-and-introduction-to-git"><a name="command-line-basics-and-introduction-to-git" class="plugin-anchor" href="#command-line-basics-and-introduction-to-git"><i class="fa fa-link" aria-hidden="true"></i></a>Command Line Basics and Introduction to Git</h1>
+<p>Tonight we will get comfortable with the command line and learn about version control using Git. </p>
+<p>These concepts are not limited to web development-- the concepts we&apos;ll learn tonight are basic building blocks of the development process regardless of the technology stack. Or if you&apos;re creating a cocktail, it&apos;s the rocks (ice) that binds all the ingredients together in a supporting role. </p>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><h5 id="tonights-goals"><a name="tonights-goals" class="plugin-anchor" href="#tonights-goals"><i class="fa fa-link" aria-hidden="true"></i></a>Tonight&apos;s Goals</h5>
+<p>We&apos;ll first learn basic command line operations then we&apos;ll continue our work in the command line to use a version control system called Git.</p>
+</div></div></p>
+<hr>
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a><!-- Trick markdown to give a little extra space --></h2>
+<h1 id="top"><a name="top" class="plugin-anchor" href="#top"><i class="fa fa-link" aria-hidden="true"></i></a>Command Line Basics </h1>
+<p>The command line is another way to navigate your computer&apos;s directory structure and issue commands. Typically, you have a <strong>GUI</strong>, or <strong>G</strong>raphical <strong>U</strong>ser <strong>I</strong>nterface, available to you. Why use a <strong>CLI </strong>(<strong>C</strong>ommand <strong>L</strong>ine <strong>I</strong>nterface)? Because it&apos;s faster, uses fewer resources, and is much more powerful than a GUI! Let&apos;s take a look at how to orient yourself at the command line.
+<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>The terms CLI and terminal are interchangeable.</p>
+</div></div></p>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<p><div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle fa-lg"></i></div><div class="hints-container"><p>Before starting the worksheet, please take a moment to review the <a href="../setup">Setup instructions</a> to ensure you have all the tools and workspace setup you need for tonight&apos;s work.</p>
+</div></div></p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>While following along with the worksheet, type out the commands instead of doing a copy &amp; paste unless explicitly stated to avoid inadvertently using any wrong characters.</p>
+</div></div></p>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<p>This section will help guide you through the following steps:</p>
+<div class="instructions">
+    <ul class="fa-ul">
+        <li>
+            <a href="#navigation">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Navigate and view files</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#tabcompletion">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Use command line shortcuts</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#create">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Create files</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#move-delete">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Move and delete files</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i></a>
+        </li>
+    </ul>
+</div>
+
+<h2 id="navigation"><a name="navigation" class="plugin-anchor" href="#navigation"><i class="fa fa-link" aria-hidden="true"></i></a>Navigate between directories and view files  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Being able to confidently navigate the file system via command line is an important first step in becoming a CLI master. </p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Take a moment to introduce yourself to your neighbors if you haven&apos;t already. Your neighbors will be your support network tonight. The bonus assignment requires a buddy so learn each other&apos;s Slack handles. To help break the ice, ask your neighbors &quot;If you were famous, what would you be famous for&quot;?</p>
+</div></div>
+<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>The <i class="fa fa-share fa-rotate-180"></i> icon tells you when to press <code>Enter</code>.</p>
+</div></div></p>
+<ol>
+<li><p>Open a terminal for your OS. For Windows, open Cmder. For Macs, open iTerm2.</p>
+</li>
+<li><p>In your terminal, type <code>pwd</code> <i class="fa fa-share fa-rotate-180"></i> in your CLI to see your current directory. <code>pwd</code> stands for <strong>p</strong>rint <strong>w</strong>orking <strong>d</strong>irectory. 
+<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>You should be in your home directory. For Macs, you should see <code>~</code> after your prompt. For Windows, you should see <code>C:\Users\&lt;Your user name&gt;</code> above the lambda (<strong>&#x3BB;</strong>). We will refer to this directory as your home directory in the remainder of the worksheet.</p>
+</div></div></p>
+</li>
+<li><p>Open a file explorer by using the following command for your operating system (select the tab for your operating system)
+ <div class="codetabs"><div class="codetabs-header"><div class="tab active" data-codetab="0">Mac</div><div class="tab" data-codetab="1">Windows</div></div><div class="codetabs-body"><div class="tab active" data-codetab="0"><pre><code class="lang-bash">open .</code></pre></div><div class="tab" data-codetab="1"><pre><code class="lang-bash">start .</code></pre></div></div></div></p>
+<p> <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Being able to visualize your work will help reinforce concepts. View the worksheet, terminal, and file explorer for the command line section of the worksheet all at the same time by adjusting application layout. </p>
+<p>We want to lay out our workspace to look like this.</p>
+<p><img src="images/desktop.png" alt=""></p>
+<p>For Windows users, use <code>windows key</code> + <code>left arrow</code> or <code>windows</code> + <code>right arrow</code> to resize the application and position to the left or right half of your screen.</p>
+<p>For Mac users, hold down the full-screen button in the upper-left corner of a window to shrink and position to the left or right side of the screen. Release the button, then click another window to begin using both windows side by side.</p>
+<p>Mentors are happy to help!</p>
+</div></div></p>
+</li>
+<li><p>In the terminal, type <code>ls</code> <i class="fa fa-share fa-rotate-180"></i> to see the contents of your current directory. You should see the same files in the terminal as you see in the explorer.</p>
+</li>
+<li><p>Next, <strong>c</strong>hange <strong>d</strong>irectory into the &quot;CodingAndCocktails&quot; directory listed in the output of <code>ls</code> by typing <code>cd CodingAndCocktails</code> <i class="fa fa-share fa-rotate-180"></i>. Navigate to your &quot;CodingAndCocktails&quot; directory in the file explorer.
+<div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle fa-lg"></i></div><div class="hints-container"><p>If you don&apos;t have a &quot;CodingAndCocktails&quot; directory, take a moment to <a href="../setup">set up your workspace</a>.</p>
+</div></div> 
+<div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Both Cmder and oh-my-zsh use formatting to distinguish between what&apos;s a directory and what&apos;s a file. You won&apos;t be able to <code>cd</code> into a file.</p>
+</div></div></p>
+</li>
+<li><p>In the &quot;CodingAndCocktails&quot; directory, type <code>ls</code> <i class="fa fa-share fa-rotate-180"></i> again to see what&apos;s listed there. You should see the same files and folders from the output of <code>ls</code> in the file explorer.</p>
+</li>
+<li><p>Type <code>ls -al</code> <i class="fa fa-share fa-rotate-180"></i> and compare it to your previous output.  You should see more information and all files, including hidden files.
+<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>A hidden file is something that isn&apos;t normally visible. Examples are files prefixed with <code>.</code>, such as profile files. We&apos;ll learn more about profile files later in the worksheet. You&apos;ll also see <code>.</code> and <code>..</code>. These are special files representing your current directory and parent directory.</p>
+</div></div></p>
+</li>
+<li><p>Let&apos;s move back up one directory-- the parent directory of &quot;CodingAndCocktails&quot;. To do this, type <code>cd ..</code> <i class="fa fa-share fa-rotate-180"></i>.
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>The <code>..</code> is a shortcut for the parent directory. A parent directory would be the directory that contains your current directory. No matter where you are, <code>cd ..</code> is always a valid command.</p>
+</div></div></p>
+</li>
+</ol>
+<h2 id="tabcompletion"><a name="tabcompletion" class="plugin-anchor" href="#tabcompletion"><i class="fa fa-link" aria-hidden="true"></i></a>Tab Completion  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Using <strong>tab completion</strong> with your <strong>Tab</strong> key and your <strong>up/down</strong> arrow keys makes using the CLI faster. Tab completion allows you to enter in part of a filename or directory name and when you press <code>Tab</code> the rest of the file automatically populates. We&apos;ll use the up/down arrows later in this section.</p>
+<p>Let&apos;s try our hand at incorporating these shortcut techniques.</p>
+<ol>
+<li><p>Type in <code>cd Cod</code> then press <code>Tab</code> <i class="fa fa-share fa-rotate-180"></i>. Tab completion will find your &quot;CodingAndCocktails&quot; folder and fill in the rest of the directory name for you!</p>
+</li>
+<li><p>Navigate back to your home directory by following the instructions below for your OS and press <code>Enter</code>.
+<div class="codetabs"><div class="codetabs-header"><div class="tab active" data-codetab="0">Mac</div><div class="tab" data-codetab="1">Windows</div></div><div class="codetabs-body"><div class="tab active" data-codetab="0"><pre><code class="lang-bash"><span class="hljs-built_in">cd</span> ~</code></pre></div><div class="tab" data-codetab="1"><pre><code class="lang-bash"><span class="hljs-built_in">cd</span> %USERPROFILE%</code></pre></div></div></div></p>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>No matter where you are, your OS shortcut to the home directory is always a valid command.</p>
+</div></div></p>
+</li>
+<li><p>Press the up arrow twice and then <i class="fa fa-share fa-rotate-180"></i> to repeat a previous command. You&apos;re back in the &quot;CodingAndCocktails&quot; directory!</p>
+</li>
+</ol>
+<p>Now try navigating around on your own! See the video below for some help. You can watch it in fullscreen as well. To download the video, right-click and click &quot;Save video as...&quot;.</p>
+  <video id="CLI_Part1" class="video-js" controls preload="auto" width="900" height="600" poster="CLI_Part1.jpg" data-setup="{}">
+  <source src="videos/CLI_Part1.mp4" type="video/mp4">
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that
+    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>
+  </video>
+
+
+<h2 id="create"><a name="create" class="plugin-anchor" href="#create"><i class="fa fa-link" aria-hidden="true"></i></a>Creating directories and files  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Now that we know how to navigate in the file system, let&apos;s try creating files and directories ourselves.</p>
+<ol>
+<li><p>Navigate back to the &quot;CodingAndCocktails&quot; folder in your home directory. Open &quot;CodingAndCocktails&quot; folder in the file explorer. </p>
+</li>
+<li><p>Create a &quot;session3&quot; folder by using the <strong>m</strong>ake <strong>d</strong>irectory command. Type in <code>mkdir session3</code> <i class="fa fa-share fa-rotate-180"></i>. Do you see your new folder in the explorer?</p>
+</li>
+<li><p>Change directory into your newly created &quot;session3&quot; folder by typing <code>cd session3</code> <i class="fa fa-share fa-rotate-180"></i>. Navigate into &quot;session3&quot; in your file explorer.</p>
+</li>
+<li><p>Let&apos;s create a file by typing <code>touch CLIFun.txt</code> <i class="fa fa-share fa-rotate-180"></i>. Do you see your file in the explorer?</p>
+</li>
+</ol>
+<h2 id="move-delete"><a name="move-delete" class="plugin-anchor" href="#move-delete"><i class="fa fa-link" aria-hidden="true"></i></a>Move and delete files and directories  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Let&apos;s now work with <code>cp</code> and <code>rm</code> to make copies of our file and remove files. We&apos;ll also try out some helpful CLI commands. </p>
+<ol>
+<li><p>Type <code>cp CLIFun.txt CLIFun2.txt</code> <i class="fa fa-share fa-rotate-180"></i>. Do you see the new file in the explorer?
+   <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>If you do an <code>ls -al</code> you&apos;ll see there&apos;s now a <em>CLIFun2.txt</em> file with the same size as the <em>CLIFun.txt</em> file but with a more current timestamp.</p>
+</div></div></p>
+</li>
+<li><p>Now that we know how to copy files, let&apos;s try copying a directory as well. Change directory to &quot;CodingAndCocktails&quot; then type <code>cp session3 session3-2</code> <i class="fa fa-share fa-rotate-180"></i>.
+   <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>Oh no, we got an error! It looks like <code>cp</code> doesn&apos;t work with directories, but we can copy a directory by adding an option to <code>cp</code>. We&apos;ll add a <strong>-r</strong> for <strong>r</strong>ecursive.</p>
+</div></div></p>
+</li>
+<li><p>Let&apos;s try that again. Type <code>cp -r session3 session3-2</code> <i class="fa fa-share fa-rotate-180"></i>. 
+   <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Don&apos;t forget your tab completion!</p>
+</div></div></p>
+</li>
+<li><p>List the directory contents to make sure the copy worked by entering <code>ls -al</code> <i class="fa fa-share fa-rotate-180"></i>.
+   <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>This time, you&apos;ll see a &quot;session3-2&quot; directory that&apos;s in the same as the directory we copied it from, except that it has a more current timestamp. You can also check it out in the explorer.</p>
+</div></div></p>
+</li>
+<li><p>To remove the directory, use the recursive option again by typing <code>rm -r session3-2</code> <i class="fa fa-share fa-rotate-180"></i>.
+   <div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle fa-lg"></i></div><div class="hints-container"><p>Be <strong>VERY</strong> careful when running <code>rm</code> commands. If you do it from the wrong directory, you could potentially remove your entire <strong>OS</strong> (<strong>O</strong>perating <strong>S</strong>ystem, i.e. Windows or macOS) or other really important data!!</p>
+</div></div></p>
+</li>
+<li><p>Now let&apos;s move files. Navigate to the &quot;CodingAndCocktails&quot; directory and type <code>mv session3/CLIFun2.txt .</code> <i class="fa fa-share fa-rotate-180"></i>.
+   <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Remember, <code>.</code> is a shortcut for the current directory.</p>
+</div></div>
+   <div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><p>Where is your <em>CLIFun2.txt</em> file now? Verify your work by listing the directory contents and/or following along in the file explorer.</p>
+</div></div></p>
+</li>
+<li><p>Let&apos;s remove <em>CLIFun2.txt</em> by typing <code>rm CLIFun2.txt</code> <i class="fa fa-share fa-rotate-180"></i>. </p>
+</li>
+<li><p>Sometimes we need a reminder of all the different commands we used. We can use <code>history</code> command to help. Type `history <i class="fa fa-share fa-rotate-180"></i>.</p>
+</li>
+<li><p>There&apos;s a lot of commands in the terminal now and it looks a little cluttered. Let&apos;s clear it all out by using the <code>clear</code> command. Type <code>clear</code> <i class="fa fa-share fa-rotate-180"></i>.</p>
+</li>
+</ol>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<h2 id="references-and-helpful-links-"><a name="references-and-helpful-links-" class="plugin-anchor" href="#references-and-helpful-links-"><i class="fa fa-link" aria-hidden="true"></i></a>References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p><a href="https://linux.die.net/Linux-CLI/using-filesystem.html" target="_blank">GNU/Linux Command-Line Summary on moving around the file system</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../setup/" class="navigation navigation-prev " aria-label="Previous page: Setup Instructions">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../ws2-inspect/" class="navigation navigation-next " aria-label="Next page: Inspect a Git repo">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Command Line Basics","level":"2.1","depth":1,"next":{"title":"Inspect a Git repo","level":"2.2","depth":1,"path":"ws2-inspect/README.md","ref":"ws2-inspect/README.md","articles":[]},"previous":{"title":"Setup Instructions","level":"1.2","depth":1,"path":"setup/README.md","ref":"setup/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["custom-favicon","hints","local-video","anchors","codeblock-label","codetabs","simpletabs","terminal","livereload"],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"codeblock-label":{},"search":{},"codetabs":{},"hints":{"danger":"fa fa-exclamation-circle fa-lg","info":"fa fa-info-circle fa-lg","tip":"fa fa-lightbulb-o fa-lg","working":"fa fa-question-circle fa-lg"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"simpletabs":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"book/assets/favicon.ico","custom-favicon":{},"local-video":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"terminal":{"copyButtons":true,"fade":true,"style":"flat"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"ws1-command-line/README.md","mtime":"2018-12-25T18:34:48.053Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-01T18:32:12.554Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-codetabs/codetabs.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-simpletabs/tabs.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
