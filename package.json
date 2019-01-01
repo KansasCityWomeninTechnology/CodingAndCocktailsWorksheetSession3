@@ -1,0 +1,42 @@
+{
+  "name": "session3",
+  "version": "0.0.0",
+  "description": "Instructions for Coding & Cocktails program session 3: The Rocks- Command line basics and Git",
+  "main": "book/README.md",
+  "directories": {
+    "doc": "book"
+  },
+  "dependencies": {
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-codeblock-label": "^1.0.1",
+    "gitbook-plugin-codetabs": "^1.0.0",
+    "gitbook-plugin-custom-favicon": "^0.0.4",
+    "gitbook-plugin-hints": "^1.0.2",
+    "gitbook-plugin-local-video": "^1.0.1",
+    "gitbook-plugin-simpletabs": "^0.1.1",
+    "gitbook-plugin-terminal": "^0.3.2"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.1.0",
+    "gitbook-cli": "^2.3.2",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2"
+  },
+  "scripts": {
+    "gitbook": "gitbook",
+    "book:install": "gitbook install",
+    "book:build": "gitbook build",
+    "start": "gitbook serve",
+    "book:deploy": "rimraf docs && mkdirp docs && copyfiles -u 1 \"./_book/**/!(*.md)\" docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KansasCityWomeninTechnology/CodingAndCocktailsWorksheetSession3.git"
+  },
+  "author": "Kansas City Women In Technology - Coding & Cocktails",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/KansasCityWomeninTechnology/CodingAndCocktailsWorksheetSession3/issues"
+  },
+  "homepage": "https://github.com/KansasCityWomeninTechnology/CodingAndCocktailsWorksheetSession3#readme"
+}
