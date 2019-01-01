@@ -1,0 +1,656 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Create your own repo · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codeblock-label/block.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codetabs/codetabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-simpletabs/tabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../ws4-edit/" />
+    
+    
+    <link rel="prev" href="../ws2-inspect/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../setup/">
+            
+                <a href="../setup/">
+            
+                    
+                    Setup Instructions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Worksheet</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../ws1-command-line/">
+            
+                <a href="../ws1-command-line/">
+            
+                    
+                    Command Line Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../ws2-inspect/">
+            
+                <a href="../ws2-inspect/">
+            
+                    
+                    Inspect a Git repo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Create your own repo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../ws4-edit/">
+            
+                <a href="../ws4-edit/">
+            
+                    
+                    Push changes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../quiz.html">
+            
+                <a href="../quiz.html">
+            
+                    
+                    Quiz
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Bonus</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../homework/merge.html">
+            
+                <a href="../homework/merge.html">
+            
+                    
+                    Merge & Fork
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../homework/homework.html">
+            
+                <a href="../homework/homework.html">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../references/command_line_cheat_sheet.html">
+            
+                <a href="../references/command_line_cheat_sheet.html">
+            
+                    
+                    Command Line Cheat Sheet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../references/">
+            
+                <a href="../references/">
+            
+                    
+                    Helpful Keyboard Shortcuts
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Create your own repo</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="top"><a name="top" class="plugin-anchor" href="#top"><i class="fa fa-link" aria-hidden="true"></i></a>Creating a repository and commit changes </h1>
+<p>We&apos;ll create our own repository and commit changes to source files. At the end we&apos;ll build something similar to the &quot;DrinkOrderApp&quot; with commits and branches.</p>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<p>This section will help guide you through the following steps:</p>
+<div class="instructions">
+    <ul class="fa-ul">
+        <li>
+            <a href="#create">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Create a repository</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#branch">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Create a branch</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#add">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Add a file and identify status</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#commit">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Commit your file</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<h2 id="create"><a name="create" class="plugin-anchor" href="#create"><i class="fa fa-link" aria-hidden="true"></i></a>Create a repository in GitHub and clone  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>We&apos;ll create our first repository on GitHub and clone it so that we&apos;re prepared to start making changes.</p>
+<ol>
+<li><p>In Chrome, navigate to GitHub and create a new repository by clicking the <span class="octicon octicon-plus"></span> button in the upper right corner. Select <strong>New repository</strong>.</p>
+<p><img src="images/new-repo.jpg" alt=""></p>
+</li>
+<li><p>Name your repository &quot;MyFirstRepo&quot;. Add a short description and check the <strong>Initialize this repository with a README</strong> checkbox. Click <strong>Create repository</strong>.</p>
+<p><img src="images/create-repo.png" alt=""></p>
+<p> <div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>You can ignore the <strong>Add .gitignore</strong> and <strong>Add a license</strong> dropdowns for the time being.  You won&apos;t need them for what we are doing this evening.</p>
+</div></div></p>
+</li>
+<li><p>You now have a repository! Notice you&apos;re automatically on &apos;master&apos; branch. Click the green <strong>Clone or download</strong> button and copy the link by clicking on the <span class="octicon octicon-clippy"></span> button.</p>
+</li>
+<li><p>In your terminal, navigate to the &quot;CodingAndCocktails/session3&quot; folder. Type <code>git clone</code> and paste the link to your repository that you copied in the previous step. Press <code>Enter</code>. Your terminal will look like this</p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/session3]
+**[delimiter &#x3BB; ]**[command git clone https://github.com/kcwit/MyFirstRepo.git]
+Cloning into &apos;MyFirstRepo&apos;...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+</code></pre></li>
+<li><p>List out the folders in &quot;session3&quot; directory. You should see a new folder named &quot;MyFirstRepo&quot;. Navigate into &quot;MyFirstRepo&quot; and notice your terminal now contains the name of the branch &apos;master&apos;.
+<div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Don&apos;t forget to use Tab completion to make typing in the terminal easier!</p>
+</div></div></p>
+</li>
+<li><p>List all the files, including the hidden ones, to see the files Git creates for you. You should see the following files</p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (master)]
+**[delimiter &#x3BB; ]**[command ls -al]
+./
+../
+.git/
+README.md
+</code></pre><p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>Git has special files. One of them is the &quot;.git&quot; folder. It contains all the information on reconstructing the version history for your repository. The &quot;.git&quot; folder is a profile file we discussed earlier in the command line section.  </p>
+</div></div></p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>If you don&apos;t see the &quot;.git&quot; folder in the file explorer, you will need to enable viewing hidden files. </p>
+</div></div></p>
+</li>
+<li><p>Type <code>git status</code> <i class="fa fa-share fa-rotate-180"></i>. You will see something like this</p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (master)]
+**[delimiter &#x3BB; ]**[command git status]
+On branch master
+Your branch is up to date with &apos;origin/master&apos;.
+nothing to commit, working tree clean
+</code></pre><p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>We haven&apos;t done anything to the repository so our working tree is clean. We can always run <code>git status</code> to double check our work.     </p>
+</div></div></p>
+</li>
+<li><p>Let&apos;s open the repository in GitKraken. In GitKraken, select <strong>File</strong> <i class="fa fa-long-arrow-right"></i> <strong>Open Repo</strong>. In the <strong>Repository Management</strong> dialog select <strong>Open a Repository</strong> and select your &quot;MyFirstRepo&quot; folder in your &quot;CodingAndCocktails/session3&quot; directory.</p>
+</li>
+<li><p>When you create a repository with a read me file, GitHub automatically commits the file for you. You have 1 commit in your repository! Feel free to inspect your commit, the file, and your branch.</p>
+</li>
+<li><p>Before starting any work in a git repository, it&apos;s good practice to make sure you have the latest changes. In the terminal, type <code>git pull</code> <i class="fa fa-share fa-rotate-180"></i>. Your terminal should state it&apos;s up to date.</p>
+</li>
+</ol>
+<h2 id="branch"><a name="branch" class="plugin-anchor" href="#branch"><i class="fa fa-link" aria-hidden="true"></i></a>Create a branch for our work  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Development work usually isn&apos;t done in &apos;master&apos;. Instead, feature branches are used. We&apos;ll create a branch for our work tonight.</p>
+<ol>
+<li><p>Let&apos;s create a branch for us to work in called &apos;cocktails-branch&apos;. In the terminal, type <code>git checkout -b cocktails-branch</code> <i class="fa fa-share fa-rotate-180"></i>. It should look like this</p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (master)]
+**[delimiter &#x3BB; ]**[command git checkout -b cocktails-branch]
+Switched to a new branch &apos;cocktails-branch&apos;
+</code></pre><p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>We passed in the &apos;-b&apos; flag into <code>git checkout</code> command. This means we&apos;ll create and checkout a branch at the same time.</p>
+</div></div>
+<div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Your terminal might look a little different after creating a branch. The terminals we have you use include the branch name, so you should see &apos;cocktails-branch&apos; included in your prompt.</p>
+</div></div></p>
+</li>
+<li><p>Type <code>git status</code> <i class="fa fa-share fa-rotate-180"></i>. It should look something like this</p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (cocktails-branch)]
+**[delimiter &#x3BB; ]**[command git status]
+On branch cocktails-branch
+nothing to commit, working tree clean
+</code></pre></li>
+</ol>
+<h2 id="add"><a name="add" class="plugin-anchor" href="#add"><i class="fa fa-link" aria-hidden="true"></i></a>Add a new file and check status  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Now that we&apos;ve cloned, we can start making changes. Let&apos;s practice by adding and staging files by using the helpful information from the <code>git status</code> command.</p>
+<ol>
+<li><p>Let&apos;s create a new file by using the command line. Type <code>touch cocktails.txt</code> <i class="fa fa-share fa-rotate-180"></i>. </p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (cocktails-branch)]
+**[delimiter &#x3BB; ]**[command touch cocktails.txt]
+</code></pre><p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Your terminal may have changed when you created a new file. Mac users may see a yellow X appear and Cmder users may see the color of &apos;(cocktails-branch)&apos; branch name change. This is a way your terminal helps you keep track of changes in your git repository.</p>
+</div></div></p>
+</li>
+<li><p>Let&apos;s check out the git status again. This time the terminal lists <em>cocktails.txt</em> as an untracked file.</p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (cocktails-branch)]
+**[delimiter &#x3BB; ]**[command git status]
+On branch cocktails-branch
+Your branch is up to date with &apos;origin/cocktails-branch&apos;.
+Untracked files:
+(use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+**[error    cocktails.txt]
+nothing added to commit but untracked files present (use &quot;git add&quot; to track)
+</code></pre><p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>An untracked file is a file that Git doesn&apos;t know about. You have to explicitly ask Git to track a file. Git doesn&apos;t do this automatically in case you accidentally include files that shouldn&apos;t be in source control (such as large files or application files).</p>
+</div></div></p>
+</li>
+<li><p>We can add the file to Git and stage the file at the same time by typing <code>git add cocktails.txt</code> <i class="fa fa-share fa-rotate-180"></i>.</p>
+</li>
+<li><p>Let&apos;s check out the status again. This time the terminal lists <em>cocktails.txt</em> as a change to be committed. </p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (cocktails-branch)]
+**[delimiter &#x3BB; ]**[command git status]
+On branch cocktails-branch
+Your branch is up to date with &apos;origin/cocktails-branch&apos;.
+Changes to be committed:
+(use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)
+**[warning    new file:   cocktails.txt]
+</code></pre></li>
+<li><p>In GitKraken, click on the <strong>View change</strong> button or click on &quot;//WIP&quot; in the git tree view to see the staged files.</p>
+<p><img src="images/gitkraken-staged-files.png" alt=""></p>
+</li>
+<li><p>Oops! We meant to add some text to the file. It should say &quot;My favorite cocktail is&quot; in <em>cocktails.txt</em>. We need to fix that. Open <em>cocktails.txt</em> in any editor you want to add the text. Make the change and save the file.</p>
+</li>
+<li><p>Check the git status in the terminal and take a look at GitKraken. Your terminal shows <em>cocktails.txt</em> as unstaged and ready to be committed. What?! <img src="../images/emojis/confused-face.png" alt=""> </p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (cocktails-branch)]
+**[delimiter &#x3BB; ]**[command git status]
+On branch cocktails-branch
+Your branch is up to date with &apos;origin/cocktails-branch&apos;.
+Changes to be committed:
+(use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)  
+**[warning    new file:   cocktails.txt]
+Changes not staged for commit:
+(use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+(use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)
+**[error     modified:   cocktails.txt]
+</code></pre><p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>This is because when you ran <code>git add</code>, Git staged the file in the state at that time. With a new change, we have to stage the file again.  </p>
+</div></div></p>
+<p><div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><p>In GitKraken, click on the <em>cocktails.txt</em> in the <strong>Staged Files</strong> list at the bottom right of the application. Notice there&apos;s nothing to display in the diff view. Now click on <em>cocktails.txt</em> in the <strong>Unstaged Files</strong> list at the top right of the application. We now see our text change.   </p>
+</div></div></p>
+</li>
+<li><p>Stage <em>cocktails.txt</em>.
+<div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><details>
+<summary>
+Need a little help? Expand this section for guidance. 
+</summary>
+Type <code>git add cocktails.txt</code> <i class="fa fa-share fa-rotate-180"></i>.
+</details>
+</div></div></p>
+</li>
+</ol>
+<h2 id="commit"><a name="commit" class="plugin-anchor" href="#commit"><i class="fa fa-link" aria-hidden="true"></i></a>Commit your changes  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Our file is ready to go! Let&apos;s commit our changes.</p>
+<ol>
+<li><p>Now we can commit our new file to git. Type <code>git commit -m &quot;important file&quot;</code> <i class="fa fa-share fa-rotate-180"></i>. You should see something like this in your terminal</p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (cocktails-branch)]
+**[delimiter &#x3BB; ]**[command git commit -m &quot;important file&quot;]
+[cocktails-branch dc2c473] important file
+1 file changed, 1 insertion(+)
+create mode 100644 cocktails.txt
+</code></pre><p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>We committed a snapshot of the files to the repository history. We see each of these commits in the git graph. The &apos;-m&apos; flag allows you to provide a description of the changes and is short for &quot;message&quot;. This is important information for those who may collaborate on the code later.</p>
+</div></div>
+<div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>If you accidentally hit <code>Enter</code> after you typed <code>git commit</code>, have no fear.</p>
+<p>Your default text editor (default is vi) will open, where you can add your commit message. We&apos;ll cover vi later in the session so for now, grab a mentor for help!</p>
+</div></div></p>
+</li>
+<li><p>Your terminal changed back to how it looked before we added the <em>cocktails.txt</em> file. Take a look at your git status and in GitKraken. </p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (cocktails-branch)]
+**[delimiter &#x3BB; ]**[command git status]
+On branch cocktails-branch
+nothing to commit, working tree clean
+</code></pre></li>
+<li><p>We&apos;re building our own Git graph. You see 2 commits in GitKraken. We can view this in the terminal by typing <code>git log</code> <i class="fa fa-share fa-rotate-180"></i>. You&apos;ll see 2 commits in the terminal that matches up to what you see in GitKraken. A visualization of our initial commit and a new commit on a branch looks like this</p>
+<p><img src="images/git-graph.png" alt=""></p>
+</li>
+</ol>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<h2 id="references-and-helpful-links-"><a name="references-and-helpful-links-" class="plugin-anchor" href="#references-and-helpful-links-"><i class="fa fa-link" aria-hidden="true"></i></a>References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p><a href="https://git-scm.com/docs/git-clone" target="_blank">Git SCM documentation for clone</a></p>
+<p><a href="https://git-scm.com/docs/git-status" target="_blank">Git SCM documentation for status</a></p>
+<p><a href="https://git-scm.com/docs/git-add" target="_blank">Git SCM documentation for add</a></p>
+<p><a href="https://git-scm.com/docs/git-commit" target="_blank">Git SCM documentation for commit</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../ws2-inspect/" class="navigation navigation-prev " aria-label="Previous page: Inspect a Git repo">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../ws4-edit/" class="navigation navigation-next " aria-label="Next page: Push changes">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Create your own repo","level":"2.3","depth":1,"next":{"title":"Push changes","level":"2.4","depth":1,"path":"ws4-edit/README.md","ref":"ws4-edit/README.md","articles":[]},"previous":{"title":"Inspect a Git repo","level":"2.2","depth":1,"path":"ws2-inspect/README.md","ref":"ws2-inspect/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["custom-favicon","hints","local-video","anchors","codeblock-label","codetabs","simpletabs","terminal","livereload"],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"codeblock-label":{},"search":{},"codetabs":{},"hints":{"danger":"fa fa-exclamation-circle fa-lg","info":"fa fa-info-circle fa-lg","tip":"fa fa-lightbulb-o fa-lg","working":"fa fa-question-circle fa-lg"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"simpletabs":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"book/assets/favicon.ico","custom-favicon":{},"local-video":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"terminal":{"copyButtons":true,"fade":true,"style":"flat"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"ws3-create/README.md","mtime":"2018-12-25T18:36:13.455Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-01T18:32:12.554Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-codetabs/codetabs.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-simpletabs/tabs.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

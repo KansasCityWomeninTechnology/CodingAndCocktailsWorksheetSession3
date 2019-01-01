@@ -1,0 +1,575 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Push changes · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codeblock-label/block.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codetabs/codetabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-simpletabs/tabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../quiz.html" />
+    
+    
+    <link rel="prev" href="../ws3-create/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../setup/">
+            
+                <a href="../setup/">
+            
+                    
+                    Setup Instructions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Worksheet</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../ws1-command-line/">
+            
+                <a href="../ws1-command-line/">
+            
+                    
+                    Command Line Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../ws2-inspect/">
+            
+                <a href="../ws2-inspect/">
+            
+                    
+                    Inspect a Git repo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../ws3-create/">
+            
+                <a href="../ws3-create/">
+            
+                    
+                    Create your own repo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Push changes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../quiz.html">
+            
+                <a href="../quiz.html">
+            
+                    
+                    Quiz
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Bonus</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../homework/merge.html">
+            
+                <a href="../homework/merge.html">
+            
+                    
+                    Merge & Fork
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../homework/homework.html">
+            
+                <a href="../homework/homework.html">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../references/command_line_cheat_sheet.html">
+            
+                <a href="../references/command_line_cheat_sheet.html">
+            
+                    
+                    Command Line Cheat Sheet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../references/">
+            
+                <a href="../references/">
+            
+                    
+                    Helpful Keyboard Shortcuts
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Push changes</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="top"><a name="top" class="plugin-anchor" href="#top"><i class="fa fa-link" aria-hidden="true"></i></a>Editing files and push changes </h1>
+<p>Now we&apos;ll see the power of version control by editing files, looking at differences between the revisions, and pushing our changes up to GitHub.</p>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<p>This section will help guide you through the following steps:</p>
+<div class="instructions">
+    <ul class="fa-ul">
+        <li>
+            <a href="#diff">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Edit files and inspect differences</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#reset">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Reset changes</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i></a>
+        </li>
+        <li>
+            <a href="#push">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Pushing changes to GitHub</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<h2 id="diff"><a name="diff" class="plugin-anchor" href="#diff"><i class="fa fa-link" aria-hidden="true"></i></a>Edit files and look at changes  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Let&apos;s make some more changes and compare differences.</p>
+<ol>
+<li><p>Let&apos;s make a change to <em>cocktails.txt</em>. Open Atom by typing <code>atom .</code> <i class="fa fa-share fa-rotate-180"></i>.
+<div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><p>What was up with that Atom command?
+When you install Atom it automatically adds itself to your system PATH. The command <code>atom</code> opens Atom. Adding <code>.</code> tells Atom to open at this file location.</p>
+</div></div></p>
+</li>
+<li><p>Open <em>cocktails.txt</em>. Think of your favorite cocktail and add it at the end of the sentence in <em>cocktails.txt</em> in Atom. Save your file. </p>
+</li>
+<li><p>We made an edit to an existing file. Let&apos;s see what <code>git status</code> in the terminal shows. </p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (cocktails-branch)]
+**[delimiter &#x3BB; ]**[command git status]
+On branch cocktails-branch
+Changes not staged for commit:
+(use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+(use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)
+**[error    modified: cocktails.txt]
+no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
+</code></pre></li>
+<li><p>We modified a file so let&apos;s check out the difference between them. Type <code>git diff</code> <i class="fa fa-share fa-rotate-180"></i>.</p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/session3/MyFirstRepo (cocktails-branch)]
+**[delimiter &#x3BB; ]**[command git diff]
+diff --git a/cocktails.txt b/cocktails.txt
+index 29a3e24..4d8a785 100644
+--- a/cocktails.txt
++++ b/cocktails.txt
+@@ -1 +1 @@
+**[error -My favorite cocktail is]
+**[warning +My favorite cocktail is Code on the Beach.]
+</code></pre><p>Git diff shows us the difference in the files. The top line in red with the <code>-</code> in front of it shows the line removed. The second line with the <code>+</code> in front of it shows the line added.</p>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>We only see differences when a file is unstaged.</p>
+</div></div>
+<div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Depending on the amount of changes, your terminal may display the output using a tool called &apos;less&apos;. To exit out of &apos;less&apos; type <code>q</code> in your terminal.</p>
+</div></div></p>
+</li>
+<li><p>In GitKraken, select the top row in the git tree named &quot;//WIP&quot; and then click on <em>cocktails.txt</em> in the <strong>Unstaged Files</strong> list. Take a look at the diff and compare to what you saw in the terminal.</p>
+</li>
+</ol>
+<h2 id="reset"><a name="reset" class="plugin-anchor" href="#reset"><i class="fa fa-link" aria-hidden="true"></i></a>Resetting a change  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Sometimes we change our minds and decide we no longer want a change. We&apos;ll learn how to reset a file back to the last commit. </p>
+<ol>
+<li><p>In the terminal, type <code>git status</code> <i class="fa fa-share fa-rotate-180"></i> to see the status of our change.</p>
+</li>
+<li><p>Now let&apos;s stage the file by typing <code>git add cocktails.txt</code> <i class="fa fa-share fa-rotate-180"></i>. Check git status and GitKraken. We see the file is staged.</p>
+</li>
+<li><p>Oops! We weren&apos;t ready to stage that file yet! Let&apos;s reset it by typing <code>git reset cocktails.txt</code> <i class="fa fa-share fa-rotate-180"></i>. Check git status and GitKraken to see the file is no longer staged. </p>
+</li>
+<li><p>Stage and commit your change. You can use anything you like for the commit message.
+<div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><details>
+<summary>
+Need a little help? Expand this section for guidance. 
+</summary>
+Type <code>git add cocktails.txt</code> <i class="fa fa-share fa-rotate-180"></i> to stage your change.<br>
+Type <code>git commit -m &quot;cocktail complete&quot;</code> <i class="fa fa-share fa-rotate-180"></i> to commit your change.
+</details>
+</div></div></p>
+</li>
+</ol>
+<h2 id="push"><a name="push" class="plugin-anchor" href="#push"><i class="fa fa-link" aria-hidden="true"></i></a>Pushing our changes to GitHub  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Finally, perfection! Let&apos;s push those changes up to the remote, in our case, GitHub.</p>
+<ol>
+<li><p>We&apos;ve made quite a few changes. We can see the history in the command line. Type <code>git log</code> <i class="fa fa-share fa-rotate-180"></i> to see all the changes you made tonight. It should looks similar to this</p>
+<p><img src="images/git-log.png" alt=""></p>
+<p>If we mapped out your commits, your git graph currently looks like this</p>
+<p><img src="images/git-graph-pre-squash.png" alt=""></p>
+<p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>It shows each commit (with the unique identifier) and the commit message along with the author and date. Notice the top commit also has <code>(HEAD -&gt; cocktails-branch)</code>. This says your own local copy of the &quot;cocktails-branch&quot; branch is at the top commit. Notice the bottom commit has <code>(origin/master, origin/HEAD)</code>. This is the last change that your remote, GitHub, is aware of. Your terminal may not show where HEAD is.</p>
+</div></div></p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Your terminal automatically shows the output using &apos;less&apos;. To exit out of &apos;less&apos; type <code>q</code>.</p>
+</div></div></p>
+</li>
+<li><p>In the terminal type <code>git push</code> <i class="fa fa-share fa-rotate-180"></i> to push our changes to GitHub. That way other people can see our work. Oh oh! We got an error</p>
+<pre><code>**[terminal]
+**[prompt LadyDev@Coding&amp;Cocktails]**[path  ~/CodingAndCocktails/VersionControl/MyFirstRepo (cocktails-branch)]
+**[delimiter &#x3BB; ]**[command git push]
+fatal: The current branch cocktails-branch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+ git push --set-upstream origin cocktails-branch
+</code></pre><p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>The remote, GitHub, has no knowledge of &apos;cocktails-branch&apos;. We need to provide the branch name (cocktails-branch) and where to create the branch (origin). We add the flag &apos;--set-upstream&apos; so that the remote has this branch reference and we don&apos;t have to provide the &apos;cocktails-branch&apos; and &apos;origin&apos; parameters for subsequent <code>git push</code> commands.</p>
+</div></div></p>
+</li>
+<li><p>Follow the instructions in the error and type <code>git push --set-upstream origin cocktails-branch</code> <i class="fa fa-share fa-rotate-180"></i>.</p>
+</li>
+<li><p>Type <code>git log --graph</code> <i class="fa fa-share fa-rotate-180"></i>. You should see your change on &apos;cocktails-branch&apos; and the second commit from the top is where &apos;master&apos; is. You diverged from &apos;master&apos;. Your git graph looks like this</p>
+<p><img src="images/git-graph.png" alt=""></p>
+<p><div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Use <code>q</code> to exit <code>less</code>.</p>
+</div></div></p>
+</li>
+</ol>
+<ol>
+<li><p>In Chrome, navigate to your &quot;MyFirstRepo&quot; repo in GitHub and reload the page. You should see your new file <em>cocktails.txt</em>. You can click on the file to see the contents.</p>
+</li>
+<li><p>You will also see <strong><span class="octicon octicon-history"></span> 2 commits</strong> above the dropdown for &apos;master&apos; branch. Click on it to navigate to your commit history. The commit history and path should match what you saw in the terminal.</p>
+</li>
+</ol>
+<h2 id="nice-job"><a name="nice-job" class="plugin-anchor" href="#nice-job"><i class="fa fa-link" aria-hidden="true"></i></a>Nice Job!</h2>
+<p>You used Git to keep track of changes in your file and pushed it to a repository!</p>
+<p><img src="https://media.giphy.com/media/ivQ6Otsxv8y5O/giphy.gif" alt=""></p>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<h2 id="references-and-helpful-links-"><a name="references-and-helpful-links-" class="plugin-anchor" href="#references-and-helpful-links-"><i class="fa fa-link" aria-hidden="true"></i></a>References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p><a href="https://git-scm.com/docs/git-diff" target="_blank">Git SCM documentation for diff</a></p>
+<p><a href="https://git-scm.com/docs/git-reset" target="_blank">Git SCM documentation for reset</a></p>
+<p><a href="https://git-scm.com/docs/git-log" target="_blank">Git SCM documentation for log</a></p>
+<p><a href="https://git-scm.com/docs/git-push" target="_blank">Git SCM documentation for push</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../ws3-create/" class="navigation navigation-prev " aria-label="Previous page: Create your own repo">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../quiz.html" class="navigation navigation-next " aria-label="Next page: Quiz">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Push changes","level":"2.4","depth":1,"next":{"title":"Quiz","level":"2.5","depth":1,"path":"quiz.md","ref":"quiz.md","articles":[]},"previous":{"title":"Create your own repo","level":"2.3","depth":1,"path":"ws3-create/README.md","ref":"ws3-create/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["custom-favicon","hints","local-video","anchors","codeblock-label","codetabs","simpletabs","terminal","livereload"],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"codeblock-label":{},"search":{},"codetabs":{},"hints":{"danger":"fa fa-exclamation-circle fa-lg","info":"fa fa-info-circle fa-lg","tip":"fa fa-lightbulb-o fa-lg","working":"fa fa-question-circle fa-lg"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"simpletabs":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"book/assets/favicon.ico","custom-favicon":{},"local-video":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"terminal":{"copyButtons":true,"fade":true,"style":"flat"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"ws4-edit/README.md","mtime":"2018-12-25T18:36:33.639Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-01T18:32:12.554Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-codetabs/codetabs.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-simpletabs/tabs.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

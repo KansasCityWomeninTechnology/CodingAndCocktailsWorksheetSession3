@@ -1,0 +1,612 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Inspect a Git repo · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codeblock-label/block.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codetabs/codetabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-simpletabs/tabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../ws3-create/" />
+    
+    
+    <link rel="prev" href="../ws1-command-line/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../setup/">
+            
+                <a href="../setup/">
+            
+                    
+                    Setup Instructions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Worksheet</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../ws1-command-line/">
+            
+                <a href="../ws1-command-line/">
+            
+                    
+                    Command Line Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Inspect a Git repo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../ws3-create/">
+            
+                <a href="../ws3-create/">
+            
+                    
+                    Create your own repo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../ws4-edit/">
+            
+                <a href="../ws4-edit/">
+            
+                    
+                    Push changes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../quiz.html">
+            
+                <a href="../quiz.html">
+            
+                    
+                    Quiz
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Bonus</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../homework/merge.html">
+            
+                <a href="../homework/merge.html">
+            
+                    
+                    Merge & Fork
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../homework/homework.html">
+            
+                <a href="../homework/homework.html">
+            
+                    
+                    Homework
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../references/command_line_cheat_sheet.html">
+            
+                <a href="../references/command_line_cheat_sheet.html">
+            
+                    
+                    Command Line Cheat Sheet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../references/">
+            
+                <a href="../references/">
+            
+                    
+                    Helpful Keyboard Shortcuts
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Inspect a Git repo</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="top"><a name="top" class="plugin-anchor" href="#top"><i class="fa fa-link" aria-hidden="true"></i></a>GitHub &amp; Inspecting a Repository </h1>
+<p>Being able to keep track of changes in your source code is necessary. Having version control allows us to see differences in each revision of the code and to be able to attribute changes to an author. In this section, we&apos;ll take our first steps into version control using GitHub. </p>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<p>This section will help guide you through the following steps:</p>
+<div class="instructions">
+    <ul class="fa-ul">
+        <li>
+            <a href="#github">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Look at a repository in GitHub</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="#clone">
+                <i class="check fa-li fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+                <span class="text">Clone a repo</span>
+                <i class="fa fa-chevron-circle-down fa-lg navigate-arrow" title="Take me to this step" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<h2 id="github"><a name="github" class="plugin-anchor" href="#github"><i class="fa fa-link" aria-hidden="true"></i></a>Explore a repository in GitHub  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>We will take a quick tour of GitHub and cover the UI we will use for tonight&apos;s session work. You don&apos;t need to see your terminal and file explorer at the same time for this section of the worksheet. You can close the file explorer.</p>
+<ol>
+<li><p>Open Chrome and navigate to <a href="https://github.com" target="_blank">https://github.com</a>. Sign in if you aren&apos;t already signed in to GitHub.</p>
+</li>
+<li><p>Let&apos;s find a repository. Search for &quot;KansasCityWomeninTechnology/DrinkOrderApp&quot; using <strong>Search GitHub</strong> in the toolbar at the top of the page. Click on the repository result.
+<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>GitHub is a big place! Sometimes there are many repositories with the same name. In this search we are searching repositories named &quot;DrinkOrderApp&quot; by the user &quot;KansasCityWomeninTechnology&quot;. </p>
+</div></div></p>
+</li>
+<li><p>We see an overview for a repository. Let&apos;s inspect a little closer. GitHub displays information about the repository such as </p>
+<p><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+  <strong class="fa-stack-1x help-annotations-text">1</strong>
+</span>
+Owner and repository name</p>
+<p><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+  <strong class="fa-stack-1x help-annotations-text">2</strong>
+</span>
+The selected branch and the number of changes (aka commits) made in that branch</p>
+<p><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+  <strong class="fa-stack-1x help-annotations-text">3</strong>
+</span>
+The number of branches in the repository</p>
+<p><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+  <strong class="fa-stack-1x help-annotations-text">4</strong>
+</span>
+List of files for the selected branch and when the files were last modified</p>
+<p><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+  <strong class="fa-stack-1x help-annotations-text">5</strong>
+</span>
+Read me text that the author creates to provide information about the source code</p>
+<p><img src="images/github.png" alt=""></p>
+</li>
+<li><p>Click on <strong><span class="octicon octicon-history"></span> commits</strong> (circle #2) to see the list of commits for the branch. Now we see more details about each commit such as </p>
+<p><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+  <strong class="fa-stack-1x help-annotations-text">1</strong>
+</span>
+The selected branch</p>
+<p><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+  <strong class="fa-stack-1x help-annotations-text">2</strong>
+</span>
+The author, date, and author&apos;s message about the changes</p>
+<p><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+  <strong class="fa-stack-1x help-annotations-text">3</strong>
+</span>
+Further actions you can take on a commit</p>
+<p>  <img src="images/commits.png" alt=""></p>
+</li>
+<li><p>Let&apos;s dive a little deeper and focus on circle #3. There&apos;s 3 actions you can take. Click on the middle button (the one with letters and numbers) on the first commit.
+ <div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>It might look like random letters and numbers, but it&apos;s not! This is the unique identifier to the commit.</p>
+</div></div></p>
+</li>
+<li><p>You now see the differences between the previous version and this commit. </p>
+<p><img src="images/diff.png" alt=""></p>
+<p>The pink highlights show the previous version and the light green highlights are the new version. The darker red highlights shows the deleted characters and the dark green highlights show the added characters.
+<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>This is more commonly known by its abbreviated name, &quot;diff view&quot;.</p>
+</div></div></p>
+</li>
+<li><p>Click the <i class="fa fa-arrow-left" aria-hidden="true"></i> button in Chrome to navigate back to the list of commits.</p>
+</li>
+<li><p>In the further actions you can take on a commit (circle #3), click on the button to the right (the one that looks like <span class="octicon octicon-code"></span>). Now you are browsing the repository files as they were in this commit. You have a snapshot of the entire repository on every commit!</p>
+</li>
+<li><p>Click the name of the repository &quot;DrinkOrderApp&quot; at the top of the page to navigate back to the main repository page.</p>
+</li>
+</ol>
+<h2 id="clone"><a name="clone" class="plugin-anchor" href="#clone"><i class="fa fa-link" aria-hidden="true"></i></a>Clone a repository  <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p>Let&apos;s look at the same repository using a Git GUI tool called GitKraken. We&apos;ll clone the repository to our machines and see a unified visualization of the separate branches and commits we inspected earlier. </p>
+<ol>
+<li><p>In Chrome, on the main overview page for &quot;DrinkOrderApp&quot; repository, click on the green <strong>Clone or download</strong> button and click the <span class="octicon octicon-clippy"></span> button to copy the link to the repository.</p>
+<p><img src="images/github-clone.png" alt=""></p>
+</li>
+<li><p>Open GitKraken. Clone a repository in GitKraken by selecting <strong>File</strong> <i class="fa fa-long-arrow-right"></i> <strong>Clone Repo</strong>. </p>
+</li>
+<li><p>In the <strong>Repository Management</strong> dialog that displays, select <strong>Clone with URL</strong>. Click on <strong>Browse</strong>. Navigate to and select the &quot;CodingAndCocktails/session3&quot; folder to populate the <strong>Where to clone to</strong> field.</p>
+<p><img src="images/gitkraken-clone.png" alt="">
+<div class="alert alert-success hints-alert"><div class="hints-icon"><i class="fa fa-lightbulb-o fa-lg"></i></div><div class="hints-container"><p>Windows users - Navigate to your home directory by typing <code>%USERPROFILE%</code> in the file explorer navigation bar.</p>
+</div></div> </p>
+</li>
+<li><p>Paste the link to the repository in the <strong>URL</strong> field. GitKraken will display the a <strong>Full path</strong> field. Notice it automatically adds the name of the repository to the path. Click <strong>Clone the repo!</strong>. </p>
+</li>
+<li><p>When the banner with the text &quot;Successfully cloned repo &apos;DrinkOrderApp&apos;&quot; displays, click on <strong>Open Now</strong>.</p>
+</li>
+<li><p>When the repository opens, notice it looks almost like what we saw in GitHub with a lot of the same information. We see</p>
+<p><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+  <strong class="fa-stack-1x help-annotations-text">1</strong>
+</span>
+Repository name and selected branch</p>
+<p><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+  <strong class="fa-stack-1x help-annotations-text">2</strong>
+</span>
+A list of all branches in the repository</p>
+<p><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+  <strong class="fa-stack-1x help-annotations-text">3</strong>
+</span>
+A commit for a branch along with author, message, modified date, and unique identifier</p>
+<p><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+  <strong class="fa-stack-1x help-annotations-text">4</strong>
+</span>
+List of files modified</p>
+<p><span class="fa-stack">
+  <i class="fa fa-circle fa-stack-2x help-annotations"></i>
+  <strong class="fa-stack-1x help-annotations-text">5</strong>
+</span>
+The paths for all the branches as an unified view (aka a graph and &quot;Git tree&quot;)</p>
+<p><img src="images/gitkraken-repo.png" alt=""></p>
+</li>
+<li><p>Take a look at the list branches available in the repository (circle #2). Click on a different branch in the list, such as the one named &quot;jquery-master&quot;. Notice a different commit highlights and the commit information on the right (circle #3) changes. Feel free to click on different branches (you can&apos;t break anything).
+<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>Right click shows more options. We won&apos;t cover using them in GitKraken but you&apos;ll use some of the concepts later in the session.</p>
+</div></div> </p>
+</li>
+<li><p>Select a file from the list of files modified (circle #4). The main view changes to show the &quot;diff view&quot; like we saw in GitHub. Click on the &quot;X&quot; at the top of the main view above the checkbox for <strong>Ignore white space</strong> to return to the graph view. </p>
+<p><img src="images/gitkraken-close-diff.png" alt=""></p>
+</li>
+<li><p>Double click on a branch, such as the one named &quot;jquery-master&quot;. Notice your selected branch changed (circle #1). You may have also noticed a message appear and disappear. You switched branches and the <strong>LOCAL</strong> list of branches on the list now contains &quot;jquery-master&quot;. We&apos;ll cover more about this a little later tonight. </p>
+</li>
+<li><p>Now let&apos;s turn our attention towards the Git tree. This shows all the branches in an unified view and how each path converges and diverges. Each branch is a different color. Circles with pictures and solid circles represent different commits. 
+<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>It looks like a maze, but using this view we can trace revisions and see how a change affects the project as a whole. The ability to create branches in version control allows large groups of people can work independently and still collaborate on a single project.    </p>
+</div></div> </p>
+</li>
+<li><p>Right click on &quot;jquery-master&quot; in the left panel with the list of all the branches. Select <strong>Solo</strong> as shown in the picture below.</p>
+<p><img src="images/gitkraken-view-one-branch.png" alt=""></p>
+<p>The tree view zooms in and only displays the &quot;jquery-master&quot; branch. Select <strong>Solo</strong> again to revert to the tree view.
+<div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle fa-lg"></i></div><div class="hints-container"><p>Targeting one branch in a view makes identifying changes easier. This is the same view we had in GitHub when we saw all the commits for the selected branch.</p>
+</div></div> </p>
+</li>
+<li><p>In your terminal, navigate to &quot;CodingAndCocktails/session3&quot; directory and list the files to see your new repo. Notice GitKraken created a folder with the same name as the repository you cloned, &quot;DrinkOrderApp&quot;.
+ <div class="alert alert-warning hints-alert"><div class="hints-icon"><i class="fa fa-question-circle fa-lg"></i></div><div class="hints-container"><details>
+<summary>
+Need a little help? Expand this section for guidance. 
+</summary>
+Use the <code>pwd</code> command to determine which folder you are in. Change directories using the <code>cd</code> command. Remember you can move up a directory using <code>cd ..</code>. Then use the <code>ls</code> command to list out the files and folders.
+</details>
+</div></div></p>
+</li>
+</ol>
+<!-- trick markdown to give me a little space between these two sections of text -->
+<h2 id=""><a name="" class="plugin-anchor" href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h2>
+<h2 id="references-and-helpful-links-"><a name="references-and-helpful-links-" class="plugin-anchor" href="#references-and-helpful-links-"><i class="fa fa-link" aria-hidden="true"></i></a>References and helpful links <span class="navigate-top"><a href="#top" title="Take me to the top of page"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></span></h2>
+<p><a href="https://www.atlassian.com/git/tutorials/what-is-version-control" target="_blank">Atlassian Git Tutorial-- What is version control</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../ws1-command-line/" class="navigation navigation-prev " aria-label="Previous page: Command Line Basics">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../ws3-create/" class="navigation navigation-next " aria-label="Next page: Create your own repo">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Inspect a Git repo","level":"2.2","depth":1,"next":{"title":"Create your own repo","level":"2.3","depth":1,"path":"ws3-create/README.md","ref":"ws3-create/README.md","articles":[]},"previous":{"title":"Command Line Basics","level":"2.1","depth":1,"path":"ws1-command-line/README.md","ref":"ws1-command-line/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["custom-favicon","hints","local-video","anchors","codeblock-label","codetabs","simpletabs","terminal","livereload"],"root":"./book","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"codeblock-label":{},"search":{},"codetabs":{},"hints":{"danger":"fa fa-exclamation-circle fa-lg","info":"fa fa-info-circle fa-lg","tip":"fa fa-lightbulb-o fa-lg","working":"fa fa-question-circle fa-lg"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"simpletabs":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"book/assets/favicon.ico","custom-favicon":{},"local-video":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"terminal":{"copyButtons":true,"fade":true,"style":"flat"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"ws2-inspect/README.md","mtime":"2018-12-25T17:06:12.426Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-01T18:32:12.554Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-codetabs/codetabs.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-simpletabs/tabs.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
