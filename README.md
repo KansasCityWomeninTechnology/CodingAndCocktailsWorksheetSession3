@@ -1,15 +1,24 @@
 # Coding & Cocktails Session 3: Command Line Basics
 
-The `docs` directory contains worksheets for Coding & Cocktails session 3 published on Gitbooks: [Coding & Cocktails - Session 3: Command Line Basics](https://www.gitbook.com/book/codingandcocktailskc/session-2-command-line-basics/details).
+The `book` directory contains worksheets for Coding & Cocktails session 3 published on Gitbooks: [Coding & Cocktails - The Rocks- Command Line Basics and Introduction to Version Control](https://www.gitbook.com/book/codingandcocktailskc/session-3/details).
+
+It is also hosted as a Github page at [https://kansascitywomenintechnology.github.io/CodingAndCocktailsWorksheetSession3/](https://kansascitywomenintechnology.github.io/CodingAndCocktailsWorksheetSession3/)
 
 ## Getting Going
-Install [Gitbook](https://www.npmjs.com/package/gitbook) CLI from npm.
 
 ```bash
-gitbook install
-gitbook serve
+npm install
+npm run book:install
 ```
-To build without serving, `gitbook build`.
+
+To serve Gitbook, `npm start`.
+To build without serving, `npm run book:build`.
+
+## To build and deploy to Github pages
+Run command prior to pushing to master.
+```bash
+npm run book:deploy
+```
 
 ## Associated Repos
 None
