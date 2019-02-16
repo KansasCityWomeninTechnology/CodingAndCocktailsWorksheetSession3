@@ -3,15 +3,22 @@ Tonight we will get comfortable with the command line and learn about version co
 
 <!-- trick markdown to give me a little space between these two sections of text -->
 ## 
-Follow the instructions on this page to prepare your workspace.
-
-## Required tools for this session
-
-You don't need all the tools for tonight's session. If you haven't installed all the tools listed in [The Tools](https://bit.ly/CnCTheTools) guide already, use the following list to install only the required tools for the worksheet:
-
 {% hint style='danger' %}
 If you are borrowing a laptop, your tools are pre-installed. Please ask your mentor to explain the tools we are using tonight.
 {% endhint %}
+
+<!-- trick markdown to give me a little space between these two sections of text -->
+## 
+Follow the instructions on this page to prepare your workspace.
+
+{% hint style='tip' %}
+Open [Slack](http://kcwit.slack.com/) to the **#codingandcocktails** channel. It's a great way to stay in touch with your Coding & Cocktails girlfriends and to ask questions during and after the session. We'll also post updates and tips in Slack if we run in to any stumbling blocks tonight.
+{% endhint %}
+
+
+## Required tools for this session
+
+You don't need all the tools for tonight's session. If you haven't installed all the tools listed in [The Tools](https://bit.ly/CnCTheTools) guide already, use the following list to install the required tools for the worksheet:
 
 1. [Chrome browser](https://codingandcocktailskc.gitbooks.io/coding-cocktails-the-tools/content/tools-browser/)
 
