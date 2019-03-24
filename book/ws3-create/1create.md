@@ -29,6 +29,17 @@ Unpacking objects: 100% (3/3), done.
 Don't forget to use Tab completion to make typing in the terminal easier!
    {% endhint %}
 
+   {% hint style='danger' %}
+If you are borrowing a laptop, you need to set your username and email for git. 
+In your terminal, double check that you are in the "MyFirstRepo" directory and type the following 2 commands (notice the quotes for name). Press `Enter` between each command.
+```sh
+git config user.name "Your Name"
+git config user.email your@email.com
+```
+
+Feel free to grab a mentor for help!
+   {% endhint %}
+
 1. List all the files, including the hidden ones, to see the files Git creates for you. You should see the following files
    ```
 **[terminal]
@@ -63,7 +74,7 @@ We haven't done anything to the repository so our working tree is clean. We can 
 
 1. Let's open the repository in GitKraken. In GitKraken, select **File** <i class="fa fa-long-arrow-right"></i> **Open Repo**. In the **Repository Management** dialog select **Open a Repository** and select your "MyFirstRepo" folder in your "CodingAndCocktails/session3" directory.
 
-1. When you create a repository with a read me file, GitHub automatically commits the file for you. You have 1 commit in your repository! Feel free to inspect your commit, the file, and your branch.
+1. When you create a repository with a README file, GitHub automatically commits the file for you. You have 1 commit in your repository! Feel free to inspect your commit, the file, and your branch.
 
 1. Before starting any work in a git repository, it's good practice to make sure you have the latest changes. In the terminal, type `git pull` <i class="fa fa-share fa-rotate-180"></i>. Your terminal should state it's up to date.
 
