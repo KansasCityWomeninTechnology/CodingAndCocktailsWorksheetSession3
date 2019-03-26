@@ -12,6 +12,9 @@ No matter where you are, your OS shortcut to the home directory is always a vali
     {% endhint %}
 
 1. Press the up arrow twice and then <i class="fa fa-share fa-rotate-180"></i> to repeat a previous command. You're back in the "CodingAndCocktails" directory!
+   {% hint style='working' %}
+Depending on your terminal, your command history saves between sessions (each time you boot your computer). You can hit up arrow in your terminal to run the last command in your history. Next time you restart your computer try it out!
+   {% endhint %}
 
 Now try navigating around on your own! See the video below for some help. You can watch it in fullscreen as well. To download the video, right-click and click "Save video as...".
 
