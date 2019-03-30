@@ -13,7 +13,11 @@ We committed a snapshot of the files to the repository history. We see each of t
    {% hint style='tip' %}
 If you accidentally hit `Enter` after you typed `git commit`, have no fear.
 
-Your default text editor (default is vi) will open, where you can add your commit message. We'll cover vi later in the session so for now, grab a mentor for help!
+Your default text editor (default is **vi**) will open, where you can add your commit message. It's a console based text editor that uses keyboard input to navigate. Follow the instructions below to add your commit message. Feel free to grab a mentor for help!
+1. Press `i` to enter **INSERT** mode.
+1. Type your commit message.
+1. Press `Esc` to exit out of **INSERT** mode.
+1. Next, type in `:wq` to **w**rite the message and **q**uit the operation.
    {% endhint %}
 
 1. Your terminal changed back to how it looked before we added the _cocktails.txt_ file. Take a look at your git status and in GitKraken. 
