@@ -1,6 +1,6 @@
 1. Let's make a change to _cocktails.txt_. Open Atom by typing `atom .` <i class="fa fa-share fa-rotate-180"></i>.
    {% hint style='working' %}
-What was up with that Atom command?
+What's up with that Atom command?
 When you install Atom it automatically adds itself to your system PATH. The command `atom` opens Atom. Adding `.` tells Atom to open at this file location.
    {% endhint %}
 
