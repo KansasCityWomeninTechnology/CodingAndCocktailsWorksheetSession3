@@ -27,6 +27,8 @@ For Windows users, use `windows key` + `left arrow` or `windows` + `right arrow`
 
 For Mac users, hold down the full-screen button in the upper-left corner of a window to shrink and position to the left or right side of the screen. Release the button, then click another window to begin using both windows side by side.
 
+You may have to manually resize and position the windows once you created the side by side layout to add in the third window.
+
 Mentors are happy to help!
    {% endhint %}
  
@@ -41,6 +43,10 @@ Both Cmder and oh-my-zsh use formatting to distinguish between what's a director
    {% endhint %}
 
 1. In the "CodingAndCocktails" directory, type `ls` <i class="fa fa-share fa-rotate-180"></i> again to see what's listed there. You should see the same files and folders from the output of `ls` in the file explorer.
+
+   {% hint style='tip' %}
+If this is your first time joining us you may not see any output from `ls`. This matches what you see in the file explorer. 
+   {% endhint %}
 
 1. Type `ls -al` <i class="fa fa-share fa-rotate-180"></i> and compare it to your previous output.  You should see more information and all files, including hidden files.
   {% hint style='info' %}
